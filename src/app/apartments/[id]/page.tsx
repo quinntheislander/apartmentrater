@@ -248,7 +248,25 @@ export default async function ApartmentPage({
 
       {/* Reviews */}
       <ApartmentReviewsSection
-        reviews={apartment.reviews.map(review => ({
+        reviews={(apartment.reviews as Array<{
+          id: string
+          title: string
+          experienceSummary: string
+          overallRating: number
+          noiseLevel: number
+          naturalLight: number
+          generalVibe: number
+          unitNumber?: string | null
+          isUnitVerified?: boolean
+          wouldRecommend: boolean
+          anonymous: boolean
+          isVerified: boolean
+          helpful: number
+          certifiedPersonalExperience?: boolean
+          createdAt: Date | string
+          helpfulVotes: { id: string }[] | boolean
+          user: { id?: string; name?: string | null; image?: string | null }
+        }>).map((review) => ({
           ...review,
           helpful: review.helpful,
           userHasVoted: Array.isArray(review.helpfulVotes) && review.helpfulVotes.length > 0
