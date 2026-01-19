@@ -85,9 +85,9 @@ export async function GET(request: Request) {
       prisma.apartment.count({ where })
     ])
 
-    const apartmentsWithRatings = apartments.map(apt => {
+    const apartmentsWithRatings = apartments.map((apt: typeof apartments[number]) => {
       const avgRating = apt.reviews.length > 0
-        ? apt.reviews.reduce((sum, r) => sum + r.overallRating, 0) / apt.reviews.length
+        ? apt.reviews.reduce((sum: number, r: { overallRating: number }) => sum + r.overallRating, 0) / apt.reviews.length
         : null
 
       return {

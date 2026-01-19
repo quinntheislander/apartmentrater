@@ -95,7 +95,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       },
     });
 
-    apartmentPages = apartments.map((apartment) => ({
+    apartmentPages = apartments.map((apartment: { id: string; updatedAt: Date; reviewCount: number }) => ({
       url: `${siteUrl}/apartments/${apartment.id}`,
       lastModified: apartment.updatedAt,
       changeFrequency: "weekly" as const,

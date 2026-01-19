@@ -11,7 +11,7 @@ async function updateApartmentStats(apartmentId: string) {
 
   const reviewCount = reviews.length
   const averageRating = reviewCount > 0
-    ? reviews.reduce((sum, r) => sum + r.overallRating, 0) / reviewCount
+    ? reviews.reduce((sum: number, r: { overallRating: number }) => sum + r.overallRating, 0) / reviewCount
     : null
 
   await prisma.apartment.update({

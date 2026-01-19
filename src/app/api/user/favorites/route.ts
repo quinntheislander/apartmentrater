@@ -28,12 +28,12 @@ export async function GET() {
       orderBy: { createdAt: 'desc' }
     })
 
-    const favoritesWithRatings = favorites.map(fav => ({
+    const favoritesWithRatings = favorites.map((fav: typeof favorites[number]) => ({
       ...fav,
       apartment: {
         ...fav.apartment,
         averageRating: fav.apartment.reviews.length > 0
-          ? fav.apartment.reviews.reduce((sum, r) => sum + r.overallRating, 0) / fav.apartment.reviews.length
+          ? fav.apartment.reviews.reduce((sum: number, r: { overallRating: number }) => sum + r.overallRating, 0) / fav.apartment.reviews.length
           : null,
         reviewCount: fav.apartment.reviews.length
       }

@@ -17,6 +17,19 @@ interface SearchParams {
   sort?: string
 }
 
+interface ApartmentWithRating {
+  id: string
+  name: string
+  address: string
+  city: string
+  state: string
+  zipCode: string
+  propertyType: string
+  imageUrl: string | null
+  averageRating: number | null
+  reviewCount: number
+}
+
 async function getApartments(searchParams: SearchParams) {
   const page = parseInt(searchParams.page || '1')
   const sort = searchParams.sort || 'newest'
@@ -90,14 +103,23 @@ async function getApartments(searchParams: SearchParams) {
     prisma.apartment.count({ where })
   ])
 
+  const apartmentsWithRating: ApartmentWithRating[] = apartments.map((apt) => ({
+    id: apt.id,
+    name: apt.name,
+    address: apt.address,
+    city: apt.city,
+    state: apt.state,
+    zipCode: apt.zipCode,
+    propertyType: apt.propertyType,
+    imageUrl: apt.imageUrl,
+    averageRating: apt.reviews.length > 0
+      ? apt.reviews.reduce((sum: number, r: { overallRating: number }) => sum + r.overallRating, 0) / apt.reviews.length
+      : null,
+    reviewCount: apt.reviews.length
+  }))
+
   return {
-    apartments: apartments.map((apt: typeof apartments[number]) => ({
-      ...apt,
-      averageRating: apt.reviews.length > 0
-        ? apt.reviews.reduce((sum: number, r: { overallRating: number }) => sum + r.overallRating, 0) / apt.reviews.length
-        : null,
-      reviewCount: apt.reviews.length
-    })),
+    apartments: apartmentsWithRating,
     total,
     page,
     totalPages: Math.ceil(total / limit)
