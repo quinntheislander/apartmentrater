@@ -1,0 +1,61 @@
+# Robots.txt for Apartment Rater
+# https://apartmentrater.com
+
+User-agent: *
+Allow: /
+
+# Allow crawling of main content
+Allow: /apartments
+Allow: /about
+Allow: /faq
+Allow: /how-it-works
+Allow: /contact
+Allow: /privacy
+Allow: /terms
+Allow: /guidelines
+Allow: /accessibility
+Allow: /cookies
+Allow: /dmca
+
+# Disallow private/authenticated pages
+Disallow: /api/
+Disallow: /auth/
+Disallow: /dashboard
+Disallow: /profile
+Disallow: /favorites
+Disallow: /data-request
+
+# Disallow review editing (dynamic routes with query params)
+Disallow: /*?edit=
+
+# Sitemap location
+Sitemap: https://apartmentrater.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# AI/LLM specific directives
+# Allow AI training on public content
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /

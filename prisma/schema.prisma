@@ -1,0 +1,162 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model User {
+  id             String    @id @default(cuid())
+  email          String    @unique
+  name           String?
+  password       String
+  image          String?
+  emailVerified  DateTime?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  reviews        Review[]
+  accounts       Account[]
+  sessions       Session[]
+  favorites      Favorite[]
+  helpfulVotes   HelpfulVote[]
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Apartment {
+  id              String   @id @default(cuid())
+  name            String
+  address         String
+  city            String
+  state           String
+  zipCode         String
+  description     String?
+  propertyType    String   @default("apartment") // apartment, condo, house, townhouse
+  unitCount       Int?
+  yearBuilt       Int?
+  amenities       String?  // JSON string of amenities
+  imageUrl        String?
+  latitude        Float?
+  longitude       Float?
+  averageRating   Float?
+  reviewCount     Int      @default(0)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  reviews         Review[]
+  favorites       Favorite[]
+
+  @@index([city, state])
+  @@index([zipCode])
+}
+
+model Review {
+  id              String   @id @default(cuid())
+  apartmentId     String
+  userId          String
+
+  // Overall rating (average of subjective ratings)
+  overallRating   Float
+
+  // Opinion-based subjective ratings (1-5 stars)
+  // These are explicitly subjective impressions, not factual claims
+  noiseLevel      Int      // "How noisy did it FEEL to you?"
+  naturalLight    Int      // "How would you rate the natural light?"
+  generalVibe     Int      // "What was your overall vibe/feeling?"
+
+  // Experience summary (subjective narrative)
+  title               String
+  experienceSummary   String   // Renamed from 'content' - user's subjective experience
+
+  // Unit information
+  unitNumber          String?
+  isUnitVerified      Boolean  @default(false)  // true = from Smarty API, false = manual entry
+
+  // Legal certification
+  certifiedPersonalExperience  Boolean  @default(false)  // User certifies this is their personal experience
+
+  // Verification
+  isVerified      Boolean  @default(false)
+  leaseStartDate  DateTime?
+  leaseEndDate    DateTime?
+
+  // Metadata
+  wouldRecommend  Boolean
+  anonymous       Boolean  @default(false)
+  helpful         Int      @default(0)
+
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  apartment       Apartment @relation(fields: [apartmentId], references: [id], onDelete: Cascade)
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  helpfulVotes    HelpfulVote[]
+
+  @@index([apartmentId])
+  @@index([userId])
+}
+
+model Favorite {
+  id          String    @id @default(cuid())
+  userId      String
+  apartmentId String
+  createdAt   DateTime  @default(now())
+
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  apartment   Apartment @relation(fields: [apartmentId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, apartmentId])
+  @@index([userId])
+  @@index([apartmentId])
+}
+
+model HelpfulVote {
+  id        String   @id @default(cuid())
+  userId    String
+  reviewId  String
+  createdAt DateTime @default(now())
+
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  review    Review   @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, reviewId])
+  @@index([reviewId])
+}

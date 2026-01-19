@@ -1,0 +1,5936 @@
+{
+  "9455 103RD ST, Jacksonville, FL 32210": {
+    "formatted_address": "9455 103rd St, Jacksonville, FL 32210, United States",
+    "name": "Addison Landing",
+    "place_id": "ChIJpab3Wo3A5YgRzl6pVd7KpJI",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ]
+  },
+  "3544 S ST JOHNS BLUFF RD, Jacksonville, FL 32224": {
+    "formatted_address": "3544 St Johns Bluff Rd S, Jacksonville, FL 32246, USA",
+    "name": "3544 St Johns Bluff Rd S",
+    "place_id": "ChIJndVBljC15YgR0o3fndyJpxI",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "8181 A C SKINNER PKWY, Jacksonville, FL 32256": {
+    "formatted_address": "8181 A C Skinner Pkwy, Jacksonville, FL 32256, USA",
+    "name": "8181 A C Skinner Pkwy",
+    "place_id": "ChIJR5aotXvK5YgR32HwAfpziE4",
+    "types": [
+      "street_address"
+    ]
+  },
+  "7738 A C SKINNER PKWY, Jacksonville, FL 32256": {
+    "formatted_address": "7738 A C Skinner Pkwy, Jacksonville, FL 32256, USA",
+    "name": "7738 A C Skinner Pkwy",
+    "place_id": "ChIJn8CEHXvK5YgRGSm5TkrboXQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "3650 STANLEY ST, Jacksonville, FL 32207": {
+    "formatted_address": "3650 Stanley St, Jacksonville, FL 32207, USA",
+    "name": "3650 Stanley St",
+    "place_id": "ChIJJWC-QV225YgRDvWjworrMpE",
+    "types": [
+      "premise"
+    ]
+  },
+  "122 W 8TH ST, Jacksonville, FL 32206": {
+    "formatted_address": "122 8th St W, Jacksonville, FL 32206, USA",
+    "name": "122 8th St W",
+    "place_id": "ChIJ0f5VRS635YgRNgmO5A8fnCM",
+    "types": [
+      "premise"
+    ]
+  },
+  "3140 FRANKLIN ST, Jacksonville, FL 32206": {
+    "formatted_address": "3140 Franklin St, Jacksonville, FL 32206, USA",
+    "name": "3140 Franklin St",
+    "place_id": "ChIJF2eWoC6x5YgRJsaRmWypdSM",
+    "types": [
+      "premise"
+    ]
+  },
+  "6480 WATERGATE LN, Jacksonville, FL 32210": {
+    "formatted_address": "6480 Watergate Ln, Jacksonville, FL 32210, USA",
+    "name": "6480 Watergate Ln",
+    "place_id": "ChIJI-hGEuu45YgRu2Ffxe3RTyM",
+    "types": [
+      "premise"
+    ]
+  },
+  "3539 BEACH BLVD, Jacksonville, FL 32207": {
+    "formatted_address": "3539 Beach Blvd, Jacksonville, FL 32207, USA",
+    "name": "3539 Beach Blvd",
+    "place_id": "ChIJpQUytF-25YgRI8n-vA6agQw",
+    "types": [
+      "premise"
+    ]
+  },
+  "887 FRANKLIN ST, Jacksonville, FL 32206": {
+    "formatted_address": "887 Franklin St, Jacksonville, FL 32206, USA",
+    "name": "887 Franklin St",
+    "place_id": "ChIJN9dz8dy25YgREDuyHxztF1k",
+    "types": [
+      "premise"
+    ]
+  },
+  "5353 ARLINGTON EXPY, Jacksonville, FL 32211": {
+    "formatted_address": "5353 Arlington Expy, Jacksonville, FL 32211, USA",
+    "name": "5353 Arlington Expy",
+    "place_id": "ChIJu1KbDKK25YgRK_DneFwSw3E",
+    "types": [
+      "premise"
+    ]
+  },
+  "5051 HARLOW BLVD, Jacksonville, FL 32210": {
+    "formatted_address": "5051 Harlow Blvd, Jacksonville, FL 32210, USA",
+    "name": "5051 Harlow Blvd",
+    "place_id": "ChIJI5mv_2nH5YgR93WPnUfTkDg",
+    "types": [
+      "street_address"
+    ]
+  },
+  "6970 WILEY RD, Jacksonville, FL 32210": {
+    "formatted_address": "6970 Wiley Rd, Jacksonville, FL 32210, USA",
+    "name": "6970 Wiley Rd",
+    "place_id": "ChIJG4c6FaO45YgROu0XpR6YWRA",
+    "types": [
+      "premise"
+    ]
+  },
+  "10350 103RD ST, Jacksonville, FL 32210": {
+    "formatted_address": "10350 103rd St, Jacksonville, FL 32210, USA",
+    "name": "10350 103rd St",
+    "place_id": "ChIJUcToiFzA5YgRCLvnzsqHiSg",
+    "types": [
+      "premise"
+    ]
+  },
+  "953 NEW BERLIN RD, Jacksonville, FL 32218": {
+    "formatted_address": "953 New Berlin Rd, Jacksonville, FL 32218, USA",
+    "name": "953 New Berlin Rd",
+    "place_id": "ChIJ6zIcXGyu5YgRDF8FJzRO73s",
+    "types": [
+      "street_address"
+    ]
+  },
+  "871 NEW BERLIN RD, Jacksonville, FL 32218": {
+    "formatted_address": "871 New Berlin Rd, Jacksonville, FL 32218, USA",
+    "name": "871 New Berlin Rd",
+    "place_id": "ChIJNeKZhWyu5YgRtYR_9SDtoXE",
+    "types": [
+      "street_address"
+    ]
+  },
+  "3946 ST JOHNS AVE, Jacksonville, FL 32205": {
+    "formatted_address": "3946 St Johns Ave, Jacksonville, FL 32205, USA",
+    "name": "3946 St Johns Ave",
+    "place_id": "ChIJbVF0sz-45YgRsP_hAtwTYKo",
+    "types": [
+      "premise"
+    ]
+  },
+  "4000 ST JOHNS AVE, Jacksonville, FL 32205": {
+    "formatted_address": "4000 St Johns Ave, Jacksonville, FL 32205, USA",
+    "name": "4000 St Johns Ave",
+    "place_id": "ChIJMaV8kD-45YgR_-81G21NNHA",
+    "types": [
+      "premise"
+    ]
+  },
+  "250 CHERRY RIDGE DR, Jacksonville, FL 32222": {
+    "formatted_address": "250 Cherry Ridge Dr, Jacksonville, FL 32222, USA",
+    "name": "250 Cherry Ridge Dr",
+    "place_id": "ChIJsSWNMYXB5YgRRLy8WC5cox8",
+    "types": [
+      "premise"
+    ]
+  },
+  "665 STARRATT RD, Jacksonville, FL 32218": {
+    "formatted_address": "665 Starratt Rd, Jacksonville, FL 32218, USA",
+    "name": "665 Starratt Rd",
+    "place_id": "ChIJ91OstbKv5YgRicotaD7pfc8",
+    "types": [
+      "street_address"
+    ]
+  },
+  "5511 LOS SANTOS WAY, Jacksonville, FL 32211": {
+    "formatted_address": "5511 Los Santos Way, Jacksonville, FL 32211, USA",
+    "name": "5511 Los Santos Way",
+    "place_id": "ChIJBWNM9qC25YgROFRA2OVgaY8",
+    "types": [
+      "premise"
+    ]
+  },
+  "13490 GRAN BAY PY, Jacksonville, FL 32258": {
+    "formatted_address": "13490 Gran Bay Pkwy, Jacksonville, FL 32258, USA",
+    "name": "13490 Gran Bay Pkwy",
+    "place_id": "ChIJxZRZrjQz5IgRq78n_Dliccc",
+    "types": [
+      "premise"
+    ]
+  },
+  "3709 S SAN PABLO RD, Jacksonville, FL 32224": {
+    "formatted_address": "3709 San Pablo Rd S, Jacksonville, FL 32224, United States",
+    "name": "Coquina Bay Apartments",
+    "place_id": "ChIJ68Sl785L5IgRLY_HlInlqtw",
+    "types": [
+      "real_estate_agency",
+      "point_of_interest",
+      "establishment"
+    ]
+  },
+  "1515 PULLEN RD, Jacksonville, FL 32216": {
+    "formatted_address": "1515 Pullen Rd, Jacksonville, FL 32277, USA",
+    "name": "1515 Pullen Rd",
+    "place_id": "ChIJcS8iwdC15YgRd3UYizZ9t1o",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "1721 ANNISTON RD, Jacksonville, FL 32246": {
+    "formatted_address": "1721 Anniston Rd, Jacksonville, FL 32246, USA",
+    "name": "1721 Anniston Rd",
+    "place_id": "ChIJBznBVeq05YgR0q_71AOQAfA",
+    "types": [
+      "premise"
+    ]
+  },
+  "5800 S BARNES RD, Jacksonville, FL 32216": {
+    "formatted_address": "5800 Barnes Rd S, Jacksonville, FL 32216, USA",
+    "name": "5800 Barnes Rd S",
+    "place_id": "ChIJO06DJga25YgRPZfetw6Mrcw",
+    "types": [
+      "premise"
+    ]
+  },
+  "5459 MATANZAS WAY, Jacksonville, FL 32211": {
+    "formatted_address": "5459 Matanzas Way, Jacksonville, FL 32211, USA",
+    "name": "5459 Matanzas Way",
+    "place_id": "ChIJv_FhS6C25YgROootVqTuc_g",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "5350 ARLINGTON EXPY, Jacksonville, FL 32211": {
+    "formatted_address": "5350 Arlington Expy, Jacksonville, FL 32211, USA",
+    "name": "5350 Arlington Expy",
+    "place_id": "ChIJjYRb6pi25YgRh3xV14xZlCg",
+    "types": [
+      "premise"
+    ]
+  },
+  "9849 CROSSHILL BLVD, Jacksonville, FL 32222": {
+    "formatted_address": "Gm02, 9849 Crosshill Blvd, Jacksonville, FL 32222, USA",
+    "name": "Gm02",
+    "place_id": "ChIJM_By7pnB5YgRj20AGH3wOB8",
+    "types": [
+      "premise"
+    ]
+  },
+  "650 N NEWNAN ST, Jacksonville, FL 32202": {
+    "formatted_address": "650 N Newnan St, Jacksonville, FL 32202, USA",
+    "name": "650 N Newnan St",
+    "place_id": "ChIJn2_xdCK35YgR3om0HXEzkEQ",
+    "types": [
+      "street_address"
+    ]
+  },
+  "10655 BRIGHTMAN BLVD, Jacksonville, FL 32246": {
+    "formatted_address": "10655 Brightman Blvd, Jacksonville, FL 32246, USA",
+    "name": "10655 Brightman Blvd",
+    "place_id": "ChIJYyF861O15YgR9d1S2B1jyOc",
+    "types": [
+      "street_address"
+    ]
+  },
+  "10342 ATLANTIC CIR, Jacksonville, FL 32246": {
+    "formatted_address": "10342 Atlantic Cir, Jacksonville, FL 32246, USA",
+    "name": "10342 Atlantic Cir",
+    "place_id": "ChIJ8-tJVb-05YgR2OIHghRJPFI",
+    "types": [
+      "premise"
+    ]
+  },
+  "7524 SOUTHSIDE BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "7524 Southside Blvd, Jacksonville, FL 32256, USA",
+    "name": "7524 Southside Blvd",
+    "place_id": "ChIJM2eZaozK5YgRnToJ2_sZu9I",
+    "types": [
+      "premise"
+    ]
+  },
+  "8291 DAMES POINT CROSSING BLVD, Jacksonville, FL 32277": {
+    "formatted_address": "8291 Dames Point Crossing Blvd, Jacksonville, FL 32277, USA",
+    "name": "8291 Dames Point Crossing Blvd",
+    "place_id": "ChIJu0LNpHmz5YgRlvS7hlF6NYM",
+    "types": [
+      "premise"
+    ]
+  },
+  "10598 CORDGRASS LN, Jacksonville, FL 32258": {
+    "formatted_address": "10598 Cordgrass Ln, Jacksonville, FL 32258, USA",
+    "name": "10598 Cordgrass Ln",
+    "place_id": "ChIJbUGyn3DL5YgRCBuYjRd6Nhc",
+    "types": [
+      "premise"
+    ]
+  },
+  "7507 PARK VILLAGE DR, Jacksonville, FL 32256": {
+    "formatted_address": "7507 Park Village Dr, Jacksonville, FL 32256, USA",
+    "name": "7507 Park Village Dr",
+    "place_id": "ChIJXxOp1FI15IgRaJITJrtB9OY",
+    "types": [
+      "premise"
+    ]
+  },
+  "8365 DIX ELLIS TRL, Jacksonville, FL 32256": {
+    "formatted_address": "8365 Dix Ellis Trail, Jacksonville, FL 32256, USA",
+    "name": "8365 Dix Ellis Trail",
+    "place_id": "ChIJY5CV6FHK5YgR5eitlbkXrTU",
+    "types": [
+      "premise"
+    ]
+  },
+  "12525 TIBBETS LN, Jacksonville, FL 32218": {
+    "formatted_address": "12525 Tibbets Ln, Jacksonville, FL 32218, USA",
+    "name": "12525 Tibbets Ln",
+    "place_id": "ChIJZ74_Yumv5YgRItPlwl-kG7Q",
+    "types": [
+      "premise"
+    ]
+  },
+  "2125 HYDE PARK RD, Jacksonville, FL 32210": {
+    "formatted_address": "2125 Hyde Park Rd, Jacksonville, FL 32210, USA",
+    "name": "2125 Hyde Park Rd",
+    "place_id": "ChIJIUFl9I-45YgRPpw2idMb-0s",
+    "types": [
+      "premise"
+    ]
+  },
+  "1251 KINGS RD, Jacksonville, FL 32204": {
+    "formatted_address": "1251 Kings Rd, Jacksonville, FL 32204, USA",
+    "name": "1251 Kings Rd",
+    "place_id": "ChIJBVUefEa35YgR_r4Jua5lPak",
+    "types": [
+      "premise"
+    ]
+  },
+  "8151 ALDERMAN RD, Jacksonville, FL 32211": {
+    "formatted_address": "8151 Alderman Rd, Jacksonville, FL 32211, USA",
+    "name": "8151 Alderman Rd",
+    "place_id": "ChIJn3Nqe2W05YgRx2PW74ZDFR0",
+    "types": [
+      "premise"
+    ]
+  },
+  "13505 CITICARDS WAY, Jacksonville, FL 32258": {
+    "formatted_address": "13505 Citicards Way, Jacksonville, FL 32258, USA",
+    "name": "13505 Citicards Way",
+    "place_id": "ChIJWbQ6FTMz5IgRkpNiEp8HX5E",
+    "types": [
+      "street_address"
+    ]
+  },
+  "13504 CITICARDS WAY, Jacksonville, FL 32256": {
+    "formatted_address": "13504 Citicards Way, Jacksonville, FL 32258, USA",
+    "name": "13504 Citicards Way",
+    "place_id": "ChIJA4ynvTMz5IgRAHOLQF8MzMo",
+    "types": [
+      "premise"
+    ]
+  },
+  "6916 S OLD KINGS RD, Jacksonville, FL 32217": {
+    "formatted_address": "6916 Old Kings Rd S, Jacksonville, FL 32217, USA",
+    "name": "6916 Old Kings Rd S",
+    "place_id": "ChIJZy7ldufJ5YgRN7lH0J60KzM",
+    "types": [
+      "premise"
+    ]
+  },
+  "510 DUVAL CIRCLE ST, Baldwin, FL 32234": {
+    "formatted_address": "510 Duval Cir, Baldwin, FL 32234, USA",
+    "name": "510 Duval Cir",
+    "place_id": "ChIJV2DaNEeT5YgRSrlm-uKboOE",
+    "types": [
+      "premise"
+    ]
+  },
+  "8024 SOUTHSIDE BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "8024 Southside Blvd, Jacksonville, FL 32256, USA",
+    "name": "8024 Southside Blvd",
+    "place_id": "ChIJkVGQI_HK5YgRS22I7f0gBX0",
+    "types": [
+      "premise"
+    ]
+  },
+  "112 W ADAMS ST, Jacksonville, FL 32202": {
+    "formatted_address": "112 W Adams St, Jacksonville, FL 32202, USA",
+    "name": "112 W Adams St",
+    "place_id": "ChIJ0a8Enhe35YgR3_o-dYCwp6g",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "4500 BAYMEADOWS RD, Jacksonville, FL 32217": {
+    "formatted_address": "4500 Baymeadows Rd, Jacksonville, FL 32217, USA",
+    "name": "4500 Baymeadows Rd",
+    "place_id": "ChIJgaPM1IDJ5YgRSPWUtig1yDU",
+    "types": [
+      "premise"
+    ]
+  },
+  "7311 BAYMEADOWS WAY, Jacksonville, FL 32256": {
+    "formatted_address": "7311 Baymeadows Way, Jacksonville, FL 32256, USA",
+    "name": "7311 Baymeadows Way",
+    "place_id": "ChIJExz-qxXK5YgRsaGhe29BaaY",
+    "types": [
+      "premise"
+    ]
+  },
+  "9701 OLD BAYMEADOWS RD, Jacksonville, FL 32256": {
+    "formatted_address": "9701 Old Baymeadows Rd, Jacksonville, FL 32256, USA",
+    "name": "9701 Old Baymeadows Rd",
+    "place_id": "ChIJYzckjPfK5YgRs_sRkxKibpg",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "8451 W GATE PKWY, Jacksonville, FL 32216": {
+    "formatted_address": "8451 Gate Pkwy W, Jacksonville, FL 32216, USA",
+    "name": "8451 Gate Pkwy W",
+    "place_id": "ChIJbWuI7XjK5YgR5e-9m0Svp54",
+    "types": [
+      "premise"
+    ]
+  },
+  "5040 SHIRLEY AVE, Jacksonville, FL 32210": {
+    "formatted_address": "5040 Shirley Ave, Jacksonville, FL 32210, USA",
+    "name": "5040 Shirley Ave",
+    "place_id": "ChIJ8Q-W12O45YgRlVcvsKLMCSI",
+    "types": [
+      "premise"
+    ]
+  },
+  "5521 RICKER RD, Jacksonville, FL 32244": {
+    "formatted_address": "5521 Ricker Rd, Jacksonville, FL 32244, USA",
+    "name": "5521 Ricker Rd",
+    "place_id": "ChIJ6ZaY5knH5YgReE_Y2s3QhFU",
+    "types": [
+      "premise"
+    ]
+  },
+  "2039 NIBLICK DR, Jacksonville, FL 32210": {
+    "formatted_address": "2039 Niblick Dr, Jacksonville, FL 32210, USA",
+    "name": "2039 Niblick Dr",
+    "place_id": "ChIJg43pAI-45YgRjeYgnwyZspQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "1111 WOODRUFF AVE, Jacksonville, FL 32205": {
+    "formatted_address": "1111 Woodruff Ave, Jacksonville, FL 32205, USA",
+    "name": "1111 Woodruff Ave",
+    "place_id": "ChIJI3CUYFG45YgRW1fX1LORjlI",
+    "types": [
+      "premise"
+    ]
+  },
+  "1131 WOODRUFF AVE, Jacksonville, FL 32205": {
+    "formatted_address": "1131 Woodruff Ave, Jacksonville, FL 32205, USA",
+    "name": "1131 Woodruff Ave",
+    "place_id": "ChIJrcniaVG45YgRH1tmagrSIF8",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "1165 RANDOLPH ST, Jacksonville, FL 32205": {
+    "formatted_address": "1165 Randolph St, Jacksonville, FL 32205, USA",
+    "name": "1165 Randolph St",
+    "place_id": "ChIJ87AlLVG45YgRHvF-OeRtvns",
+    "types": [
+      "premise"
+    ]
+  },
+  "4806 KINGSBURY ST, Jacksonville, FL 32205": {
+    "formatted_address": "4806 Kingsbury St, Jacksonville, FL 32205, USA",
+    "name": "4806 Kingsbury St",
+    "place_id": "ChIJA9KQ4lO45YgRYP-l6wELM10",
+    "types": [
+      "premise"
+    ]
+  },
+  "2445 DUNN AVE, Jacksonville, FL 32218": {
+    "formatted_address": "2445 Dunn Ave, Jacksonville, FL 32218, USA",
+    "name": "2445 Dunn Ave",
+    "place_id": "ChIJQ4n5sQaw5YgR_B-taPnwDAQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "3601 S KERNAN BLVD, Jacksonville, FL 32224": {
+    "formatted_address": "3601 Kernan Blvd S, Jacksonville, FL 32224, USA",
+    "name": "3601 Kernan Blvd S",
+    "place_id": "ChIJ22kgUupK5IgRI0toQsh8UVQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "14051 BEACH BLVD, Jacksonville, FL 32250": {
+    "formatted_address": "14051 Beach Blvd, Jacksonville, FL 32250, USA",
+    "name": "14051 Beach Blvd",
+    "place_id": "ChIJV86wNzRK5IgRam7-uLiskXg",
+    "types": [
+      "premise"
+    ]
+  },
+  "115 S 3RD ST, Jacksonville Beach, FL 32250": {
+    "formatted_address": "115 3rd St S, Jacksonville Beach, FL 32250, USA",
+    "name": "115 3rd St S",
+    "place_id": "ChIJG1RuEqlJ5IgROuHTvDU24Mk",
+    "types": [
+      "premise"
+    ]
+  },
+  "2901 BEACHWOOD BLVD, Jacksonville, FL 32246": {
+    "formatted_address": "2901 Beachwood Blvd, Jacksonville, FL 32246, USA",
+    "name": "2901 Beachwood Blvd",
+    "place_id": "ChIJtchBa9NK5IgROUSGOCbLdUw",
+    "types": [
+      "premise"
+    ]
+  },
+  "100 MAGNOLIA ST, Jacksonville, FL 32204": {
+    "formatted_address": "100 Magnolia St, Jacksonville, FL 32204, USA",
+    "name": "100 Magnolia St",
+    "place_id": "ChIJIVlFYmy35YgRiJPdpuwqIlM",
+    "types": [
+      "premise"
+    ]
+  },
+  "4870 E DEER LAKE DR, Jacksonville, FL 32246": {
+    "formatted_address": "4870 E Deer Lake Dr, Jacksonville, FL 32246, USA",
+    "name": "4870 E Deer Lake Dr",
+    "place_id": "ChIJZam7Z3215YgRPJfzrdANi2w",
+    "types": [
+      "premise"
+    ]
+  },
+  "7750 BELFORT PKWY, Jacksonville, FL 32256": {
+    "formatted_address": "7750 Belfort Pkwy, Jacksonville, FL 32256, USA",
+    "name": "7750 Belfort Pkwy",
+    "place_id": "ChIJ92KlzGzK5YgRijSZUsSxNnE",
+    "types": [
+      "premise"
+    ]
+  },
+  "2259 COLLEGE ST, Jacksonville, FL 32204": {
+    "formatted_address": "2259 College St, Jacksonville, FL 32204, USA",
+    "name": "2259 College St",
+    "place_id": "ChIJTWJ1IXy35YgRf1FCZ8J8FJk",
+    "types": [
+      "premise"
+    ]
+  },
+  "11110 ATLANTIC BLVD, Jacksonville, FL 32225": {
+    "formatted_address": "11110 Atlantic Blvd, Jacksonville, FL 32225, USA",
+    "name": "11110 Atlantic Blvd",
+    "place_id": "ChIJ99S8_zVL5IgR75YhgCLeyCE",
+    "types": [
+      "premise"
+    ]
+  },
+  "8214 E PRINCETON SQUARE BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "8214 Princeton Square Blvd E, Jacksonville, FL 32256, USA",
+    "name": "8214 Princeton Square Blvd E",
+    "place_id": "ChIJpU7xtVfK5YgRHhDxWj-n8d4",
+    "types": [
+      "premise"
+    ]
+  },
+  "8343 E PRINCETON SQUARE BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "8343 Princeton Square Blvd E, Jacksonville, FL 32256, USA",
+    "name": "8343 Princeton Square Blvd E",
+    "place_id": "ChIJk9UmkPjK5YgR99BUBHd6OAE",
+    "types": [
+      "premise"
+    ]
+  },
+  "9536 S PRINCETON SQUARE BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "9536 Princeton Square Blvd S, Jacksonville, FL 32256, USA",
+    "name": "9536 Princeton Square Blvd S",
+    "place_id": "ChIJ02lZbv_K5YgRuiTEOX3GECw",
+    "types": [
+      "premise"
+    ]
+  },
+  "1040 BERT RD, Jacksonville, FL 32211": {
+    "formatted_address": "1040 Bert Rd, Jacksonville, FL 32211, USA",
+    "name": "1040 Bert Rd",
+    "place_id": "ChIJhRFoIhS05YgRuDGHKa8Uhbc",
+    "types": [
+      "premise"
+    ]
+  },
+  "11849 PALM BAY PKWY, Jacksonville, FL 32256": {
+    "formatted_address": "11849 Palm Bay Pkwy, Jacksonville, FL 32256, USA",
+    "name": "11849 Palm Bay Pkwy",
+    "place_id": "ChIJ4bwA5hsz5IgRpjDKnKBZolE",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "1920 DEAN RD, Jacksonville, FL 32216": {
+    "formatted_address": "1920 Dean Rd, Jacksonville, FL 32216, USA",
+    "name": "1920 Dean Rd",
+    "place_id": "ChIJG6_ITdu15YgRLeaM7dySeBY",
+    "types": [
+      "premise"
+    ]
+  },
+  "12450 BISCAYNE BLVD, Jacksonville, FL 32218": {
+    "formatted_address": "12450 Biscayne Blvd, Jacksonville, FL 32218, USA",
+    "name": "12450 Biscayne Blvd",
+    "place_id": "ChIJ7wH9BOiv5YgR-9hv4plhzAY",
+    "types": [
+      "premise"
+    ]
+  },
+  "1035 ARCO DR, Jacksonville, FL 32211": {
+    "formatted_address": "1035 Arco Dr, Jacksonville, FL 32211, USA",
+    "name": "1035 Arco Dr",
+    "place_id": "ChIJX5LQ6KC25YgRlvvWADK7U30",
+    "types": [
+      "premise"
+    ]
+  },
+  "1029 CALIENTE DR, Jacksonville, FL 32211": {
+    "formatted_address": "1029 Caliente Dr, Jacksonville, FL 32211, USA",
+    "name": "1029 Caliente Dr",
+    "place_id": "ChIJsT_tj6C25YgRO0N3EckUClU",
+    "types": [
+      "premise"
+    ]
+  },
+  "5548 PLAYA WAY, Jacksonville, FL 32211": {
+    "formatted_address": "5548 Playa Way, Jacksonville, FL 32211, USA",
+    "name": "5548 Playa Way",
+    "place_id": "ChIJjd97l6C25YgRpnBNdZFOow8",
+    "types": [
+      "premise"
+    ]
+  },
+  "8335 FREEDOM CROSSING TRL, Jacksonville, FL 32256": {
+    "formatted_address": "8335 Freedom Crossing Trail, Jacksonville, FL 32256, USA",
+    "name": "8335 Freedom Crossing Trail",
+    "place_id": "ChIJvXRAC0vK5YgRgIk_L7KGWzg",
+    "types": [
+      "premise"
+    ]
+  },
+  "8681 A C SKINNER PKWY, Jacksonville, FL 32256": {
+    "formatted_address": "8681 A C Skinner Pkwy, Jacksonville, FL 32256, USA",
+    "name": "8681 A C Skinner Pkwy",
+    "place_id": "ChIJLeRfm4bK5YgRcLA-_DnOl8g",
+    "types": [
+      "premise"
+    ]
+  },
+  "400 CENTURY 21 DR, Jacksonville, FL 32216": {
+    "formatted_address": "400 Century 21 Dr, Jacksonville, FL 32216, USA",
+    "name": "400 Century 21 Dr",
+    "place_id": "ChIJJZo3gk605YgRRTG7pr2OfSQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "6680 BENNETT CREEK DR, Jacksonville, FL 32216": {
+    "formatted_address": "6680 Bennett Creek Dr, Jacksonville, FL 32216, USA",
+    "name": "6680 Bennett Creek Dr",
+    "place_id": "ChIJhcDLaPe15YgRJ7BzPXKaBNg",
+    "types": [
+      "premise"
+    ]
+  },
+  "7635 TIMBERLIN PARK BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "7635 Timberlin Park Blvd, Jacksonville, FL 32256, USA",
+    "name": "7635 Timberlin Park Blvd",
+    "place_id": "ChIJQRF34xrL5YgRFOSMSlgIggg",
+    "types": [
+      "premise"
+    ]
+  },
+  "10135 N GATE PKWY, Jacksonville, FL 32246": {
+    "formatted_address": "10135 Gate Pkwy N, Jacksonville, FL 32246, USA",
+    "name": "10135 Gate Pkwy N",
+    "place_id": "ChIJ6f2F51615YgRFB_TkAMInT0",
+    "types": [
+      "premise"
+    ]
+  },
+  "13051 GRAN BAY PKWY, Jacksonville, FL 32258": {
+    "formatted_address": "13051 Gran Bay Pkwy, Jacksonville, FL 32258, USA",
+    "name": "13051 Gran Bay Pkwy",
+    "place_id": "ChIJEWVWpc7M5YgR2wyL8qNUnMk",
+    "types": [
+      "premise"
+    ]
+  },
+  "4460 HODGES BLVD, Jacksonville, FL 32224": {
+    "formatted_address": "4460 Hodges Blvd, Jacksonville, FL 32224, USA",
+    "name": "4460 Hodges Blvd",
+    "place_id": "ChIJP7p40WJK5IgRoD-rooLHD_8",
+    "types": [
+      "premise"
+    ]
+  },
+  "6710 COLLINS RD, Jacksonville, FL 32244": {
+    "formatted_address": "6710 Collins Rd, Jacksonville, FL 32244, USA",
+    "name": "6710 Collins Rd",
+    "place_id": "ChIJgWb5aezG5YgR_XhBSX6xTSc",
+    "types": [
+      "premise"
+    ]
+  },
+  "7400 POWERS AVE, Jacksonville, FL 32217": {
+    "formatted_address": "7400 Powers Ave, Jacksonville, FL 32217, USA",
+    "name": "7400 Powers Ave",
+    "place_id": "ChIJaV1zH_HJ5YgRN7jZ1LbCogc",
+    "types": [
+      "premise"
+    ]
+  },
+  "8737 BAYMEADOWS RD, Jacksonville, FL 32256": {
+    "formatted_address": "8737 Baymeadows Rd, Jacksonville, FL 32256, USA",
+    "name": "8737 Baymeadows Rd",
+    "place_id": "ChIJ2x3XTU_K5YgR7-xkfafh6ek",
+    "types": [
+      "premise"
+    ]
+  },
+  "7200 POWERS AVE, Jacksonville, FL 32217": {
+    "formatted_address": "7200 Powers Ave, Jacksonville, FL 32217, USA",
+    "name": "7200 Powers Ave",
+    "place_id": "ChIJ-T0wY_DJ5YgRt8dFqWFy-w8",
+    "types": [
+      "premise"
+    ]
+  },
+  "250 LAGO MAR WAY, Jacksonville, FL 32256": {
+    "formatted_address": "250 Lago Mar Wy, Jacksonville, FL 32258, USA",
+    "name": "250 Lago Mar Wy",
+    "place_id": "ChIJjRuTX-Qy5IgRP3JCyG2-1jo",
+    "types": [
+      "premise"
+    ]
+  },
+  "1385 BROOKWOOD FOREST BLVD, Jacksonville, FL 32225": {
+    "formatted_address": "1385 Brookwood Forest Blvd, Jacksonville, FL 32225, USA",
+    "name": "1385 Brookwood Forest Blvd",
+    "place_id": "ChIJL5dNJKG05YgRTylbGIPjYHM",
+    "types": [
+      "premise"
+    ]
+  },
+  "1382 BROOKWOOD FOREST BLVD, Jacksonville, FL 32225": {
+    "formatted_address": "1382 Brookwood Forest Blvd, Jacksonville, FL 32225, USA",
+    "name": "1382 Brookwood Forest Blvd",
+    "place_id": "ChIJkaEe4qC05YgRLFRTU3yVtV8",
+    "types": [
+      "premise"
+    ]
+  },
+  "1057 BROWARD RD, Jacksonville, FL 32218": {
+    "formatted_address": "1057 Broward Rd, Jacksonville, FL 32218, USA",
+    "name": "1057 Broward Rd",
+    "place_id": "ChIJ44pkuVqw5YgRgakzf9_U4UU",
+    "types": [
+      "premise"
+    ]
+  },
+  "800 BROWARD RD, Jacksonville, FL 32218": {
+    "formatted_address": "800 Broward Rd, Jacksonville, FL 32218, USA",
+    "name": "800 Broward Rd",
+    "place_id": "ChIJ0yv71luw5YgRXrOiiXxv_BE",
+    "types": [
+      "premise"
+    ]
+  },
+  "900 BROWARD RD, Jacksonville, FL 32218": {
+    "formatted_address": "900 Broward Rd, Jacksonville, FL 32218, USA",
+    "name": "900 Broward Rd",
+    "place_id": "ChIJoyhVwVuw5YgR6jAbHQ2tLzo",
+    "types": [
+      "premise"
+    ]
+  },
+  "3701 DANFORTH DR, Jacksonville, FL 32224": {
+    "formatted_address": "3701 Danforth Dr W, Jacksonville, FL 32224, USA",
+    "name": "3701 Danforth Dr W",
+    "place_id": "ChIJN_kRgkNK5IgRb2VBWWicqEM",
+    "types": [
+      "premise"
+    ]
+  },
+  "13444 GRAN BAY PKWY, Jacksonville, FL 32258": {
+    "formatted_address": "13444 Gran Bay Pkwy, Jacksonville, FL 32258, USA",
+    "name": "13444 Gran Bay Pkwy",
+    "place_id": "ChIJuUln9szM5YgRpOW_IuI02gg",
+    "types": [
+      "premise"
+    ]
+  },
+  "11050 HARTS RD, Jacksonville, FL 32218": {
+    "formatted_address": "11050 Harts Rd, Jacksonville, FL 32218, USA",
+    "name": "11050 Harts Rd",
+    "place_id": "ChIJP0-AeySw5YgRYqBG8Rd3vL8",
+    "types": [
+      "premise"
+    ]
+  },
+  "2610 SR A1A, Jacksonville, FL 32233": {
+    "formatted_address": "2610 state Rd A1A, Jacksonville, FL 32233, USA",
+    "name": "2610 state Rd A1A",
+    "place_id": "ChIJ606JJr1O5IgRfMeHP3_7PN8",
+    "types": [
+      "premise"
+    ]
+  },
+  "13401 S SUTTON PARK DR, Jacksonville, FL 32224": {
+    "formatted_address": "13401 Sutton Park Dr S, Jacksonville, FL 32224, USA",
+    "name": "13401 Sutton Park Dr S",
+    "place_id": "ChIJ9zD6mHtK5IgRc8Ay-7LnAQ0",
+    "types": [
+      "premise"
+    ]
+  },
+  "8074 W GATE PKWY, Jacksonville, FL 32216": {
+    "formatted_address": "8074 Gate Pkwy W, Jacksonville, FL 32216, USA",
+    "name": "8074 Gate Pkwy W",
+    "place_id": "ChIJp-lV93TK5YgR_eB2WZwMv1U",
+    "types": [
+      "premise"
+    ]
+  },
+  "4890 FLORIDA CLUB CIR, Jacksonville, FL 32216": {
+    "formatted_address": "4890 Florida Club Cir, Jacksonville, FL 32216, USA",
+    "name": "4890 Florida Club Cir",
+    "place_id": "ChIJSVL6DH_K5YgRDFd9J0L7BFg",
+    "types": [
+      "street_address"
+    ]
+  },
+  "8540 HOMEPLACE DR, Jacksonville, FL 32256": {
+    "formatted_address": "8540 Homeplace Dr, Jacksonville, FL 32256, USA",
+    "name": "8540 Homeplace Dr",
+    "place_id": "ChIJz35X4zA15IgRMTM9jxnD7-0",
+    "types": [
+      "premise"
+    ]
+  },
+  "1110 CALIENTE DR, Jacksonville, FL 32211": {
+    "formatted_address": "1110 Caliente Dr, Jacksonville, FL 32211, USA",
+    "name": "1110 Caliente Dr",
+    "place_id": "ChIJSf5ExqC25YgRc6kRrqRDkO0",
+    "types": [
+      "premise"
+    ]
+  },
+  "1864 KINGS RD, Jacksonville, FL 32209": {
+    "formatted_address": "1864 Kings Rd, Jacksonville, FL 32209, USA",
+    "name": "1864 Kings Rd",
+    "place_id": "ChIJ-964pMq35YgRyNMDoJZgXC8",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "2441 SPRING PARK RD, Jacksonville, FL 32207": {
+    "formatted_address": "2441 Spring Park Rd, Jacksonville, FL 32207, USA",
+    "name": "2441 Spring Park Rd",
+    "place_id": "ChIJObCZ8Vu25YgRbufd4_q9hW8",
+    "types": [
+      "premise"
+    ]
+  },
+  "1310 WILLOW BRANCH AVE, Jacksonville, FL 32205": {
+    "formatted_address": "1310 Willow Branch Ave, Jacksonville, FL 32205, USA",
+    "name": "1310 Willow Branch Ave",
+    "place_id": "ChIJkyt_li245YgRFCAamrgz1e0",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "6457 FT CAROLINE RD, Jacksonville, FL 32277": {
+    "formatted_address": "6457 Fort Caroline Rd, Jacksonville, FL 32277, USA",
+    "name": "6457 Fort Caroline Rd",
+    "place_id": "ChIJHe6FlOiz5YgRwYroMVZP3a4",
+    "types": [
+      "premise"
+    ]
+  },
+  "5175 N MAIN ST, Jacksonville, FL 32208": {
+    "formatted_address": "5175 N Main St, Jacksonville, FL 32208, USA",
+    "name": "5175 N Main St",
+    "place_id": "ChIJrdbs0N6w5YgRQtYM9qR_Sho",
+    "types": [
+      "premise"
+    ]
+  },
+  "5959 FT CAROLINE RD, Jacksonville, FL 32277": {
+    "formatted_address": "5959 Fort Caroline Rd, Jacksonville, FL 32277, USA",
+    "name": "5959 Fort Caroline Rd",
+    "place_id": "ChIJGwlrAuSz5YgRTatw_I9xzzU",
+    "types": [
+      "premise"
+    ]
+  },
+  "2114 KINGS PARK DR, Jacksonville, FL 32209": {
+    "formatted_address": "2114 Kings Park Dr, Jacksonville, FL 32209, USA",
+    "name": "2114 Kings Park Dr",
+    "place_id": "ChIJk9oiGvy55YgRj15M-1PU56w",
+    "types": [
+      "premise"
+    ]
+  },
+  "1612 LARUE AVE, Jacksonville, FL 32207": {
+    "formatted_address": "1612 Larue Ave, Jacksonville, FL 32207, USA",
+    "name": "1612 Larue Ave",
+    "place_id": "ChIJVywfGAi35YgRH8hJplWea1E",
+    "types": [
+      "premise"
+    ]
+  },
+  "1811 ROGERO RD, Jacksonville, FL 32211": {
+    "formatted_address": "1811 Rogero Rd, Jacksonville, FL 32211, USA",
+    "name": "1811 Rogero Rd",
+    "place_id": "ChIJnTnakw605YgRG6X1lqVz4fg",
+    "types": [
+      "premise"
+    ]
+  },
+  "2504 PARK ST, Jacksonville, FL 32204": {
+    "formatted_address": "2504 Park St, Jacksonville, FL 32204, USA",
+    "name": "2504 Park St",
+    "place_id": "ChIJxd1UqH-35YgRXZ_RofqQLV4",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "1033 BERT RD, Jacksonville, FL 32211": {
+    "formatted_address": "1033 Bert Rd, Jacksonville, FL 32211, USA",
+    "name": "1033 Bert Rd",
+    "place_id": "ChIJI4YMFBS05YgRd6h-O8gAuLw",
+    "types": [
+      "premise"
+    ]
+  },
+  "840 BERT RD, Jacksonville, FL 32211": {
+    "formatted_address": "840 Bert Rd, Jacksonville, FL 32211, USA",
+    "name": "840 Bert Rd",
+    "place_id": "ChIJ2-z6rhW05YgRxkLxymf_3PM",
+    "types": [
+      "premise"
+    ]
+  },
+  "900 BERT RD, Jacksonville, FL 32211": {
+    "formatted_address": "900 Bert Rd, Jacksonville, FL 32211, USA",
+    "name": "900 Bert Rd",
+    "place_id": "ChIJidj6NRS05YgR3eu6ELdKzy4",
+    "types": [
+      "premise"
+    ]
+  },
+  "201 E ASHLEY ST, Jacksonville, FL 32202": {
+    "formatted_address": "201 E Ashley St, Jacksonville, FL 32202, USA",
+    "name": "201 E Ashley St",
+    "place_id": "ChIJVVUlCiK35YgRsqm1FGggZR4",
+    "types": [
+      "premise"
+    ]
+  },
+  "701 N OCEAN ST, Jacksonville, FL 32202": {
+    "formatted_address": "701 N Ocean St, Jacksonville, FL 32202, USA",
+    "name": "701 N Ocean St",
+    "place_id": "ChIJmzI2byK35YgRvS76x9dNOso",
+    "types": [
+      "premise"
+    ]
+  },
+  "601 N NEWNAN ST, Jacksonville, FL 32202": {
+    "formatted_address": "601 N Newnan St, Jacksonville, FL 32202, USA",
+    "name": "601 N Newnan St",
+    "place_id": "ChIJMTaRCSK35YgRkLaut9DuFkc",
+    "types": [
+      "premise"
+    ]
+  },
+  "501 OCEAN ST, Jacksonville, FL 32202": {
+    "formatted_address": "501 N Ocean St, Jacksonville, FL 32202, USA",
+    "name": "501 N Ocean St",
+    "place_id": "ChIJjZ-Bhhi35YgRzRXsiP32kKU",
+    "types": [
+      "premise"
+    ]
+  },
+  "3333 N UNIVERSITY BLVD, Jacksonville, FL 32277": {
+    "formatted_address": "3333 University Blvd N, Jacksonville, FL 32277, USA",
+    "name": "3333 University Blvd N",
+    "place_id": "ChIJC0BZ2lex5YgRGg4_LKuCQOw",
+    "types": [
+      "premise"
+    ]
+  },
+  "3335 N UNIVERSITY BLVD, Jacksonville, FL 32277": {
+    "formatted_address": "3335 University Blvd N, Jacksonville, FL 32277, USA",
+    "name": "3335 University Blvd N",
+    "place_id": "ChIJZfhfYf2z5YgRVkXhuMYyZjo",
+    "types": [
+      "premise"
+    ]
+  },
+  "4090 HODGES BLVD, Jacksonville, FL 32224": {
+    "formatted_address": "4090 Hodges Blvd, Jacksonville, FL 32224, USA",
+    "name": "4090 Hodges Blvd",
+    "place_id": "ChIJVXfUamFK5IgR4jxeYml-pPs",
+    "types": [
+      "premise"
+    ]
+  },
+  "13525 BARTRAM PARK BLVD, Jacksonville, FL 32258": {
+    "formatted_address": "13525 Bartram Park Blvd, Jacksonville, FL 32258, USA",
+    "name": "13525 Bartram Park Blvd",
+    "place_id": "ChIJs6uP4cLM5YgRLdLCY_TnSwg",
+    "types": [
+      "premise"
+    ]
+  },
+  "939 CEDAR ST, Jacksonville, FL 32207": {
+    "formatted_address": "939 Cedar St, Jacksonville, FL 32207, USA",
+    "name": "939 Cedar St",
+    "place_id": "ChIJ9-T3VAi35YgR7bXYaLB6HM8",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "5821 SAN JUAN AVE, Jacksonville, FL 32210": {
+    "formatted_address": "5821 San Juan Ave, Jacksonville, FL 32210, USA",
+    "name": "5821 San Juan Ave",
+    "place_id": "ChIJUQ_7QI645YgRLA9O0ubYcWc",
+    "types": [
+      "premise"
+    ]
+  },
+  "4207 CONFEDERATE POINT RD, Jacksonville, FL 32210": {
+    "formatted_address": "4207 Confederate Point Rd, Jacksonville, FL 32210, USA",
+    "name": "4207 Confederate Point Rd",
+    "place_id": "ChIJE6iEZH-45YgRJMXIcS65YQE",
+    "types": [
+      "premise"
+    ]
+  },
+  "4301 CONFEDERATE POINT RD, Jacksonville, FL 32210": {
+    "formatted_address": "4301 Confederate Point Rd, Jacksonville, FL 32210, USA",
+    "name": "4301 Confederate Point Rd",
+    "place_id": "ChIJWYbKnoDH5YgRKs6NKawx6m8",
+    "types": [
+      "premise"
+    ]
+  },
+  "3027 SAN DIEGO RD, Jacksonville, FL 32207": {
+    "formatted_address": "3027 San Diego Rd, Jacksonville, FL 32207, USA",
+    "name": "3027 San Diego Rd",
+    "place_id": "ChIJQ8MnyFu25YgRjlXow_r3A80",
+    "types": [
+      "premise"
+    ]
+  },
+  "15275 N MAIN ST, Jacksonville, FL 32218": {
+    "formatted_address": "15275 N Main St, Jacksonville, FL 32218, USA",
+    "name": "15275 N Main St",
+    "place_id": "ChIJzxPBx76u5YgRVNgR9WiY81o",
+    "types": [
+      "street_address"
+    ]
+  },
+  "1300 HENDRICKS AVE, Jacksonville, FL 32207": {
+    "formatted_address": "1300 Hendricks Ave, Jacksonville, FL 32207, USA",
+    "name": "1300 Hendricks Ave",
+    "place_id": "ChIJuVmEgga35YgR4bSteSfj1NA",
+    "types": [
+      "premise"
+    ]
+  },
+  "3460 BEACH BLVD, Jacksonville, FL 32207": {
+    "formatted_address": "3460 Beach Blvd, Jacksonville, FL 32207, USA",
+    "name": "3460 Beach Blvd",
+    "place_id": "ChIJ__8r5V625YgRfST3M2UDVy0",
+    "types": [
+      "premise"
+    ]
+  },
+  "11247 SAN JOSE BLVD, Jacksonville, FL 32223": {
+    "formatted_address": "11247 San Jose Blvd, Jacksonville, FL 32223, USA",
+    "name": "11247 San Jose Blvd",
+    "place_id": "ChIJDSsifkrJ5YgRPE3G-9GHt6E",
+    "types": [
+      "premise"
+    ]
+  },
+  "6650 CORPORATE CENTER PKWY, Jacksonville, FL 32216": {
+    "formatted_address": "6650 Corporate Center Pkwy, Jacksonville, FL 32216, USA",
+    "name": "6650 Corporate Center Pkwy",
+    "place_id": "ChIJX3FdyAbK5YgR5phn8hws_gw",
+    "types": [
+      "premise"
+    ]
+  },
+  "3730 SOUTEL DR, Jacksonville, FL 32208": {
+    "formatted_address": "3730 Soutel Dr, Jacksonville, FL 32208, USA",
+    "name": "3730 Soutel Dr",
+    "place_id": "ChIJy0-2E4q65YgRq26NaD8CIGY",
+    "types": [
+      "premise"
+    ]
+  },
+  "2260 N UNIVERSITY BLVD, Jacksonville, FL 32211": {
+    "formatted_address": "2260 University Blvd N, Jacksonville, FL 32211, USA",
+    "name": "2260 University Blvd N",
+    "place_id": "ChIJp7_wC6q25YgRiOWrLM3VuQU",
+    "types": [
+      "premise"
+    ]
+  },
+  "5400 COLLINS LAKES DR, Jacksonville, FL 32244": {
+    "formatted_address": "5400 Collins Lakes Dr, Jacksonville, FL 32244, USA",
+    "name": "5400 Collins Lakes Dr",
+    "place_id": "ChIJP_Mll0HG5YgReal06hJK5LM",
+    "types": [
+      "premise"
+    ]
+  },
+  "989 MONUMENT RD, Jacksonville, FL 32225": {
+    "formatted_address": "989 Monument Rd, Jacksonville, FL 32225, USA",
+    "name": "989 Monument Rd",
+    "place_id": "ChIJQ-MQlaa15YgR8toXjTV760A",
+    "types": [
+      "premise"
+    ]
+  },
+  "12585 FLAGLER CENTER BLVD, Jacksonville, FL 32258": {
+    "formatted_address": "12585 Flagler Center Blvd, Jacksonville, FL 32258, USA",
+    "name": "12585 Flagler Center Blvd",
+    "place_id": "ChIJjQ139rTM5YgRuHt7UuGKvbk",
+    "types": [
+      "premise"
+    ]
+  },
+  "3000 CORONET LN, Jacksonville, FL 32207": {
+    "formatted_address": "3000 Coronet Ln, Jacksonville, FL 32207, USA",
+    "name": "3000 Coronet Ln",
+    "place_id": "ChIJz6Hzg3i25YgR2bF6hag3gc4",
+    "types": [
+      "premise"
+    ]
+  },
+  "5258 COLLINS PRESERVE RD, Jacksonville, FL 32244": {
+    "formatted_address": "5258 Collins Preserve Ln, Jacksonville, FL 32244, USA",
+    "name": "5258 Collins Preserve Ln",
+    "place_id": "ChIJl1CiuGnG5YgRBE3CnbHcovg",
+    "types": [
+      "premise"
+    ]
+  },
+  "645 E 21ST ST, Jacksonville, FL 32206": {
+    "formatted_address": "645 E 21st St, Jacksonville, FL 32206, USA",
+    "name": "645 E 21st St",
+    "place_id": "ChIJKTHI3Cux5YgR1cU7Rlz4Vg8",
+    "types": [
+      "premise"
+    ]
+  },
+  "5900 TOWNSEND RD, Jacksonville, FL 32244": {
+    "formatted_address": "5900 Townsend Rd, Jacksonville, FL 32244, USA",
+    "name": "5900 Townsend Rd",
+    "place_id": "ChIJmej9l1XG5YgRG5t_rSPpDOo",
+    "types": [
+      "premise"
+    ]
+  },
+  "1200 PRESERVATION TRL, Jacksonville, FL 32081": {
+    "formatted_address": "1200 Preservation Trail, Ponte Vedra Beach, FL 32081, USA",
+    "name": "1200 Preservation Trail",
+    "place_id": "ChIJp65l-xcz5IgR1ZE46M6QBwA",
+    "types": [
+      "street_address"
+    ]
+  },
+  "11385 EXCHANGE ST, Jacksonville, FL 32256": {
+    "formatted_address": "11385 Exchange St, Jacksonville, FL 32256, USA",
+    "name": "11385 Exchange St",
+    "place_id": "ChIJ_-738aU05IgRKRdmnWS_hYs",
+    "types": [
+      "premise"
+    ]
+  },
+  "200 RIVERSIDE AVE, Jacksonville, FL 32202": {
+    "formatted_address": "200 Riverside Ave, Jacksonville, FL 32202, USA",
+    "name": "200 Riverside Ave",
+    "place_id": "ChIJL6udrW235YgRzu1LyC96YJc",
+    "types": [
+      "premise"
+    ]
+  },
+  "4674 TOWN CENTER PKWY, Jacksonville, FL 32246": {
+    "formatted_address": "4674 Town Center Pkwy, Jacksonville, FL 32246, USA",
+    "name": "4674 Town Center Pkwy",
+    "place_id": "ChIJ86DNcVm15YgR7KANKjdv4MI",
+    "types": [
+      "premise"
+    ]
+  },
+  "333 LAURINA ST, Jacksonville, FL 32216": {
+    "formatted_address": "333 Laurina St, Jacksonville, FL 32216, USA",
+    "name": "333 Laurina St",
+    "place_id": "ChIJ_ehuXjG05YgRePMkB2ZDpas",
+    "types": [
+      "premise"
+    ]
+  },
+  "1441 MANOTAK AVE, Jacksonville, FL 32210": {
+    "formatted_address": "Unit 1500, 1441 Manotak Ave, Jacksonville, FL 32210, USA",
+    "name": "Unit 1500",
+    "place_id": "ChIJeTKdzOu45YgRYZsmg34pz2k",
+    "types": [
+      "premise"
+    ]
+  },
+  "301 CARAVAN CIR, Jacksonville, FL 32216": {
+    "formatted_address": "301 Caravan Cir, Jacksonville, FL 32216, USA",
+    "name": "301 Caravan Cir",
+    "place_id": "ChIJ3VITjFa05YgREeQbN09UKyg",
+    "types": [
+      "premise"
+    ]
+  },
+  "4813 MONCRIEF RD, Jacksonville, FL 32208": {
+    "formatted_address": "4813 Moncrief Rd, Jacksonville, FL 32209, USA",
+    "name": "4813 Moncrief Rd",
+    "place_id": "ChIJiV6f_aSw5YgR3tHqi3TCx2I",
+    "types": [
+      "premise"
+    ]
+  },
+  "3545 CYPRESS ST, Jacksonville, FL 32205": {
+    "formatted_address": "3545 Cypress St, Jacksonville, FL 32205, USA",
+    "name": "3545 Cypress St",
+    "place_id": "ChIJiYsCIrW55YgRko5VwXofkkw",
+    "types": [
+      "premise"
+    ]
+  },
+  "1526 PARENTAL HOME RD, Jacksonville, FL 32216": {
+    "formatted_address": "1526 Parental Home Rd, Jacksonville, FL 32216, USA",
+    "name": "1526 Parental Home Rd",
+    "place_id": "ChIJHc14x7m15YgRVZRbOlPkbDw",
+    "types": [
+      "premise"
+    ]
+  },
+  "5032 SHIRLEY AVE, Jacksonville, FL 32210": {
+    "formatted_address": "5032 Shirley Ave, Jacksonville, FL 32210, USA",
+    "name": "5032 Shirley Ave",
+    "place_id": "ChIJjxLs2GO45YgR4vdYFX9itM4",
+    "types": [
+      "premise"
+    ]
+  },
+  "11727 ABESS BLVD, Jacksonville, FL 32225": {
+    "formatted_address": "11727 Abess Blvd, Jacksonville, FL 32225, USA",
+    "name": "11727 Abess Blvd",
+    "place_id": "ChIJ_S5ho0ZL5IgRlj6z4kbHmVM",
+    "types": [
+      "street_address"
+    ]
+  },
+  "13924 EGRETS NEST DR, Jacksonville, FL 32256": {
+    "formatted_address": "13924 Egrets Nest Dr, Jacksonville, FL 32258, USA",
+    "name": "13924 Egrets Nest Dr",
+    "place_id": "ChIJD_igCtLM5YgR1i39GfKwdLE",
+    "types": [
+      "premise"
+    ]
+  },
+  "1401 RIVERPLACE BLVD, Jacksonville, FL 32207": {
+    "formatted_address": "1401 Riverplace Blvd, Jacksonville, FL 32207, USA",
+    "name": "1401 Riverplace Blvd",
+    "place_id": "ChIJw6H2Khu35YgRzncOA4yVgUQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "10880 ANGEL FISH WAY, Jacksonville, FL 32256": {
+    "formatted_address": "10880 Angelfish Way, Jacksonville, FL 32256, USA",
+    "name": "10880 Angelfish Way",
+    "place_id": "ChIJe3iBAKXK5YgRxGpogdS6knQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "1606 MAYFAIR RD, Jacksonville, FL 32207": {
+    "formatted_address": "1606 Mayfair Rd, Jacksonville, FL 32207, USA",
+    "name": "1606 Mayfair Rd",
+    "place_id": "ChIJrbiegF-25YgRqF7WEloqkc4",
+    "types": [
+      "premise"
+    ]
+  },
+  "1935 SAN MARCO BLVD, Jacksonville, FL 32207": {
+    "formatted_address": "1935 San Marco Blvd, Jacksonville, FL 32207, USA",
+    "name": "1935 San Marco Blvd",
+    "place_id": "ChIJY29a_6i35YgRHA9qx6KTd9w",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "1601 N 3RD ST, Jacksonville Beach, FL 32250": {
+    "formatted_address": "1601 3rd St N, Jacksonville Beach, FL 32250, USA",
+    "name": "1601 3rd St N",
+    "place_id": "ChIJnfkdmBpJ5IgR53LyJuCop-I",
+    "types": [
+      "premise"
+    ]
+  },
+  "9727 TOUCHTON RD, Jacksonville, FL 32246": {
+    "formatted_address": "9727 Touchton Rd, Jacksonville, FL 32246, USA",
+    "name": "9727 Touchton Rd",
+    "place_id": "ChIJj4mQ6XG15YgRBtkhNNL6ih0",
+    "types": [
+      "premise"
+    ]
+  },
+  "2840 HERSCHEL ST, Jacksonville, FL 32205": {
+    "formatted_address": "2840 Herschel St, Jacksonville, FL 32205, USA",
+    "name": "2840 Herschel St",
+    "place_id": "ChIJkycehCu45YgR4dqTUcPrg5o",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "1751 N MAIN ST, Jacksonville, FL 32206": {
+    "formatted_address": "1751 N Main St, Jacksonville, FL 32206, USA",
+    "name": "1751 N Main St",
+    "place_id": "ChIJdcHY2i635YgRIwD313Z-wdc",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "1616 ALMIRA ST, Jacksonville, FL 32211": {
+    "formatted_address": "1616 Almira St, Jacksonville, FL 32211, USA",
+    "name": "1616 Almira St",
+    "place_id": "ChIJA9vH2Ry05YgRzAnxNX78iYE",
+    "types": [
+      "premise"
+    ]
+  },
+  "11425 MCCORMICK RD, Jacksonville, FL 32225": {
+    "formatted_address": "11425 McCormick Rd, Jacksonville, FL 32225, USA",
+    "name": "11425 McCormick Rd",
+    "place_id": "ChIJ5RwN6rNM5IgRwcpNbHnTLKc",
+    "types": [
+      "premise"
+    ]
+  },
+  "2165 DUNSFORD TER, Jacksonville, FL 32207": {
+    "formatted_address": "2165 Dunsford Terrace, Jacksonville, FL 32207, USA",
+    "name": "2165 Dunsford Terrace",
+    "place_id": "ChIJS9bWEk625YgRs7x37zL9umI",
+    "types": [
+      "premise"
+    ]
+  },
+  "901 KENNARD ST, Jacksonville, FL 32208": {
+    "formatted_address": "901 Kennard St, Jacksonville, FL 32208, USA",
+    "name": "901 Kennard St",
+    "place_id": "ChIJKaGgHY2w5YgRID8S6K2Irzo",
+    "types": [
+      "premise"
+    ]
+  },
+  "1720 LANSDOWNE DR, Jacksonville, FL 32211": {
+    "formatted_address": "1720 Lansdowne Dr, Jacksonville, FL 32211, USA",
+    "name": "1720 Lansdowne Dr",
+    "place_id": "ChIJuVm9H3G05YgRIJV_tZpYBiA",
+    "types": [
+      "premise"
+    ]
+  },
+  "14200 DUVAL RD, Jacksonville, FL 32218": {
+    "formatted_address": "14200 Duval Rd, Jacksonville, FL 32218, USA",
+    "name": "14200 Duval Rd",
+    "place_id": "ChIJERjyn7av5YgRnTRPK33AexA",
+    "types": [
+      "premise"
+    ]
+  },
+  "14180 DUVAL RD, Jacksonville, FL 32218": {
+    "formatted_address": "14180 Duval Rd, Jacksonville, FL 32218, USA",
+    "name": "14180 Duval Rd",
+    "place_id": "ChIJq8PJIrSv5YgRq-5chhP0b5M",
+    "types": [
+      "premise"
+    ]
+  },
+  "225 DUVAL STATION RD, Jacksonville, FL 32218": {
+    "formatted_address": "225 Duval Station Rd, Jacksonville, FL 32218, USA",
+    "name": "225 Duval Station Rd",
+    "place_id": "ChIJI79RB4qu5YgRfol20qA6ByA",
+    "types": [
+      "premise"
+    ]
+  },
+  "930 E ADAMS ST, Jacksonville, FL 32202": {
+    "formatted_address": "930 E Adams St, Jacksonville, FL 32202, USA",
+    "name": "930 E Adams St",
+    "place_id": "ChIJna3IheG25YgRWMCp21cWA3U",
+    "types": [
+      "premise"
+    ]
+  },
+  "8000 E BAYMEADOWS CIR, Jacksonville, FL 32256": {
+    "formatted_address": "8000 Baymeadows Cir E, Jacksonville, FL 32256, USA",
+    "name": "8000 Baymeadows Cir E",
+    "place_id": "ChIJK8Ric1nK5YgRVrI_xLPSVCM",
+    "types": [
+      "premise"
+    ]
+  },
+  "8025 E BAYMEADOWS CIR, Jacksonville, FL 32256": {
+    "formatted_address": "8025 Baymeadows Cir E, Jacksonville, FL 32256, USA",
+    "name": "8025 Baymeadows Cir E",
+    "place_id": "ChIJcfx68VjK5YgR5__KMBJieFU",
+    "types": [
+      "premise"
+    ]
+  },
+  "751 N 1ST AVE, Jacksonville Beach, FL 32250": {
+    "formatted_address": "751 1st Ave N, Jacksonville Beach, FL 32250, USA",
+    "name": "751 1st Ave N",
+    "place_id": "ChIJeU24mKdJ5IgRm-WKw-mkkPw",
+    "types": [
+      "premise"
+    ]
+  },
+  "611 BEACH BLVD, Jacksonville Beach, FL 32250": {
+    "formatted_address": "611 Beach Blvd, Jacksonville Beach, FL 32250, USA",
+    "name": "611 Beach Blvd",
+    "place_id": "ChIJo56ByKdJ5IgRYqWPVwEPbyQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "711 BEACH BLVD, Jacksonville Beach, FL 32250": {
+    "formatted_address": "711 Beach Blvd, Jacksonville Beach, FL 32250, USA",
+    "name": "711 Beach Blvd",
+    "place_id": "ChIJQ38vpadJ5IgRJaHPd9A7huQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "811 BEACH BLVD, Jacksonville Beach, FL 32250": {
+    "formatted_address": "811 Beach Blvd, Jacksonville Beach, FL 32250, USA",
+    "name": "811 Beach Blvd",
+    "place_id": "ChIJ47xeD6dJ5IgRylNhliCXmRw",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "700 E UNION ST, Jacksonville, FL 32206": {
+    "formatted_address": "700 E Union St, Jacksonville, FL 32206, USA",
+    "name": "700 E Union St",
+    "place_id": "ChIJc3r5-9-25YgRJ7qUKKB_wOc",
+    "types": [
+      "premise"
+    ]
+  },
+  "1216 EASTER ST, Jacksonville, FL 32211": {
+    "formatted_address": "1216 Easter St, Jacksonville, FL 32211, USA",
+    "name": "1216 Easter St",
+    "place_id": "ChIJ683As6C25YgRI3dxspF865Q",
+    "types": [
+      "premise"
+    ]
+  },
+  "13305 BEACH BLVD, Jacksonville, FL 32246": {
+    "formatted_address": "13305 Beach Blvd, Jacksonville, FL 32246, USA",
+    "name": "13305 Beach Blvd",
+    "place_id": "ChIJSwkLhPhK5IgRHL4-7bkFhcA",
+    "types": [
+      "street_address"
+    ]
+  },
+  "14050 INTEGRA DR, Jacksonville, FL 32218": {
+    "formatted_address": "14050 Integra Dr, Jacksonville, FL 32218, USA",
+    "name": "14050 Integra Dr",
+    "place_id": "ChIJpQ3EvvWu5YgRbqTfO2LfFbw",
+    "types": [
+      "premise"
+    ]
+  },
+  "2701 MAYPORT RD, Jacksonville, FL 32233": {
+    "formatted_address": "2701 Mayport Rd, Jacksonville, FL 32233, USA",
+    "name": "2701 Mayport Rd",
+    "place_id": "ChIJXVfF45VO5IgRHdMepxFLug8",
+    "types": [
+      "premise"
+    ]
+  },
+  "116 S 2ND AVE, Jacksonville Beach, FL 32250": {
+    "formatted_address": "116 2nd Ave S, Jacksonville Beach, FL 32250, USA",
+    "name": "116 2nd Ave S",
+    "place_id": "ChIJzYgeYalJ5IgR2KvkKinThQU",
+    "types": [
+      "premise"
+    ]
+  },
+  "913 S 2ND ST, Jacksonville Beach, FL 32250": {
+    "formatted_address": "913 2nd St S, Jacksonville Beach, FL 32250, USA",
+    "name": "913 2nd St S",
+    "place_id": "ChIJd1WJ7q1J5IgRkixxII6gOOc",
+    "types": [
+      "premise"
+    ]
+  },
+  "4435 E TOUCHTON RD, Jacksonville, FL 32246": {
+    "formatted_address": "4435 Touchton Rd, Jacksonville, FL 32246, USA",
+    "name": "4435 Touchton Rd",
+    "place_id": "ChIJ09mXBnC15YgRJeaWOQSbwgc",
+    "types": [
+      "premise"
+    ]
+  },
+  "9105 TREDINICK PKWY, Jacksonville, FL 32211": {
+    "formatted_address": "9105 Tredinick Pkwy, Jacksonville, FL 32211, USA",
+    "name": "9105 Tredinick Pkwy",
+    "place_id": "ChIJI-Q5KYS05YgRHMNTYbrFafo",
+    "types": [
+      "premise"
+    ]
+  },
+  "7101 WILSON BLVD, Jacksonville, FL 32210": {
+    "formatted_address": "7101 Wilson Blvd, Jacksonville, FL 32210, USA",
+    "name": "7101 Wilson Blvd",
+    "place_id": "ChIJlzqJ2aC45YgRbpuEQXK2SA4",
+    "types": [
+      "premise"
+    ]
+  },
+  "1743 KINGS RD, Jacksonville, FL 32209": {
+    "formatted_address": "1743 Kings Rd, Jacksonville, FL 32209, USA",
+    "name": "1743 Kings Rd",
+    "place_id": "ChIJ3TIhu1C35YgRXQDX6n18N9s",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "1780 PEARCE ST, Jacksonville, FL 32209": {
+    "formatted_address": "1780 Pearce St, Jacksonville, FL 32209, USA",
+    "name": "1780 Pearce St",
+    "place_id": "ChIJAbCSv1C35YgRlnR-rw00TqM",
+    "types": [
+      "premise"
+    ]
+  },
+  "1580 KINGS RD, Jacksonville, FL 32209": {
+    "formatted_address": "1580 Kings Rd, Jacksonville, FL 32209, USA",
+    "name": "1580 Kings Rd",
+    "place_id": "ChIJb6YnmFq35YgRccSk_WIKrWw",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "85 W 48TH ST, Jacksonville, FL 32208": {
+    "formatted_address": "85 W 48th St, Jacksonville, FL 32208, USA",
+    "name": "85 W 48th St",
+    "place_id": "Eik4NSBXIDQ4dGggU3QsIEphY2tzb252aWxsZSwgRkwgMzIyMDgsIFVTQSIwEi4KFAoSCcuGn_3dsOWIEduQiciAgt4_EFUqFAoSCTluU_LdsOWIEVGD2Bg_qjmj",
+    "types": [
+      "street_address"
+    ]
+  },
+  "10010 BELLE RIVE BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "10010 Belle Rive Blvd, Jacksonville, FL 32256, USA",
+    "name": "10010 Belle Rive Blvd",
+    "place_id": "ChIJWfMAd9HL5YgRy01PJRGAAqk",
+    "types": [
+      "premise"
+    ]
+  },
+  "43 E 4TH ST, Jacksonville, FL 32206": {
+    "formatted_address": "43 E 4th St, Jacksonville, FL 32206, USA",
+    "name": "43 E 4th St",
+    "place_id": "ChIJ9daq5yW35YgR0pqtapFZEHs",
+    "types": [
+      "premise"
+    ]
+  },
+  "1230 E 7TH ST, Jacksonville, FL 32206": {
+    "formatted_address": "1230 E 7th St, Jacksonville, FL 32206, USA",
+    "name": "1230 E 7th St",
+    "place_id": "ChIJWZTkUdC25YgRyiw8l89eDpI",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "1212 E 1ST ST, Jacksonville, FL 32206": {
+    "formatted_address": "1212 E 1st St, Jacksonville, FL 32206, USA",
+    "name": "1212 E 1st St",
+    "place_id": "ChIJVXLLd9u25YgROBMO4H7rDLg",
+    "types": [
+      "premise"
+    ]
+  },
+  "91 W 11TH ST, Atlantic Beach, FL 32233": {
+    "formatted_address": "91 W 11th St, Atlantic Beach, FL 32233, USA",
+    "name": "91 W 11th St",
+    "place_id": "ChIJA1ycGlJJ5IgRoRZYMwGkLpI",
+    "types": [
+      "premise"
+    ]
+  },
+  "5885 EDENFIELD RD, Jacksonville, FL 32277": {
+    "formatted_address": "5885 Edenfield Rd, Jacksonville, FL 32277, USA",
+    "name": "5885 Edenfield Rd",
+    "place_id": "ChIJmYD2-Niz5YgREd6pX_jSMAE",
+    "types": [
+      "premise"
+    ]
+  },
+  "13300 ATLANTIC BLVD, Jacksonville, FL 32225": {
+    "formatted_address": "13300 Atlantic Blvd, Jacksonville, FL 32225, USA",
+    "name": "13300 Atlantic Blvd",
+    "place_id": "ChIJCaBGYL5L5IgRiKf7sbZrDDc",
+    "types": [
+      "premise"
+    ]
+  },
+  "8231 W PRINCETON SQUARE BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "8231 Princeton Square Blvd W, Jacksonville, FL 32256, USA",
+    "name": "8231 Princeton Square Blvd W",
+    "place_id": "ChIJ09sy9FbK5YgRzHy9Xret6Uw",
+    "types": [
+      "premise"
+    ]
+  },
+  "9611 SOUTHBROOK DR, Jacksonville, FL 32256": {
+    "formatted_address": "9611 Southbrook Dr, Jacksonville, FL 32256, USA",
+    "name": "9611 Southbrook Dr",
+    "place_id": "ChIJx8-XgInK5YgRa9QKi6uNvRE",
+    "types": [
+      "premise"
+    ]
+  },
+  "14105 EPPLY DR, Jacksonville, FL 32218": {
+    "formatted_address": "14105 Epply Dr, Jacksonville, FL 32218, USA",
+    "name": "14105 Epply Dr",
+    "place_id": "ChIJy7rfPP-u5YgR1wDOJvBUwao",
+    "types": [
+      "premise"
+    ]
+  },
+  "3500 N UNIVERSITY BLVD, Jacksonville, FL 32277": {
+    "formatted_address": "3500 University Blvd N, Jacksonville, FL 32277, USA",
+    "name": "3500 University Blvd N",
+    "place_id": "ChIJmzjr01mx5YgRad77fwEatwc",
+    "types": [
+      "premise"
+    ]
+  },
+  "5501 N UNIVERSITY CLUB BLVD, Jacksonville, FL 32277": {
+    "formatted_address": "5501 N University Club Blvd, Jacksonville, FL 32277, USA",
+    "name": "5501 N University Club Blvd",
+    "place_id": "ChIJWR5FMd-z5YgRgIvy1dNkyG8",
+    "types": [
+      "premise"
+    ]
+  },
+  "1135 BERT RD, Jacksonville, FL 32211": {
+    "formatted_address": "1135 Bert Rd, Jacksonville, FL 32211, USA",
+    "name": "1135 Bert Rd",
+    "place_id": "ChIJ7aK9BxS05YgRT8m1CgLo5YU",
+    "types": [
+      "premise"
+    ]
+  },
+  "12802 E HAVERFORD RD, Jacksonville, FL 32218": {
+    "formatted_address": "12802 Haverford Rd, Jacksonville, FL 32218, USA",
+    "name": "12802 Haverford Rd",
+    "place_id": "ChIJJzexCT2w5YgR7QR9nYJeT2E",
+    "types": [
+      "premise"
+    ]
+  },
+  "11723 WELLS CREEK PKY, Jacksonville, FL 32256": {
+    "formatted_address": "11723 Wells Creek Pkwy, Jacksonville, FL 32256, USA",
+    "name": "11723 Wells Creek Pkwy",
+    "place_id": "ChIJrVGfOJAz5IgRoHlTH-x877U",
+    "types": [
+      "street_address"
+    ]
+  },
+  "1706 COPELAND ST, Jacksonville, FL 32204": {
+    "formatted_address": "1706 Copeland St, Jacksonville, FL 32204, USA",
+    "name": "1706 Copeland St",
+    "place_id": "ChIJW17-l3i35YgRX-U6UR_tEHg",
+    "types": [
+      "premise"
+    ]
+  },
+  "12021 MCCORMICK RD, Jacksonville, FL 32225": {
+    "formatted_address": "12021 McCormick Rd, Jacksonville, FL 32225, USA",
+    "name": "12021 McCormick Rd",
+    "place_id": "ChIJo5ElVrlM5IgRc4DVIS06UAE",
+    "types": [
+      "premise"
+    ]
+  },
+  "702 N LINCOLN CT, Jacksonville, FL 32209": {
+    "formatted_address": "702 N Lincoln Ct, Jacksonville, FL 32209, USA",
+    "name": "702 N Lincoln Ct",
+    "place_id": "ChIJAfqxlTS35YgRETlIHQZ1pxo",
+    "types": [
+      "premise"
+    ]
+  },
+  "9541 103RD ST, Jacksonville, FL 32210": {
+    "formatted_address": "9541 103rd St, Jacksonville, FL 32210, USA",
+    "name": "9541 103rd St",
+    "place_id": "ChIJQ9L_J43A5YgREt_xY08G0VQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "3812 UNIVERSITY BLVD, Jacksonville, FL 32211": {
+    "formatted_address": "3812 University Blvd N, Jacksonville, FL 32211, USA",
+    "name": "3812 University Blvd N",
+    "place_id": "ChIJd8Ps1Vax5YgRtOgkeHFb8yk",
+    "types": [
+      "premise"
+    ]
+  },
+  "1500 MONUMENT RD, Jacksonville, FL 32225": {
+    "formatted_address": "1500 Monument Rd, Jacksonville, FL 32225, USA",
+    "name": "1500 Monument Rd",
+    "place_id": "ChIJf-mtnVez5YgRi8UTktbDmyU",
+    "types": [
+      "premise"
+    ]
+  },
+  "1115 S EDGEWOOD AVE, Jacksonville, FL 32205": {
+    "formatted_address": "1115 Edgewood Ave S, Jacksonville, FL 32205, USA",
+    "name": "1115 Edgewood Ave S",
+    "place_id": "ChIJ1UY16Eq45YgR6XShEp8Dg2E",
+    "types": [
+      "premise"
+    ]
+  },
+  "3505 CORBY ST, Jacksonville, FL 32205": {
+    "formatted_address": "3505 Corby St, Jacksonville, FL 32205, USA",
+    "name": "3505 Corby St",
+    "place_id": "ChIJhwDDuUq45YgR8D3TKavocqo",
+    "types": [
+      "premise"
+    ]
+  },
+  "1527 FLANDERS RD, Jacksonville, FL 32207": {
+    "formatted_address": "1527 Flanders Rd, Jacksonville, FL 32207, USA",
+    "name": "1527 Flanders Rd",
+    "place_id": "ChIJTYMuUiu25YgR_7lyeF1QJ7s",
+    "types": [
+      "premise"
+    ]
+  },
+  "9480 S PRINCETON SQUARE BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "9480 Princeton Square Blvd S, Jacksonville, FL 32256, USA",
+    "name": "9480 Princeton Square Blvd S",
+    "place_id": "ChIJe0izwVXK5YgRJB64baomkZk",
+    "types": [
+      "premise"
+    ]
+  },
+  "2061 FORBES ST, Jacksonville, FL 32204": {
+    "formatted_address": "2061 Forbes St, Jacksonville, FL 32204, USA",
+    "name": "2061 Forbes St",
+    "place_id": "ChIJa9haeHm35YgRJmsK0PEyuH0",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "8050 ARLINGTON EXPY, Jacksonville, FL 32211": {
+    "formatted_address": "8050 Arlington Expy, Jacksonville, FL 32211, USA",
+    "name": "8050 Arlington Expy",
+    "place_id": "ChIJ6d55CWi05YgRGnOo4ijAD4Q",
+    "types": [
+      "premise"
+    ]
+  },
+  "1913 ART MUSEUM DR, Jacksonville, FL 32207": {
+    "formatted_address": "1913 Art Museum Dr, Jacksonville, FL 32207, USA",
+    "name": "1913 Art Museum Dr",
+    "place_id": "ChIJMQM3vGK25YgR_0mcXER3exI",
+    "types": [
+      "premise"
+    ]
+  },
+  "7237 CORKLAN DR, Jacksonville, FL 32258": {
+    "formatted_address": "7237 Corklan Dr, Jacksonville, FL 32258, USA",
+    "name": "7237 Corklan Dr",
+    "place_id": "ChIJ4SkjncnM5YgR9jCVXH6DL94",
+    "types": [
+      "premise"
+    ]
+  },
+  "959 PRUDENTIAL DR, Jacksonville, FL 32207": {
+    "formatted_address": "959 Prudential Dr, Jacksonville, FL 32207, USA",
+    "name": "959 Prudential Dr",
+    "place_id": "ChIJj6HKbQ635YgRFlpkhkrzbgQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "12517 BEACH BLVD, Jacksonville, FL 32246": {
+    "formatted_address": "12517 Beach Blvd, Jacksonville, FL 32246, USA",
+    "name": "12517 Beach Blvd",
+    "place_id": "ChIJW-Az2OVK5IgRrgpxt2SdX_8",
+    "types": [
+      "premise"
+    ]
+  },
+  "8283 BAYMEADOWS RD, Jacksonville, FL 32256": {
+    "formatted_address": "8283 Baymeadows Rd, Jacksonville, FL 32256, USA",
+    "name": "8283 Baymeadows Rd",
+    "place_id": "ChIJSV75FzfK5YgRjRDJdqLSjT0",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "7651 PARADISE ISLAND BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "7651 Paradise Island Blvd, Jacksonville, FL 32256, USA",
+    "name": "7651 Paradise Island Blvd",
+    "place_id": "ChIJZatSChzL5YgRrTDvgEFSNL4",
+    "types": [
+      "premise"
+    ]
+  },
+  "8680 E BAYMEADOWS RD, Jacksonville, FL 32256": {
+    "formatted_address": "8680 Baymeadows Rd, Jacksonville, FL 32256, USA",
+    "name": "8680 Baymeadows Rd",
+    "place_id": "ChIJ7z-Q60jK5YgR39lQDJu0zqQ",
+    "types": [
+      "street_address"
+    ]
+  },
+  "5141 SHENANDOAH AVE, Jacksonville, FL 32254": {
+    "formatted_address": "5141 Shenandoah Ave, Jacksonville, FL 32254, USA",
+    "name": "5141 Shenandoah Ave",
+    "place_id": "ChIJoc185Cq65YgRoRRtMLM_gJ0",
+    "types": [
+      "premise"
+    ]
+  },
+  "5116 GATE PKWY, Jacksonville, FL 32256": {
+    "formatted_address": "5116 Gate Pkwy, Jacksonville, FL 32256, USA",
+    "name": "5116 Gate Pkwy",
+    "place_id": "ChIJn1TiS6PK5YgRoBCZhGbzUAU",
+    "types": [
+      "premise"
+    ]
+  },
+  "4025 SALISBURY RD, Jacksonville, FL 32216": {
+    "formatted_address": "4025 Salisbury Rd, Jacksonville, FL 32216, USA",
+    "name": "4025 Salisbury Rd",
+    "place_id": "ChIJ3xUPqQfK5YgRhIvrH9i2MWA",
+    "types": [
+      "premise"
+    ]
+  },
+  "4565 LEXINGTON AVE, Jacksonville, FL 32210": {
+    "formatted_address": "4565 Lexington Ave, Jacksonville, FL 32210, USA",
+    "name": "4565 Lexington Ave",
+    "place_id": "ChIJxWHdtGi45YgRGrOTWcnD1rE",
+    "types": [
+      "premise"
+    ]
+  },
+  "7350 BLANDING BLVD, Jacksonville, FL 32244": {
+    "formatted_address": "7350 Blanding Blvd, Jacksonville, FL 32244, USA",
+    "name": "7350 Blanding Blvd",
+    "place_id": "ChIJVwniFPnG5YgRxEux6SVFZAw",
+    "types": [
+      "premise"
+    ]
+  },
+  "3285 N UNIVERSITY BLVD, Jacksonville, FL 32277": {
+    "formatted_address": "3285 University Blvd N, Jacksonville, FL 32277, USA",
+    "name": "3285 University Blvd N",
+    "place_id": "ChIJtbJd01ex5YgRj9MMt-jVekI",
+    "types": [
+      "premise"
+    ]
+  },
+  "1129 ARCO DR, Jacksonville, FL 32211": {
+    "formatted_address": "1129 Arco Dr, Jacksonville, FL 32211, USA",
+    "name": "1129 Arco Dr",
+    "place_id": "ChIJaW30z6C25YgRFsZ89h-hu0o",
+    "types": [
+      "premise"
+    ]
+  },
+  "1217 UNDERHILL DR, Jacksonville, FL 32211": {
+    "formatted_address": "1217 Underhill Dr, Jacksonville, FL 32211, USA",
+    "name": "1217 Underhill Dr",
+    "place_id": "ChIJgc9uxxC05YgRH3tmn4gJo-I",
+    "types": [
+      "premise"
+    ]
+  },
+  "1520 COPELAND ST, Jacksonville, FL 32204": {
+    "formatted_address": "1520 Copeland St, Jacksonville, FL 32204, USA",
+    "name": "1520 Copeland St",
+    "place_id": "ChIJ8xo7L3m35YgRvJnMvvRx_T8",
+    "types": [
+      "premise"
+    ]
+  },
+  "7633 HARE AVE, Jacksonville, FL 32211": {
+    "formatted_address": "7633 Hare Ave, Jacksonville, FL 32211, USA",
+    "name": "7633 Hare Ave",
+    "place_id": "ChIJC6thMUG05YgRx2NHAnpBUg8",
+    "types": [
+      "premise"
+    ]
+  },
+  "7703 INDIA AVE, Jacksonville, FL 32211": {
+    "formatted_address": "7703 India Ave, Jacksonville, FL 32211, USA",
+    "name": "7703 India Ave",
+    "place_id": "ChIJZRIyPkG05YgRcLF0eZ2magc",
+    "types": [
+      "premise"
+    ]
+  },
+  "7613 JASPER AVE, Jacksonville, FL 32211": {
+    "formatted_address": "7613 Jasper Ave, Jacksonville, FL 32211, USA",
+    "name": "7613 Jasper Ave",
+    "place_id": "ChIJI0FFG0G05YgRzTfXLiMEc9A",
+    "types": [
+      "premise"
+    ]
+  },
+  "7704 HARE AVE, Jacksonville, FL 32211": {
+    "formatted_address": "7704 Hare Ave, Jacksonville, FL 32211, USA",
+    "name": "7704 Hare Ave",
+    "place_id": "ChIJz0zatEa05YgRgR4HlCSbWiE",
+    "types": [
+      "premise"
+    ]
+  },
+  "8685 E BAYMEADOWS RD, Jacksonville, FL 32256": {
+    "formatted_address": "8685 Baymeadows Rd E, Jacksonville, FL 32256, USA",
+    "name": "8685 Baymeadows Rd E",
+    "place_id": "ChIJVxwNoVY15IgR17afl0QX2jY",
+    "types": [
+      "premise"
+    ]
+  },
+  "110 HIGGINBOTHAM ST, Baldwin, FL 32234": {
+    "formatted_address": "110 Higginbotham St, Baldwin, FL 32234, USA",
+    "name": "110 Higginbotham St",
+    "place_id": "ChIJLWUA0DuT5YgR7S2xInzuPCA",
+    "types": [
+      "premise"
+    ]
+  },
+  "1800 W EDGEWOOD AVE, Jacksonville, FL 32208": {
+    "formatted_address": "1800 Edgewood Ave W, Jacksonville, FL 32208, USA",
+    "name": "1800 Edgewood Ave W",
+    "place_id": "ChIJreKHLZyw5YgRVLiW1pcjVRM",
+    "types": [
+      "premise"
+    ]
+  },
+  "10023 BELLE RIVE BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "10023 Belle Rive Blvd, Jacksonville, FL 32256, USA",
+    "name": "10023 Belle Rive Blvd",
+    "place_id": "ChIJE2MCueLK5YgRjyGazoHwYwo",
+    "types": [
+      "premise"
+    ]
+  },
+  "14030 ATLANTIC BLVD, Jacksonville, FL 32225": {
+    "formatted_address": "14030 Atlantic Blvd, Jacksonville, FL 32224, USA",
+    "name": "14030 Atlantic Blvd",
+    "place_id": "ChIJ3agvtuhL5IgRJKrMk5t1wqE",
+    "types": [
+      "premise"
+    ]
+  },
+  "2105 HARVEY ST, Jacksonville, FL 32211": {
+    "formatted_address": "2105 Harvey St, Jacksonville, FL 32211, USA",
+    "name": "2105 Harvey St",
+    "place_id": "ChIJS2ya4am25YgRA59kXUuNGRA",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "6200 S BARNES RD, Jacksonville, FL 32216": {
+    "formatted_address": "6200 Barnes Rd S, Jacksonville, FL 32216, USA",
+    "name": "6200 Barnes Rd S",
+    "place_id": "ChIJDY7E2vy15YgR8WAAgXx2KBY",
+    "types": [
+      "premise"
+    ]
+  },
+  "1520 ALFORD PL, Jacksonville, FL 32207": {
+    "formatted_address": "1520 Alford Pl, Jacksonville, FL 32207, USA",
+    "name": "1520 Alford Pl",
+    "place_id": "ChIJdwTIxau35YgRZb3oYHeSlV8",
+    "types": [
+      "premise"
+    ]
+  },
+  "4375 CONFEDERATE POINT RD, Jacksonville, FL 32210": {
+    "formatted_address": "4375 Confederate Point Rd, Jacksonville, FL 32210, USA",
+    "name": "4375 Confederate Point Rd",
+    "place_id": "ChIJleA8HYfH5YgR7GJ8xVhSehg",
+    "types": [
+      "premise"
+    ]
+  },
+  "69 W 7TH ST, Atlantic Beach, FL 32233": {
+    "formatted_address": "69 W 7th St, Atlantic Beach, FL 32233, USA",
+    "name": "69 W 7th St",
+    "place_id": "ChIJF24LrlFJ5IgRw7Tb0EZfAbE",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "77 W 7TH ST, Atlantic Beach, FL 32233": {
+    "formatted_address": "77 W 7th St, Atlantic Beach, FL 32233, USA",
+    "name": "77 W 7th St",
+    "place_id": "ChIJ4-03qVFJ5IgR4rzshlHxkIo",
+    "types": [
+      "premise"
+    ]
+  },
+  "65 W 5TH ST, Atlantic Beach, FL 32233": {
+    "formatted_address": "65 W 5th St, Atlantic Beach, FL 32233, USA",
+    "name": "65 W 5th St",
+    "place_id": "ChIJJYzp91BJ5IgRXyzcyU1hsu0",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "2553 SR A1A, Jacksonville, FL 32233": {
+    "formatted_address": "2553 state Rd A1A, Atlantic Beach, FL 32233, USA",
+    "name": "2553 state Rd A1A",
+    "place_id": "ChIJp3FQEL1O5IgR4wuL3GPjiuY",
+    "types": [
+      "premise"
+    ]
+  },
+  "380 BURBANK AVE, Jacksonville, FL 32081": {
+    "formatted_address": "380 Burbank Ave, Nocatee, FL 32081, USA",
+    "name": "380 Burbank Ave",
+    "place_id": "ChIJO1aYHjUy5IgRJjH6tL4DEmw",
+    "types": [
+      "premise"
+    ]
+  },
+  "11555 BEACH BLVD, Jacksonville, FL 32246": {
+    "formatted_address": "11555 Beach Blvd, Jacksonville, FL 32246, USA",
+    "name": "11555 Beach Blvd",
+    "place_id": "ChIJObfuzi215YgRDJbjkG_09cY",
+    "types": [
+      "premise"
+    ]
+  },
+  "3580 PALL MALL DR, Jacksonville, FL 32257": {
+    "formatted_address": "3580 Pall Mall Dr, Jacksonville, FL 32257, USA",
+    "name": "3580 Pall Mall Dr",
+    "place_id": "ChIJM8H2qG3J5YgRFyAfmbdF8kk",
+    "types": [
+      "premise"
+    ]
+  },
+  "13190 GLEN KERNAN PKWY, Jacksonville, FL 32224": {
+    "formatted_address": "13190 Glen Kernan Pkwy, Jacksonville, FL 32224, USA",
+    "name": "13190 Glen Kernan Pkwy",
+    "place_id": "ChIJpVd3PHxK5IgRdsgAceens0k",
+    "types": [
+      "premise"
+    ]
+  },
+  "2001 HODGES BLVD, Jacksonville, FL 32224": {
+    "formatted_address": "2001 Hodges Blvd, Jacksonville, FL 32224, USA",
+    "name": "2001 Hodges Blvd",
+    "place_id": "ChIJW-cbmbtL5IgRyhOv21R3kBI",
+    "types": [
+      "premise"
+    ]
+  },
+  "8343 HOGAN RD, Jacksonville, FL 32216": {
+    "formatted_address": "8343 Hogan Rd, Jacksonville, FL 32216, USA",
+    "name": "8343 Hogan Rd",
+    "place_id": "ChIJNa5c5Ly15YgR4xKFMx5D20E",
+    "types": [
+      "premise"
+    ]
+  },
+  "104 KING ST, Jacksonville, FL 32204": {
+    "formatted_address": "104 King St, Jacksonville, FL 32204, USA",
+    "name": "104 King St",
+    "place_id": "ChIJcayJyt255YgR-7wPy1N4v10",
+    "types": [
+      "premise"
+    ]
+  },
+  "3909 SUNBEAM RD, Jacksonville, FL 32257": {
+    "formatted_address": "3909 Sunbeam Rd, Jacksonville, FL 32257, USA",
+    "name": "3909 Sunbeam Rd",
+    "place_id": "ChIJmQ7hh3nJ5YgRuzbYx4HAfXw",
+    "types": [
+      "premise"
+    ]
+  },
+  "3730 DUPONT AVE, Jacksonville, FL 32217": {
+    "formatted_address": "3730 Dupont Ave, Jacksonville, FL 32217, USA",
+    "name": "3730 Dupont Ave",
+    "place_id": "ChIJESjwUufJ5YgRCOJONlfzBrs",
+    "types": [
+      "premise"
+    ]
+  },
+  "412 E ASHLEY ST, Jacksonville, FL 32202": {
+    "formatted_address": "412 E Ashley St, Jacksonville, FL 32202, USA",
+    "name": "412 E Ashley St",
+    "place_id": "ChIJV6fEbh-35YgR-U9Ucg8rNfQ",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "3630 GALICIA RD, Jacksonville, FL 32217": {
+    "formatted_address": "3630 Galicia Rd, Jacksonville, FL 32217, USA",
+    "name": "3630 Galicia Rd",
+    "place_id": "ChIJ00s6kOfJ5YgRPanrJ_SFMtw",
+    "types": [
+      "premise"
+    ]
+  },
+  "139 N JEFFERSON ST, Jacksonville, FL 32204": {
+    "formatted_address": "139 N Jefferson St, Jacksonville, FL 32204, USA",
+    "name": "139 N Jefferson St",
+    "place_id": "ChIJL7a-uhW35YgRcy6Hr6NnqDA",
+    "types": [
+      "premise"
+    ]
+  },
+  "10109 OLD ST AUGUSTINE RD, Jacksonville, FL 32257": {
+    "formatted_address": "10109 Old St Augustine Rd, Jacksonville, FL 32257, USA",
+    "name": "10109 Old St Augustine Rd",
+    "place_id": "ChIJ5W0u62bJ5YgRhDtFC8K5jJ0",
+    "types": [
+      "premise"
+    ]
+  },
+  "4785 WALGREEN RD, Jacksonville, FL 32209": {
+    "formatted_address": "4785 Walgreen Rd, Jacksonville, FL 32209, USA",
+    "name": "4785 Walgreen Rd",
+    "place_id": "Ei00Nzg1IFdhbGdyZWVuIFJkLCBKYWNrc29udmlsbGUsIEZMIDMyMjA5LCBVU0EiMRIvChQKEgkJ4dOduLDliBHz1FmMMAgIBRCxJSoUChIJIes1briw5YgRvPvYA9Z4V1A",
+    "types": [
+      "street_address"
+    ]
+  },
+  "2078 HYDE PARK RD, Jacksonville, FL 32210": {
+    "formatted_address": "2078 Hyde Park Rd, Jacksonville, FL 32210, USA",
+    "name": "2078 Hyde Park Rd",
+    "place_id": "ChIJ8TKM4o-45YgRIyAHXfhwws8",
+    "types": [
+      "premise"
+    ]
+  },
+  "2045 JAMMES RD, Jacksonville, FL 32210": {
+    "formatted_address": "2045 Jammes Rd, Jacksonville, FL 32210, USA",
+    "name": "2045 Jammes Rd",
+    "place_id": "ChIJvVchxo-45YgRvQ8MOX5Gzj4",
+    "types": [
+      "premise"
+    ]
+  },
+  "2401 JAMMES RD, Jacksonville, FL 32210": {
+    "formatted_address": "2401 Jammes Rd, Jacksonville, FL 32210, USA",
+    "name": "2401 Jammes Rd",
+    "place_id": "ChIJM-kyTpu45YgRb7SEH0Dy6OM",
+    "types": [
+      "premise"
+    ]
+  },
+  "6100 ARLINGTON EXPY, Jacksonville, FL 32211": {
+    "formatted_address": "6100 Arlington Expy, Jacksonville, FL 32211, USA",
+    "name": "6100 Arlington Expy",
+    "place_id": "ChIJhTwVAiO05YgRiV7OP5KUETo",
+    "types": [
+      "premise"
+    ]
+  },
+  "3239 JUSTINA RD, Jacksonville, FL 32277": {
+    "formatted_address": "3239 Justina Rd, Jacksonville, FL 32277, USA",
+    "name": "3239 Justina Rd",
+    "place_id": "ChIJz6RRV_yz5YgRnNoYVHUGm5E",
+    "types": [
+      "premise"
+    ]
+  },
+  "3266 JUSTINA RD, Jacksonville, FL 32277": {
+    "formatted_address": "3266 Justina Rd, Jacksonville, FL 32277, USA",
+    "name": "3266 Justina Rd",
+    "place_id": "ChIJ5Tj6B_2z5YgRStKTstNjYuM",
+    "types": [
+      "premise"
+    ]
+  },
+  "1000 ISLAND POINT DR, Jacksonville, FL 32218": {
+    "formatted_address": "1000 Island Point Dr, Jacksonville, FL 32218, USA",
+    "name": "1000 Island Point Dr",
+    "place_id": "ChIJHewOo16w5YgRBlmBMuxUaRU",
+    "types": [
+      "premise"
+    ]
+  },
+  "2010 PARENTAL HOME RD, Jacksonville, FL 32216": {
+    "formatted_address": "2010 Parental Home Rd, Jacksonville, FL 32216, USA",
+    "name": "2010 Parental Home Rd",
+    "place_id": "ChIJRVoVaL-15YgRkEKNZw1fZWI",
+    "types": [
+      "premise"
+    ]
+  },
+  "210 S 22ND AVE, Jacksonville Beach, FL 32250": {
+    "formatted_address": "210 22nd Ave S, Jacksonville Beach, FL 32250, USA",
+    "name": "210 22nd Ave S",
+    "place_id": "ChIJQ07ap7VJ5IgRyD9ZGro9Vtk",
+    "types": [
+      "premise"
+    ]
+  },
+  "222 S 2ND AVE, Jacksonville Beach, FL 32250": {
+    "formatted_address": "222 2nd Ave S, Jacksonville Beach, FL 32250, USA",
+    "name": "222 2nd Ave S",
+    "place_id": "ChIJBf0NQKlJ5IgRC-_DrhmtNH4",
+    "types": [
+      "premise"
+    ]
+  },
+  "8050 103RD ST, Jacksonville, FL 32210": {
+    "formatted_address": "8050 103rd St, Jacksonville, FL 32210, USA",
+    "name": "8050 103rd St",
+    "place_id": "ChIJVf1aMf_B5YgRnxkzzAQdGIo",
+    "types": [
+      "premise"
+    ]
+  },
+  "3631 N UNIVERSITY BLVD, Jacksonville, FL 32277": {
+    "formatted_address": "3631 University Blvd N, Jacksonville, FL 32277, USA",
+    "name": "3631 University Blvd N",
+    "place_id": "ChIJNwDLA1mx5YgRI05fPWlkqDE",
+    "types": [
+      "premise"
+    ]
+  },
+  "10101 ARROWHEAD DR, Jacksonville, FL 32257": {
+    "formatted_address": "10101 Arrowhead Dr, Jacksonville, FL 32257, USA",
+    "name": "10101 Arrowhead Dr",
+    "place_id": "ChIJx02d3mfJ5YgR-mVS-qOTG2E",
+    "types": [
+      "premise"
+    ]
+  },
+  "6750 RAMONA BLVD, Jacksonville, FL 32205": {
+    "formatted_address": "6750 Ramona Blvd, Jacksonville, FL 32205, USA",
+    "name": "6750 Ramona Blvd",
+    "place_id": "ChIJsXXLoN-45YgRjDQS6MpqJ8E",
+    "types": [
+      "premise"
+    ]
+  },
+  "1171 S LANE AVE, Jacksonville, FL 32205": {
+    "formatted_address": "1171 Lane Ave S, Jacksonville, FL 32205, USA",
+    "name": "1171 Lane Ave S",
+    "place_id": "ChIJK16MK-W45YgRLAeS5I4eXBQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "7844 GREGORY DR, Jacksonville, FL 32210": {
+    "formatted_address": "7844 Gregory Dr, Jacksonville, FL 32210, USA",
+    "name": "7844 Gregory Dr",
+    "place_id": "ChIJ33axSq3A5YgRdveQ4VOkmAo",
+    "types": [
+      "premise"
+    ]
+  },
+  "9500 103RD ST, Jacksonville, FL 32210": {
+    "formatted_address": "9500 103rd St, Jacksonville, FL 32210, USA",
+    "name": "9500 103rd St",
+    "place_id": "ChIJjbdR8_LA5YgRNDXg7UCElMo",
+    "types": [
+      "premise"
+    ]
+  },
+  "617 W 44TH ST, Jacksonville, FL 32208": {
+    "formatted_address": "617 W 44th St, Jacksonville, FL 32208, USA",
+    "name": "617 W 44th St",
+    "place_id": "ChIJXajdAMOw5YgRmh2Q3o2fymM",
+    "types": [
+      "premise"
+    ]
+  },
+  "1605 MYRTLE AVE, Jacksonville, FL 32209": {
+    "formatted_address": "1605 Myrtle Ave N, Jacksonville, FL 32209, USA",
+    "name": "1605 Myrtle Ave N",
+    "place_id": "ChIJxYhoMk-35YgR-K4hAaEXVhI",
+    "types": [
+      "premise"
+    ]
+  },
+  "1800 BLANDING BLVD, Jacksonville, FL 32210": {
+    "formatted_address": "1800 Blanding Blvd, Jacksonville, FL 32210, USA",
+    "name": "1800 Blanding Blvd",
+    "place_id": "ChIJObBn72e45YgRX-M9bjSIc0w",
+    "types": [
+      "premise"
+    ]
+  },
+  "1700 BLANDING BLVD, Jacksonville, FL 32210": {
+    "formatted_address": "1700 Blanding Blvd, Jacksonville, FL 32210, USA",
+    "name": "1700 Blanding Blvd",
+    "place_id": "ChIJeyzi6Ge45YgRsawicL1xKHs",
+    "types": [
+      "premise"
+    ]
+  },
+  "1261 N BROAD ST, Jacksonville, FL 32202": {
+    "formatted_address": "1261 Broad St, Jacksonville, FL 32202, USA",
+    "name": "1261 Broad St",
+    "place_id": "ChIJnbuUBzu35YgRVRpcRqLsyac",
+    "types": [
+      "premise"
+    ]
+  },
+  "1300 N BROAD ST, Jacksonville, FL 32202": {
+    "formatted_address": "1300 Broad St, Jacksonville, FL 32202, USA",
+    "name": "1300 Broad St",
+    "place_id": "ChIJswy4Rzq35YgRPxosTbLedCY",
+    "types": [
+      "premise"
+    ]
+  },
+  "230 E 1ST ST, Jacksonville, FL 32206": {
+    "formatted_address": "230 E 1st St, Jacksonville, FL 32206, USA",
+    "name": "230 E 1st St",
+    "place_id": "ChIJ-_J8NiG35YgR4w6rza6xB_w",
+    "types": [
+      "premise"
+    ]
+  },
+  "955 N LIBERTY ST, Jacksonville, FL 32206": {
+    "formatted_address": "955 N Liberty St, Jacksonville, FL 32206, USA",
+    "name": "955 N Liberty St",
+    "place_id": "ChIJi7KN3yC35YgRSHJXUb_FV78",
+    "types": [
+      "premise"
+    ]
+  },
+  "761 N VILLAGE CENTER DR, Jacksonville, FL 32206": {
+    "formatted_address": "761 Village Center Dr N, Jacksonville, FL 32206, USA",
+    "name": "761 Village Center Dr N",
+    "place_id": "ChIJk9O2UMmw5YgRxvL5Dm9NldI",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "1935 FOREST BLVD, Jacksonville, FL 32246": {
+    "formatted_address": "1935 Forest Blvd, Jacksonville, FL 32246, USA",
+    "name": "1935 Forest Blvd",
+    "place_id": "ChIJY-85A-W05YgR0cy4RK6nnQw",
+    "types": [
+      "premise"
+    ]
+  },
+  "8711 NEWTON RD, Jacksonville, FL 32216": {
+    "formatted_address": "8711 Newton Rd, Jacksonville, FL 32216, USA",
+    "name": "8711 Newton Rd",
+    "place_id": "ChIJ583WTJ615YgR7Uiu_Ii35uY",
+    "types": [
+      "premise"
+    ]
+  },
+  "11815 ALDEN RD, Jacksonville, FL 32246": {
+    "formatted_address": "11815 Alden Rd, Jacksonville, FL 32246, USA",
+    "name": "11815 Alden Rd",
+    "place_id": "ChIJ6Z0fEStL5IgR4UYYqsTUQSk",
+    "types": [
+      "premise"
+    ]
+  },
+  "10770 ANDERS BLVD, Jacksonville, FL 32246": {
+    "formatted_address": "10770 Anders Blvd, Jacksonville, FL 32246, USA",
+    "name": "10770 Anders Blvd",
+    "place_id": "ChIJLdXH_T-15YgR31DCD30tJmc",
+    "types": [
+      "premise"
+    ]
+  },
+  "1700 S SAN PABLO RD, Jacksonville, FL 32224": {
+    "formatted_address": "1700 San Pablo Rd S, Jacksonville, FL 32224, USA",
+    "name": "1700 San Pablo Rd S",
+    "place_id": "ChIJXU6bwb9L5IgRD05iJmYlJXY",
+    "types": [
+      "premise"
+    ]
+  },
+  "1620 BARTRAM RD, Jacksonville, FL 32207": {
+    "formatted_address": "1620 Bartram Rd, Jacksonville, FL 32207, USA",
+    "name": "1620 Bartram Rd",
+    "place_id": "ChIJDwL9dIK25YgROIFHOf5xpT0",
+    "types": [
+      "premise"
+    ]
+  },
+  "2535 JAMMES RD, Jacksonville, FL 32210": {
+    "formatted_address": "2535 Jammes Rd, Jacksonville, FL 32210, USA",
+    "name": "2535 Jammes Rd",
+    "place_id": "ChIJ2wGXr5y45YgRa_m1DeOirxc",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "5290 BIG ISLAND DR, Jacksonville, FL 32246": {
+    "formatted_address": "5290 Big Island Drive, Jacksonville, FL 32246, USA",
+    "name": "5290 Big Island Drive",
+    "place_id": "ChIJu0JhHVa15YgRc5ImAO-7-FU",
+    "types": [
+      "premise"
+    ]
+  },
+  "944 BROADCAST PL, Jacksonville, FL 32207": {
+    "formatted_address": "944 Broadcast Pl, Jacksonville, FL 32207, USA",
+    "name": "944 Broadcast Pl",
+    "place_id": "ChIJb70QzgO35YgRp2lUucPYjMA",
+    "types": [
+      "premise"
+    ]
+  },
+  "2800 N UNIVERSITY BLVD, Jacksonville, FL 32211": {
+    "formatted_address": "McGehee Hall, 2800 University Blvd N, Jacksonville, FL 32211, USA",
+    "name": "McGehee Hall",
+    "place_id": "ChIJ7wN1sKq25YgRonhUpqyrXIc",
+    "types": [
+      "premise"
+    ]
+  },
+  "8859 S OLD KINGS RD, Jacksonville, FL 32257": {
+    "formatted_address": "8859 Old Kings Rd S, Jacksonville, FL 32257, USA",
+    "name": "8859 Old Kings Rd S",
+    "place_id": "ChIJ2wPJ_DPK5YgRg1DdYkhR85w",
+    "types": [
+      "premise"
+    ]
+  },
+  "1570 S LANE AVE, Jacksonville, FL 32210": {
+    "formatted_address": "1570 Lane Ave S, Jacksonville, FL 32210, USA",
+    "name": "1570 Lane Ave S",
+    "place_id": "ChIJBzfdouq45YgR1fSPTgrTTyc",
+    "types": [
+      "premise"
+    ]
+  },
+  "5928 FIRESTONE RD, Jacksonville, FL 32244": {
+    "formatted_address": "5928 Firestone Rd, Jacksonville, FL 32244, USA",
+    "name": "5928 Firestone Rd",
+    "place_id": "ChIJlfVqmDnH5YgRxusgjdTWE0M",
+    "types": [
+      "premise"
+    ]
+  },
+  "1601 DUNN AVE, Jacksonville, FL 32218": {
+    "formatted_address": "1601 Dunn Ave, Jacksonville, FL 32218, USA",
+    "name": "1601 Dunn Ave",
+    "place_id": "ChIJNR6R4haw5YgRxQ6FT7_Pv4g",
+    "types": [
+      "premise"
+    ]
+  },
+  "2804 W 1ST ST, Jacksonville, FL 32254": {
+    "formatted_address": "2804 W 1st St, Jacksonville, FL 32254, USA",
+    "name": "2804 W 1st St",
+    "place_id": "ChIJwYPSn5S55YgRaDBOn6QwzFc",
+    "types": [
+      "premise"
+    ]
+  },
+  "160 N 7TH AVE, Jacksonville Beach, FL 32250": {
+    "formatted_address": "160 7th Ave N, Jacksonville Beach, FL 32250, USA",
+    "name": "160 7th Ave N",
+    "place_id": "ChIJWZrfhQZJ5IgRr7uRtzQcAwA",
+    "types": [
+      "premise"
+    ]
+  },
+  "14355 N MAIN ST, Jacksonville, FL 32218": {
+    "formatted_address": "14355 N Main St, Jacksonville, FL 32218, USA",
+    "name": "14355 N Main St",
+    "place_id": "ChIJq43BVYyu5YgRbSK324ZqpvM",
+    "types": [
+      "premise"
+    ]
+  },
+  "7932 SOUTHSIDE BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "7932 Southside Blvd, Jacksonville, FL 32256, USA",
+    "name": "7932 Southside Blvd",
+    "place_id": "ChIJJ9-hG_TK5YgRZeShBpSRa58",
+    "types": [
+      "premise"
+    ]
+  },
+  "4646 MONCRIEF RD, Jacksonville, FL 32209": {
+    "formatted_address": "4646 Moncrief Rd, Jacksonville, FL 32209, USA",
+    "name": "4646 Moncrief Rd",
+    "place_id": "ChIJH0K4baWw5YgRizG6OOqlAlg",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "14041 HYATT RD, Jacksonville, FL 32218": {
+    "formatted_address": "14041 Hyatt Rd, Jacksonville, FL 32218, USA",
+    "name": "14041 Hyatt Rd",
+    "place_id": "ChIJyyijr_Su5YgRL-ZzBTXZC1w",
+    "types": [
+      "premise"
+    ]
+  },
+  "13163 RANCH RD, Jacksonville, FL 32218": {
+    "formatted_address": "13163 Ranch Rd, Jacksonville, FL 32218, USA",
+    "name": "13163 Ranch Rd",
+    "place_id": "ChIJo1J6rbKv5YgRznrj0rfSjB0",
+    "types": [
+      "premise"
+    ]
+  },
+  "10825 KEY HAVEN BLVD, Jacksonville, FL 32218": {
+    "formatted_address": "10825 Key Haven Blvd, Jacksonville, FL 32218, USA",
+    "name": "10825 Key Haven Blvd",
+    "place_id": "ChIJMdM8gcO65YgReeOY-tOUO0k",
+    "types": [
+      "premise"
+    ]
+  },
+  "2873 YELLOW PINE CT, Jacksonville, FL 32277": {
+    "formatted_address": "2873 Yellow Pine Ct, Jacksonville, FL 32277, USA",
+    "name": "2873 Yellow Pine Ct",
+    "place_id": "ChIJ75SvNvmz5YgRVL55Dz7mbsk",
+    "types": [
+      "premise"
+    ]
+  },
+  "2768 SR A1A, Jacksonville, FL 32233": {
+    "formatted_address": "2768 Jimmy Buffett Mem Hwy, Jacksonville, FL 32233, USA",
+    "name": "2768 Jimmy Buffett Mem Hwy",
+    "place_id": "ChIJl_CIpZhO5IgRaKTTaQuGsoE",
+    "types": [
+      "premise"
+    ]
+  },
+  "888 FRANKLIN ST, Jacksonville, FL 32206": {
+    "formatted_address": "888 Franklin St, Jacksonville, FL 32206, USA",
+    "name": "888 Franklin St",
+    "place_id": "ChIJ663NRdy25YgRsMTPNvlM5E4",
+    "types": [
+      "premise"
+    ]
+  },
+  "7423 LINDA DR, Jacksonville, FL 32208": {
+    "formatted_address": "7423 Linda Dr, Jacksonville, FL 32208, USA",
+    "name": "7423 Linda Dr",
+    "place_id": "ChIJv2Efh42w5YgRloEVvCqf62s",
+    "types": [
+      "premise"
+    ]
+  },
+  "7420 LINDA DR, Jacksonville, FL 32208": {
+    "formatted_address": "7420 Linda Dr, Jacksonville, FL 32208, USA",
+    "name": "7420 Linda Dr",
+    "place_id": "ChIJXehDdpKw5YgRiRZubJ5VWUE",
+    "types": [
+      "premise"
+    ]
+  },
+  "550 COMET ST, Jacksonville, FL 32205": {
+    "formatted_address": "550 Comet St, Jacksonville, FL 32205, USA",
+    "name": "550 Comet St",
+    "place_id": "ChIJx7BCibG55YgR8CHrWBM5BsQ",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "2506 JAMMES RD, Jacksonville, FL 32210": {
+    "formatted_address": "2506 Jammes Rd, Jacksonville, FL 32210, USA",
+    "name": "2506 Jammes Rd",
+    "place_id": "ChIJsU9jgpy45YgR5jdIwMbFMHA",
+    "types": [
+      "premise"
+    ]
+  },
+  "6259 WILSON BLVD, Jacksonville, FL 32210": {
+    "formatted_address": "6259 Wilson Blvd, Jacksonville, FL 32210, USA",
+    "name": "6259 Wilson Blvd",
+    "place_id": "ChIJEWfoKIO45YgRZjDqwZj6XHQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "6253 WILSON BLVD, Jacksonville, FL 32210": {
+    "formatted_address": "6253 Wilson Blvd, Jacksonville, FL 32210, USA",
+    "name": "6253 Wilson Blvd",
+    "place_id": "ChIJQUr5JoO45YgRXTY3lhUGWQQ",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "7154 CONANT AVE, Jacksonville, FL 32210": {
+    "formatted_address": "7154 Conant Ave, Jacksonville, FL 32210, USA",
+    "name": "7154 Conant Ave",
+    "place_id": "ChIJ26MedaW45YgR2cz5O-k98Hc",
+    "types": [
+      "premise"
+    ]
+  },
+  "7166 CONANT AVE, Jacksonville, FL 32210": {
+    "formatted_address": "7166 Conant Ave, Jacksonville, FL 32210, USA",
+    "name": "7166 Conant Ave",
+    "place_id": "ChIJL_F9eKW45YgRhbgIWjqsVuY",
+    "types": [
+      "premise"
+    ]
+  },
+  "5641 CALIFORNIA AVE, Jacksonville, FL 32244": {
+    "formatted_address": "5641 California Ave, Jacksonville, FL 32244, USA",
+    "name": "5641 California Ave",
+    "place_id": "ChIJJ4KjScrA5YgRIh9rapDOSBE",
+    "types": [
+      "premise"
+    ]
+  },
+  "5601 CALIFORNIA AVE, Jacksonville, FL 32244": {
+    "formatted_address": "5601 California Ave, Jacksonville, FL 32244, USA",
+    "name": "5601 California Ave",
+    "place_id": "ChIJt9cGPMrA5YgRr_LikoP-tfU",
+    "types": [
+      "premise"
+    ]
+  },
+  "1956 JAMMES RD, Jacksonville, FL 32210": {
+    "formatted_address": "1956 Jammes Rd, Jacksonville, FL 32210, USA",
+    "name": "1956 Jammes Rd",
+    "place_id": "ChIJoVZVoZG45YgRTwFnfiLpAbU",
+    "types": [
+      "premise"
+    ]
+  },
+  "5435 W NORDE DR, Jacksonville, FL 32244": {
+    "formatted_address": "5435 Norde Dr W, Jacksonville, FL 32244, USA",
+    "name": "5435 Norde Dr W",
+    "place_id": "ChIJW6tjeWvH5YgRi2OG9uG1C2Y",
+    "types": [
+      "premise"
+    ]
+  },
+  "6756 103RD ST, Jacksonville, FL 32210": {
+    "formatted_address": "6756 103rd St, Jacksonville, FL 32210, USA",
+    "name": "6756 103rd St",
+    "place_id": "ChIJSzDB62rH5YgRWbmCjzod_jc",
+    "types": [
+      "premise"
+    ]
+  },
+  "1029 BRADY ST, Jacksonville, FL 32209": {
+    "formatted_address": "1029 Brady St, Jacksonville, FL 32209, USA",
+    "name": "1029 Brady St",
+    "place_id": "ChIJ-QQfUkS35YgRtVDfsr6M_BE",
+    "types": [
+      "premise"
+    ]
+  },
+  "7225 CRANE AVE, Jacksonville, FL 32216": {
+    "formatted_address": "7225 Crane Ave, Jacksonville, FL 32216, USA",
+    "name": "7225 Crane Ave",
+    "place_id": "ChIJy1h7iUm05YgRDrDVXsCZBu0",
+    "types": [
+      "premise"
+    ]
+  },
+  "5566 KINGSBURY ST, Jacksonville, FL 32205": {
+    "formatted_address": "5566 Kingsbury St, Jacksonville, FL 32205, USA",
+    "name": "5566 Kingsbury St",
+    "place_id": "ChIJt821nfu45YgR0HEf4gWmJHY",
+    "types": [
+      "premise"
+    ]
+  },
+  "830 ARLINGTON RIVER DR, Jacksonville, FL 32211": {
+    "formatted_address": "830 Arlington River Dr, Jacksonville, FL 32211, USA",
+    "name": "830 Arlington River Dr",
+    "place_id": "ChIJlYbY6yG05YgRMLk_zuS2WPE",
+    "types": [
+      "premise"
+    ]
+  },
+  "2501 JAMMES RD, Jacksonville, FL 32210": {
+    "formatted_address": "2501 Jammes Rd, Jacksonville, FL 32210, USA",
+    "name": "2501 Jammes Rd",
+    "place_id": "ChIJNd9Sn_u55YgRDCz_nfMukrw",
+    "types": [
+      "premise"
+    ]
+  },
+  "8876 A C SKINNER PKWY, Jacksonville, FL 32256": {
+    "formatted_address": "8876 A C Skinner Pkwy, Jacksonville, FL 32256, USA",
+    "name": "8876 A C Skinner Pkwy",
+    "place_id": "ChIJERoEwY7K5YgRTP-5yBHEdFc",
+    "types": [
+      "premise"
+    ]
+  },
+  "12397 SAN JOSE BLVD, Jacksonville, FL 32223": {
+    "formatted_address": "12397 San Jose Blvd, Jacksonville, FL 32223, USA",
+    "name": "12397 San Jose Blvd",
+    "place_id": "ChIJwbTHhOnO5YgRvSDqnz_dFvE",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "3253 JUSTINA RD, Jacksonville, FL 32277": {
+    "formatted_address": "3253 Justina Rd, Jacksonville, FL 32277, USA",
+    "name": "3253 Justina Rd",
+    "place_id": "ChIJwYL5_fyz5YgRbyCRLJ0gmN4",
+    "types": [
+      "premise"
+    ]
+  },
+  "2951 JUSTINA RD, Jacksonville, FL 32277": {
+    "formatted_address": "2951 Justina Rd, Jacksonville, FL 32277, USA",
+    "name": "2951 Justina Rd",
+    "place_id": "ChIJb53ip_6z5YgRbANpaDIKlA8",
+    "types": [
+      "premise"
+    ]
+  },
+  "2929 JUSTINA RD, Jacksonville, FL 32277": {
+    "formatted_address": "2929 Justina Rd, Jacksonville, FL 32277, USA",
+    "name": "2929 Justina Rd",
+    "place_id": "ChIJZ_Cduv6z5YgRXluteFvRtJc",
+    "types": [
+      "premise"
+    ]
+  },
+  "14701 BARTRAM PARK BLVD, Jacksonville, FL 32258": {
+    "formatted_address": "14701 Bartram Park Blvd, Jacksonville, FL 32258, USA",
+    "name": "14701 Bartram Park Blvd",
+    "place_id": "ChIJm7fDdirN5YgR_Ub5iIVIuyY",
+    "types": [
+      "premise"
+    ]
+  },
+  "8433 SOUTHSIDE BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "8433 Southside Blvd, Jacksonville, FL 32256, USA",
+    "name": "8433 Southside Blvd",
+    "place_id": "ChIJjTz4DePK5YgRqVPjyOfDaQE",
+    "types": [
+      "premise"
+    ]
+  },
+  "6595 SAN JUAN AVE, Jacksonville, FL 32210": {
+    "formatted_address": "6595 San Juan Ave, Jacksonville, FL 32210, USA",
+    "name": "6595 San Juan Ave",
+    "place_id": "ChIJvWCmIJe45YgRZlaCvvvEu2Q",
+    "types": [
+      "premise"
+    ]
+  },
+  "1100 SEAGATE AVE, Neptune Beach, FL 32266": {
+    "formatted_address": "1100 Seagate Ave, Neptune Beach, FL 32266, USA",
+    "name": "1100 Seagate Ave",
+    "place_id": "ChIJyXlTUxNJ5IgRR3Qwbw0vnig",
+    "types": [
+      "premise"
+    ]
+  },
+  "1317 EASTER ST, Jacksonville, FL 32211": {
+    "formatted_address": "1317 Easter St, Jacksonville, FL 32211, USA",
+    "name": "1317 Easter St",
+    "place_id": "ChIJU-DNZqe25YgR9FhMEm6uxb0",
+    "types": [
+      "premise"
+    ]
+  },
+  "2969 HERSCHEL ST, Jacksonville, FL 32205": {
+    "formatted_address": "2969 Herschel St, Jacksonville, FL 32205, USA",
+    "name": "2969 Herschel St",
+    "place_id": "ChIJcUm_KCy45YgR1tE71hTrPoc",
+    "types": [
+      "premise"
+    ]
+  },
+  "10535 LEM TURNER RD, Jacksonville, FL 32218": {
+    "formatted_address": "10535 Lem Turner Rd, Jacksonville, FL 32218, USA",
+    "name": "10535 Lem Turner Rd",
+    "place_id": "ChIJa-Z_aqC65YgR13xtaZjZagA",
+    "types": [
+      "premise"
+    ]
+  },
+  "1140 KENDALL TOWN BLVD, Jacksonville, FL 32225": {
+    "formatted_address": "1140 Kendall Town Blvd, Jacksonville, FL 32225, USA",
+    "name": "1140 Kendall Town Blvd",
+    "place_id": "ChIJsfGIkIS05YgRa4ZAaLhYqbY",
+    "types": [
+      "premise"
+    ]
+  },
+  "12193 KERNAN LAKE DR, Jacksonville, FL 32246": {
+    "formatted_address": "12193 Kernan Lake Dr, Jacksonville, FL 32246, USA",
+    "name": "12193 Kernan Lake Dr",
+    "place_id": "ChIJD00PvuFK5IgRXJgontJz4Yw",
+    "types": [
+      "premise"
+    ]
+  },
+  "1606 KING ST, Jacksonville, FL 32204": {
+    "formatted_address": "1606 King St, Jacksonville, FL 32204, USA",
+    "name": "1606 King St",
+    "place_id": "ChIJbVTIzyq45YgR9mWAIbXsEog",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "7241 S OLD KINGS RD, Jacksonville, FL 32219": {
+    "formatted_address": "7241 Old Kings Rd, Jacksonville, FL 32219, USA",
+    "name": "7241 Old Kings Rd",
+    "place_id": "ChIJAfX4Krm75YgRrwUGgYHInaw",
+    "types": [
+      "street_address"
+    ]
+  },
+  "1324 PRINCE ST, Jacksonville, FL 32209": {
+    "formatted_address": "1324 Prince St, Jacksonville, FL 32209, USA",
+    "name": "1324 Prince St",
+    "place_id": "ChIJR0R-SUS35YgRUYqGtlkzlEY",
+    "types": [
+      "premise"
+    ]
+  },
+  "3770 TOLEDO RD, Jacksonville, FL 32217": {
+    "formatted_address": "3770 Toledo Rd, Jacksonville, FL 32217, USA",
+    "name": "3770 Toledo Rd",
+    "place_id": "ChIJ4QyvneXJ5YgRiYYV2jTCFjY",
+    "types": [
+      "premise"
+    ]
+  },
+  "10010 SKINNER LAKE DR, Jacksonville, FL 32246": {
+    "formatted_address": "10010 Skinner Lake Dr, Jacksonville, FL 32246, USA",
+    "name": "10010 Skinner Lake Dr",
+    "place_id": "ChIJ6XgK_Z7K5YgR56gcPCPG7M0",
+    "types": [
+      "premise"
+    ]
+  },
+  "1300 SHETTER AVE, Jacksonville Beach, FL 32250": {
+    "formatted_address": "1300 Shetter Ave, Jacksonville Beach, FL 32250, USA",
+    "name": "1300 Shetter Ave",
+    "place_id": "ChIJJ8rgyKNJ5IgRKUZ6D_KlLzM",
+    "types": [
+      "premise"
+    ]
+  },
+  "9803 CREEKFRONT RD, Jacksonville, FL 32256": {
+    "formatted_address": "9803 Creekfront Rd, Jacksonville, FL 32256, USA",
+    "name": "9803 Creekfront Rd",
+    "place_id": "ChIJeWulv4zK5YgRgD0Rhs3SIXY",
+    "types": [
+      "premise"
+    ]
+  },
+  "7632 SOUTHSIDE BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "7632 Southside Blvd, Jacksonville, FL 32256, USA",
+    "name": "7632 Southside Blvd",
+    "place_id": "ChIJdxrqjIzK5YgRzngReUzsmRo",
+    "types": [
+      "premise"
+    ]
+  },
+  "1038 CALIENTE DR, Jacksonville, FL 32211": {
+    "formatted_address": "1038 Caliente Dr, Jacksonville, FL 32211, USA",
+    "name": "1038 Caliente Dr",
+    "place_id": "ChIJu_4a8qC25YgRq3X2e1NC2K8",
+    "types": [
+      "premise"
+    ]
+  },
+  "1054 CALIENTE DR, Jacksonville, FL 32211": {
+    "formatted_address": "1054 Caliente Dr, Jacksonville, FL 32211, USA",
+    "name": "1054 Caliente Dr",
+    "place_id": "ChIJfbp066C25YgRnu__pOJ6B-U",
+    "types": [
+      "premise"
+    ]
+  },
+  "5531 LOS SANTOS WAY, Jacksonville, FL 32211": {
+    "formatted_address": "5531 Los Santos Way, Jacksonville, FL 32211, USA",
+    "name": "5531 Los Santos Way",
+    "place_id": "ChIJI-tw9aC25YgRvq473t2u_Uw",
+    "types": [
+      "premise"
+    ]
+  },
+  "3801 ALMEDA ST, Jacksonville, FL 32209": {
+    "formatted_address": "3801 Almeda St, Jacksonville, FL 32209, USA",
+    "name": "3801 Almeda St",
+    "place_id": "ChIJrR5OjAO65YgRBgHOBygFCLE",
+    "types": [
+      "premise"
+    ]
+  },
+  "4360 DEERWOOD LAKE PKWY, Jacksonville, FL 32216": {
+    "formatted_address": "4360 Deerwood Lake Pkwy, Jacksonville, FL 32246, USA",
+    "name": "4360 Deerwood Lake Pkwy",
+    "place_id": "ChIJ2cwopoK15YgRJ8QTA4jI3W0",
+    "types": [
+      "premise"
+    ]
+  },
+  "1865 W EDGEWOOD AVE, Jacksonville, FL 32208": {
+    "formatted_address": "1865 Edgewood Ave W, Jacksonville, FL 32208, USA",
+    "name": "1865 Edgewood Ave W",
+    "place_id": "ChIJn-tV7p2w5YgRFR5EIgO2by8",
+    "types": [
+      "premise"
+    ]
+  },
+  "3534 SMITHFIELD ST, Jacksonville, FL 32217": {
+    "formatted_address": "3534 Smithfield St, Jacksonville, FL 32217, USA",
+    "name": "3534 Smithfield St",
+    "place_id": "ChIJmU5IauDJ5YgR_W1t4yiXWLk",
+    "types": [
+      "premise"
+    ]
+  },
+  "6500 LAKE GRAY BLVD, Jacksonville, FL 32244": {
+    "formatted_address": "6500 Lake Gray Blvd, Jacksonville, FL 32244, USA",
+    "name": "6500 Lake Gray Blvd",
+    "place_id": "ChIJa-qMqu3G5YgR18Df2Spqz8g",
+    "types": [
+      "premise"
+    ]
+  },
+  "1623 N LIBERTY ST, Jacksonville, FL 32206": {
+    "formatted_address": "1623 N Liberty St, Jacksonville, FL 32206, USA",
+    "name": "1623 N Liberty St",
+    "place_id": "ChIJE-E9Qyi35YgRSEAh-JYc9qo",
+    "types": [
+      "premise"
+    ]
+  },
+  "3050 E OLD RIVER RD, Jacksonville, FL 32223": {
+    "formatted_address": "3050 E Old River Rd, Jacksonville, FL 32223, USA",
+    "name": "3050 E Old River Rd",
+    "place_id": "ChIJvU15OzXJ5YgRnAcwu8yJRdo",
+    "types": [
+      "premise"
+    ]
+  },
+  "1780 LEON RD, Jacksonville, FL 32246": {
+    "formatted_address": "1780 Leon Rd, Jacksonville, FL 32246, USA",
+    "name": "1780 Leon Rd",
+    "place_id": "ChIJE-SnQuq05YgRjHIXCJy0AVY",
+    "types": [
+      "premise"
+    ]
+  },
+  "7201 ARLINGTON EXPY, Jacksonville, FL 32211": {
+    "formatted_address": "7201 Arlington Expy, Jacksonville, FL 32211, USA",
+    "name": "7201 Arlington Expy",
+    "place_id": "ChIJbQyi_BS05YgR2dMxCotvoQw",
+    "types": [
+      "premise"
+    ]
+  },
+  "909 BERT RD, Jacksonville, FL 32211": {
+    "formatted_address": "909 Bert Rd, Jacksonville, FL 32211, USA",
+    "name": "909 Bert Rd",
+    "place_id": "ChIJC5z4UBS05YgRVdjY7R-4WWw",
+    "types": [
+      "premise"
+    ]
+  },
+  "11990 BEACH BLVD, Jacksonville, FL 32246": {
+    "formatted_address": "11990 Beach Blvd, Jacksonville, FL 32246, USA",
+    "name": "11990 Beach Blvd",
+    "place_id": "ChIJL8nu-cRK5IgRyEYwfLt3Oa0",
+    "types": [
+      "premise"
+    ]
+  },
+  "2203 ART MUSEUM DR, Jacksonville, FL 32207": {
+    "formatted_address": "2203 Art Museum Dr, Jacksonville, FL 32207, USA",
+    "name": "2203 Art Museum Dr",
+    "place_id": "ChIJAfQq3Xy25YgR4y2byAtE7EQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "9047 SAN JOSE BLVD, Jacksonville, FL 32257": {
+    "formatted_address": "9047 San Jose Blvd, Jacksonville, FL 32257, USA",
+    "name": "9047 San Jose Blvd",
+    "place_id": "ChIJta-bQJ3J5YgRGBpysQnA3MI",
+    "types": [
+      "premise"
+    ]
+  },
+  "1845 LINDBERG DR, Jacksonville, FL 32210": {
+    "formatted_address": "1845 Lindberg Dr, Jacksonville, FL 32210, USA",
+    "name": "1845 Lindberg Dr",
+    "place_id": "ChIJ_f5evY645YgRSEQf5pIqdVE",
+    "types": [
+      "premise"
+    ]
+  },
+  "4950 RICHARD ST, Jacksonville, FL 32207": {
+    "formatted_address": "4950 Richard St, Jacksonville, FL 32207, USA",
+    "name": "4950 Richard St",
+    "place_id": "ChIJt6egYhq25YgR703RPfRlQ9Q",
+    "types": [
+      "premise"
+    ]
+  },
+  "1450 FLAGLER AVE, Jacksonville, FL 32207": {
+    "formatted_address": "1450 Flagler Ave, Jacksonville, FL 32207, USA",
+    "name": "1450 Flagler Ave",
+    "place_id": "ChIJByFzLga35YgRQzaGzTV0z5U",
+    "types": [
+      "premise"
+    ]
+  },
+  "190 CHELSEA ST, Jacksonville, FL 32204": {
+    "formatted_address": "190 Chelsea St, Jacksonville, FL 32204, USA",
+    "name": "190 Chelsea St",
+    "place_id": "ChIJ9dKmBWy35YgR2NdHq6VGSs0",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "325 E DUVAL ST, Jacksonville, FL 32202": {
+    "formatted_address": "325 E Duval St, Jacksonville, FL 32202, USA",
+    "name": "325 E Duval St",
+    "place_id": "ChIJlSGwNB-35YgROTbkQJRoA3Q",
+    "types": [
+      "premise"
+    ]
+  },
+  "799 WATER ST, Jacksonville, FL 32204": {
+    "formatted_address": "799 Water St, Jacksonville, FL 32204, USA",
+    "name": "799 Water St",
+    "place_id": "ChIJR7fqwxS35YgRSJWNIyCk1Rs",
+    "types": [
+      "premise"
+    ]
+  },
+  "995 WATER ST, Jacksonville, FL 32204": {
+    "formatted_address": "995 Water St, Jacksonville, FL 32204, USA",
+    "name": "995 Water St",
+    "place_id": "ChIJl_UhLmu35YgRsC-ozTIKxA8",
+    "types": [
+      "premise"
+    ]
+  },
+  "906 W MONROE ST, Jacksonville, FL 32204": {
+    "formatted_address": "906 W Monroe St, Jacksonville, FL 32204, USA",
+    "name": "906 W Monroe St",
+    "place_id": "ChIJGyV-URW35YgRHKnO_RiExvY",
+    "types": [
+      "premise"
+    ]
+  },
+  "840 S EDGEWOOD AVE, Jacksonville, FL 32205": {
+    "formatted_address": "840 Edgewood Ave S, Jacksonville, FL 32205, USA",
+    "name": "840 Edgewood Ave S",
+    "place_id": "ChIJ4WB5E7O55YgRvokpod1_YX8",
+    "types": [
+      "premise"
+    ]
+  },
+  "3036 PHILIPS HWY, Jacksonville, FL 32207": {
+    "formatted_address": "3036 Philips Hwy, Jacksonville, FL 32207, USA",
+    "name": "3036 Philips Hwy",
+    "place_id": "ChIJ-VUPhVG25YgRp0xGX7xIhWI",
+    "types": [
+      "premise"
+    ]
+  },
+  "2760 MAYPORT RD, Jacksonville, FL 32233": {
+    "formatted_address": "2760 Mayport Rd, Jacksonville, FL 32233, USA",
+    "name": "2760 Mayport Rd",
+    "place_id": "ChIJQVgFwZZO5IgRSsK09i7nZ3c",
+    "types": [
+      "premise"
+    ]
+  },
+  "1201 BRETTA ST, Jacksonville, FL 32211": {
+    "formatted_address": "1201 Bretta St, Jacksonville, FL 32211, USA",
+    "name": "1201 Bretta St",
+    "place_id": "ChIJL76M0aC25YgRTyYxQ35TO3w",
+    "types": [
+      "premise"
+    ]
+  },
+  "233 SAHARA CT, Jacksonville, FL 32216": {
+    "formatted_address": "233 Sahara Ct, Jacksonville, FL 32216, USA",
+    "name": "233 Sahara Ct",
+    "place_id": "ChIJOQAYO1e05YgRsOApwB9ZXoQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "300 SILVER CREEK TRCE, Jacksonville, FL 32216": {
+    "formatted_address": "300 Silver Creek Trce, Jacksonville, FL 32216, USA",
+    "name": "300 Silver Creek Trce",
+    "place_id": "ChIJLdQ02lC05YgRIcU9KZb9SE4",
+    "types": [
+      "premise"
+    ]
+  },
+  "5985 WINDSOR FOREST DR, Jacksonville, FL 32210": {
+    "formatted_address": "5985 Windsor Forest Dr, Jacksonville, FL 32210, USA",
+    "name": "5985 Windsor Forest Dr",
+    "place_id": "ChIJAbr66XbH5YgR_oOnmXOXtno",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "5984 WINDSOR FOREST DR, Jacksonville, FL 32210": {
+    "formatted_address": "5984 Windsor Forest Dr, Jacksonville, FL 32210, USA",
+    "name": "5984 Windsor Forest Dr",
+    "place_id": "ChIJZQDqv3bH5YgRhSpkojs0HQ0",
+    "types": [
+      "premise"
+    ]
+  },
+  "50 PINE SHADOW PKWY, Jacksonville, FL 32081": {
+    "formatted_address": "50 Pine Shadow Pkwy, Ponte Vedra Beach, FL 32081, USA",
+    "name": "50 Pine Shadow Pkwy",
+    "place_id": "ChIJf0CaBDIy5IgRQqznxhp-Zh4",
+    "types": [
+      "premise"
+    ]
+  },
+  "13800 EGRETS NEST DR, Jacksonville, FL 32258": {
+    "formatted_address": "13800 Egrets Nest Dr, Jacksonville, FL 32258, USA",
+    "name": "13800 Egrets Nest Dr",
+    "place_id": "ChIJNS3fLs7M5YgRqsO_Psh7M88",
+    "types": [
+      "premise"
+    ]
+  },
+  "2800 S UNIVERSITY BLVD, Jacksonville, FL 32216": {
+    "formatted_address": "2800 University Blvd S, Jacksonville, FL 32216, USA",
+    "name": "2800 University Blvd S",
+    "place_id": "ChIJ-19QCta15YgRZRcKUhFIlz4",
+    "types": [
+      "premise"
+    ]
+  },
+  "4295 SUNBEAM RD, Jacksonville, FL 32257": {
+    "formatted_address": "4295 Sunbeam Rd, Jacksonville, FL 32257, USA",
+    "name": "4295 Sunbeam Rd",
+    "place_id": "ChIJ8-VABdbL5YgRmHu4dBAXISY",
+    "types": [
+      "premise"
+    ]
+  },
+  "7400 HOGAN RD, Jacksonville, FL 32216": {
+    "formatted_address": "7400 Hogan Rd, Jacksonville, FL 32216, USA",
+    "name": "7400 Hogan Rd",
+    "place_id": "ChIJvy5NSMe15YgRkEVDf30M3_w",
+    "types": [
+      "premise"
+    ]
+  },
+  "8300 MERRILL RD, Jacksonville, FL 32277": {
+    "formatted_address": "8300 Merrill Rd, Jacksonville, FL 32277, USA",
+    "name": "8300 Merrill Rd",
+    "place_id": "ChIJjzH1bX-z5YgRb3cU_Zd9CCE",
+    "types": [
+      "premise"
+    ]
+  },
+  "10970 LEM TURNER RD, Jacksonville, FL 32218": {
+    "formatted_address": "10970 Lem Turner Rd, Jacksonville, FL 32218, USA",
+    "name": "10970 Lem Turner Rd",
+    "place_id": "ChIJObRSUqS65YgReWW3giT18Wc",
+    "types": [
+      "premise"
+    ]
+  },
+  "6898 A C SKINNER PKWY, Jacksonville, FL 32256": {
+    "formatted_address": "6898 A C Skinner Pkwy, Jacksonville, FL 32256, USA",
+    "name": "6898 A C Skinner Pkwy",
+    "place_id": "ChIJvyIXAA7K5YgRk5ZOsuuwICg",
+    "types": [
+      "premise"
+    ]
+  },
+  "7507 BEACH BLVD, Jacksonville, FL 32216": {
+    "formatted_address": "7507 Beach Blvd, Jacksonville, FL 32216, USA",
+    "name": "7507 Beach Blvd",
+    "place_id": "ChIJpxGA37m15YgR6AC-KSb-HCU",
+    "types": [
+      "premise"
+    ]
+  },
+  "10505 103RD ST, Jacksonville, FL 32210": {
+    "formatted_address": "10505 103rd St, Jacksonville, FL 32210, USA",
+    "name": "10505 103rd St",
+    "place_id": "ChIJkaGQ20LA5YgRtAtDU4EAtgQ",
+    "types": [
+      "street_address"
+    ]
+  },
+  "13990 BARTRAM PARK BLVD, Jacksonville, FL 32258": {
+    "formatted_address": "13990 Bartram Park Blvd, Jacksonville, FL 32258, USA",
+    "name": "13990 Bartram Park Blvd",
+    "place_id": "ChIJvYBx9dnM5YgR0Kpx9JAIRCc",
+    "types": [
+      "premise"
+    ]
+  },
+  "2900 SR A1A, Jacksonville, FL 32233": {
+    "formatted_address": "2900 Jimmy Buffett Mem Hwy, Jacksonville, FL 32233, USA",
+    "name": "2900 Jimmy Buffett Mem Hwy",
+    "place_id": "ChIJIxtQviBM5IgRphG5kF9IMhQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "2900 CORONET LN, Jacksonville, FL 32207": {
+    "formatted_address": "Unit 100, 2900 Coronet Ln, Jacksonville, FL 32207, USA",
+    "name": "Unit 100",
+    "place_id": "ChIJoRMiIda15YgR80FnMGzcSqE",
+    "types": [
+      "premise"
+    ]
+  },
+  "4083 SUNBEAM RD, Jacksonville, FL 32257": {
+    "formatted_address": "4083 Sunbeam Rd, Jacksonville, FL 32257, USA",
+    "name": "4083 Sunbeam Rd",
+    "place_id": "ChIJiVxwx37J5YgRYegQ2oWWlAE",
+    "types": [
+      "premise"
+    ]
+  },
+  "3200 HARTLEY RD, Jacksonville, FL 32257": {
+    "formatted_address": "3200 Hartley Rd, Jacksonville, FL 32257, USA",
+    "name": "3200 Hartley Rd",
+    "place_id": "ChIJmYhSu0fJ5YgRtGdZJKx1QVc",
+    "types": [
+      "premise"
+    ]
+  },
+  "11648 PINE ACRES RD, Jacksonville, FL 32223": {
+    "formatted_address": "11648 Pine Acres Rd, Jacksonville, FL 32223, USA",
+    "name": "11648 Pine Acres Rd",
+    "place_id": "ChIJx0nLfa7O5YgRHcV4sJoFoh8",
+    "types": [
+      "premise"
+    ]
+  },
+  "3960 OLD SUNBEAM RD, Jacksonville, FL 32257": {
+    "formatted_address": "3960 Old Sunbeam Rd, Jacksonville, FL 32257, USA",
+    "name": "3960 Old Sunbeam Rd",
+    "place_id": "ChIJpyJh4XrJ5YgR5ywFkvJSVMk",
+    "types": [
+      "premise"
+    ]
+  },
+  "6017 ROOSEVELT BLVD, Jacksonville, FL 32244": {
+    "formatted_address": "6017 Roosevelt Blvd, Jacksonville, FL 32244, USA",
+    "name": "6017 Roosevelt Blvd",
+    "place_id": "ChIJHRwEX9HH5YgRQzMthqwR-vw",
+    "types": [
+      "premise"
+    ]
+  },
+  "103 TROUT RIVER DR, Jacksonville, FL 32208": {
+    "formatted_address": "103 Trout River Dr, Jacksonville, FL 32208, USA",
+    "name": "103 Trout River Dr",
+    "place_id": "ChIJ9UtEEAKx5YgRT_W2rwHwgGU",
+    "types": [
+      "premise"
+    ]
+  },
+  "275 SAILFISH DR, Atlantic Beach, FL 32233": {
+    "formatted_address": "275 Sailfish Dr E, Atlantic Beach, FL 32233, USA",
+    "name": "275 Sailfish Dr E",
+    "place_id": "ChIJyza6BUhJ5IgRlOYAcCGoZVU",
+    "types": [
+      "premise"
+    ]
+  },
+  "207 N 9TH AVE, Jacksonville Beach, FL 32250": {
+    "formatted_address": "207 9th Ave N, Jacksonville Beach, FL 32250, USA",
+    "name": "207 9th Ave N",
+    "place_id": "ChIJu7wyuAVJ5IgRGIIjLbiRPRQ",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "220 S 5TH AVE, Jacksonville Beach, FL 32250": {
+    "formatted_address": "220 5th Ave S, Jacksonville Beach, FL 32250, USA",
+    "name": "220 5th Ave S",
+    "place_id": "ChIJsSWBva5J5IgRZwYJyQqNXns",
+    "types": [
+      "premise"
+    ]
+  },
+  "1250 W 16TH ST, Jacksonville, FL 32209": {
+    "formatted_address": "1250 W 16th St, Jacksonville, FL 32209, USA",
+    "name": "1250 W 16th St",
+    "place_id": "ChIJ2Q8uX0u35YgRyP2-ULLykW4",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "2207 SPRING PARK RD, Jacksonville, FL 32207": {
+    "formatted_address": "2207 Spring Park Rd, Jacksonville, FL 32207, USA",
+    "name": "2207 Spring Park Rd",
+    "place_id": "ChIJG1ZcqFm25YgRSm1bSkh2Sls",
+    "types": [
+      "premise"
+    ]
+  },
+  "6699 LENOX AVE, Jacksonville, FL 32205": {
+    "formatted_address": "6699 Lenox Ave, Jacksonville, FL 32205, USA",
+    "name": "6699 Lenox Ave",
+    "place_id": "ChIJESPn2em45YgRK1ukGL1IXXk",
+    "types": [
+      "premise"
+    ]
+  },
+  "831 MAY ST, Jacksonville, FL 32204": {
+    "formatted_address": "831 May St, Jacksonville, FL 32204, USA",
+    "name": "831 May St",
+    "place_id": "ChIJId4U0nC35YgR6ew6gI1LPj8",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "4580 SHIRLEY AVE, Jacksonville, FL 32210": {
+    "formatted_address": "4580 Shirley Ave, Jacksonville, FL 32210, USA",
+    "name": "4580 Shirley Ave",
+    "place_id": "ChIJbdW_sWi45YgRX514cGe6sEg",
+    "types": [
+      "premise"
+    ]
+  },
+  "4575 LEXINGTON AVE, Jacksonville, FL 32210": {
+    "formatted_address": "4575 Lexington Ave, Jacksonville, FL 32210, USA",
+    "name": "4575 Lexington Ave",
+    "place_id": "ChIJ-Zbysmi45YgR2KFUc1nDX8s",
+    "types": [
+      "premise"
+    ]
+  },
+  "5846 MT CARMEL TER, Jacksonville, FL 32216": {
+    "formatted_address": "5846 Mt Carmel Terrace, Jacksonville, FL 32216, USA",
+    "name": "5846 Mt Carmel Terrace",
+    "place_id": "ChIJ87834Am25YgRPQEu1b9we_8",
+    "types": [
+      "premise"
+    ]
+  },
+  "6555 LENOX AVE, Jacksonville, FL 32205": {
+    "formatted_address": "6555 Lenox Ave, Jacksonville, FL 32205, USA",
+    "name": "6555 Lenox Ave",
+    "place_id": "ChIJcQrMaOi45YgRY7sjujdXxbQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "127 S 1ST AVE, Jacksonville Beach, FL 32250": {
+    "formatted_address": "127 1st Ave S, Jacksonville Beach, FL 32250, USA",
+    "name": "127 1st Ave S",
+    "place_id": "ChIJ3bgqg6lJ5IgR2WQwx4iRdC8",
+    "types": [
+      "premise"
+    ]
+  },
+  "653 MONUMENT RD, Jacksonville, FL 32225": {
+    "formatted_address": "653 Monument Rd, Jacksonville, FL 32225, USA",
+    "name": "653 Monument Rd",
+    "place_id": "ChIJ5ZiLTJe05YgRepXttt2t8P4",
+    "types": [
+      "premise"
+    ]
+  },
+  "7816 SOUTHSIDE BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "7816 Southside Blvd, Jacksonville, FL 32256, USA",
+    "name": "7816 Southside Blvd",
+    "place_id": "ChIJ2dv_V_TK5YgR8SInmsjNg0A",
+    "types": [
+      "premise"
+    ]
+  },
+  "10263 WHISPERING FOREST DR, Jacksonville, FL 32257": {
+    "formatted_address": "10263 Whispering Forest Dr, Jacksonville, FL 32257, USA",
+    "name": "10263 Whispering Forest Dr",
+    "place_id": "ChIJZ4lNImDJ5YgRb_5bdvV81EA",
+    "types": [
+      "premise"
+    ]
+  },
+  "3927 NOTTER AVE, Jacksonville, FL 32206": {
+    "formatted_address": "3927 Notter Ave, Jacksonville, FL 32206, USA",
+    "name": "3927 Notter Ave",
+    "place_id": "ChIJI9AEvs-w5YgRJkJYfxUHpX4",
+    "types": [
+      "premise"
+    ]
+  },
+  "11701 PALM LAKE DR, Jacksonville, FL 32218": {
+    "formatted_address": "11701 Palm Lake Dr, Jacksonville, FL 32218, USA",
+    "name": "11701 Palm Lake Dr",
+    "place_id": "ChIJfXVCvSau5YgR03Qf4Ti4qjA",
+    "types": [
+      "premise"
+    ]
+  },
+  "220 RIVERSIDE AVE, Jacksonville, FL 32202": {
+    "formatted_address": "220 Riverside Ave, Jacksonville, FL 32204, USA",
+    "name": "220 Riverside Ave",
+    "place_id": "ChIJLWcsyW235YgRHXY7LtOfe0s",
+    "types": [
+      "premise"
+    ]
+  },
+  "9825 N GATE PKWY, Jacksonville, FL 32246": {
+    "formatted_address": "9825 Gate Pkwy, Jacksonville, FL 32246, USA",
+    "name": "9825 Gate Pkwy",
+    "place_id": "Eis5ODI1IEdhdGUgUGt3eSwgSmFja3NvbnZpbGxlLCBGTCAzMjI0NiwgVVNBIjESLwoUChIJt31mX2O15YgRuf8mCk2il2YQ4UwqFAoSCdkSCEauyuWIEW2LqXgL63gv",
+    "types": [
+      "street_address"
+    ]
+  },
+  "9734 TAPESTRY PARK CIR, Jacksonville, FL 32246": {
+    "formatted_address": "9734 Tapestry Park Circle, Jacksonville, FL 32246, USA",
+    "name": "9734 Tapestry Park Circle",
+    "place_id": "ChIJF0yL9H215YgR_YE_1v4ZWUc",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "10100 BAYMEADOWS RD, Jacksonville, FL 32256": {
+    "formatted_address": "10100 Baymeadows Rd, Jacksonville, FL 32256, USA",
+    "name": "10100 Baymeadows Rd",
+    "place_id": "ChIJGXR_juPK5YgRkbqYKBNyH1s",
+    "types": [
+      "premise"
+    ]
+  },
+  "10275 OLD ST AUGUSTINE RD, Jacksonville, FL 32257": {
+    "formatted_address": "10275 Old St Augustine Rd, Jacksonville, FL 32257, USA",
+    "name": "10275 Old St Augustine Rd",
+    "place_id": "ChIJqVBphGDJ5YgRznuQY0DimYU",
+    "types": [
+      "premise"
+    ]
+  },
+  "8700 SOUTHSIDE BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "8700 Southside Blvd, Jacksonville, FL 32256, USA",
+    "name": "8700 Southside Blvd",
+    "place_id": "ChIJ45ONVwHL5YgR7caKr7yDvmg",
+    "types": [
+      "premise"
+    ]
+  },
+  "11001 OLD ST AUGUSTINE RD, Jacksonville, FL 32257": {
+    "formatted_address": "11001 Old St Augustine Rd, Jacksonville, FL 32257, USA",
+    "name": "11001 Old St Augustine Rd",
+    "place_id": "ChIJ2U35PP3L5YgRBYKpRtvXoZY",
+    "types": [
+      "premise"
+    ]
+  },
+  "3900 OLDFIELD CROSSING DR, Jacksonville, FL 32223": {
+    "formatted_address": "3900 Oldfield Crossing Dr, Jacksonville, FL 32223, USA",
+    "name": "3900 Oldfield Crossing Dr",
+    "place_id": "ChIJ0Saf01TJ5YgR0SxDqyBcaSM",
+    "types": [
+      "premise"
+    ]
+  },
+  "1715 HODGES BLVD, Jacksonville, FL 32224": {
+    "formatted_address": "1715 Hodges Blvd, Jacksonville, FL 32224, USA",
+    "name": "1715 Hodges Blvd",
+    "place_id": "ChIJsVqQSrxL5IgR_KpIdw22H04",
+    "types": [
+      "premise"
+    ]
+  },
+  "1706 ART MUSEUM DR, Jacksonville, FL 32207": {
+    "formatted_address": "1706 Art Museum Dr, Jacksonville, FL 32207, USA",
+    "name": "1706 Art Museum Dr",
+    "place_id": "ChIJtyDvBmK25YgRo26HLX7-Jhk",
+    "types": [
+      "premise"
+    ]
+  },
+  "1600 MILL CREEK RD, Jacksonville, FL 32211": {
+    "formatted_address": "1600 Mill Creek Rd, Jacksonville, FL 32211, USA",
+    "name": "1600 Mill Creek Rd",
+    "place_id": "ChIJ_08DoX205YgRdC__dQTBGgU",
+    "types": [
+      "premise"
+    ]
+  },
+  "4229 W MONCRIEF RD, Jacksonville, FL 32209": {
+    "formatted_address": "4229 Moncrief Rd W, Jacksonville, FL 32209, USA",
+    "name": "4229 Moncrief Rd W",
+    "place_id": "ChIJZwQZ-kK65YgRuyWAdxqr3QQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "1214 LABELLE ST, Jacksonville, FL 32205": {
+    "formatted_address": "1214 Labelle St, Jacksonville, FL 32205, USA",
+    "name": "1214 Labelle St",
+    "place_id": "ChIJOXknjle45YgRgjpp95wdGgQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "1650 N MONCRIEF VILLAGE ST, Jacksonville, FL 32209": {
+    "formatted_address": "1650 Moncrief Village N, Jacksonville, FL 32209, United States",
+    "name": "The Weldon",
+    "place_id": "ChIJ1X8el6Ww5YgRKqrEUCjfUok",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ]
+  },
+  "2301 WESTMONT ST, Jacksonville, FL 32207": {
+    "formatted_address": "2301 Westmont St, Jacksonville, FL 32207, USA",
+    "name": "2301 Westmont St",
+    "place_id": "ChIJA_kIFlG25YgRJs3z91Olsls",
+    "types": [
+      "premise"
+    ]
+  },
+  "2404 WESTMONT ST, Jacksonville, FL 32207": {
+    "formatted_address": "2404 Westmont St, Jacksonville, FL 32207, USA",
+    "name": "2404 Westmont St",
+    "place_id": "ChIJgYpcBVG25YgRdxzEwX1nq08",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "1411 JEFFERSON ST, Jacksonville, FL 32209": {
+    "formatted_address": "1411 N Jefferson St, Jacksonville, FL 32209, USA",
+    "name": "1411 N Jefferson St",
+    "place_id": "ChIJ7wyWDjq35YgR4tlKrERlW9A",
+    "types": [
+      "premise"
+    ]
+  },
+  "1205 N MARKET ST, Jacksonville, FL 32206": {
+    "formatted_address": "1205 N Market St, Jacksonville, FL 32206, USA",
+    "name": "1205 N Market St",
+    "place_id": "ChIJMzei7Ca35YgRNcYrE-__fGk",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "1700 MINDANAO DR, Jacksonville, FL 32246": {
+    "formatted_address": "1700 Mindanao Dr, Jacksonville, FL 32246, USA",
+    "name": "1700 Mindanao Dr",
+    "place_id": "ChIJyRRcM5i15YgRKl-lhbz7cjU",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "1319 LACLEDE AVE, Jacksonville, FL 32205": {
+    "formatted_address": "1319 Laclede Ave, Jacksonville, FL 32205, USA",
+    "name": "1319 Laclede Ave",
+    "place_id": "ChIJJzSBxO645YgR76JYYx_rtlU",
+    "types": [
+      "premise"
+    ]
+  },
+  "13100 BROXTON BAY DR, Jacksonville, FL 32218": {
+    "formatted_address": "13100 Broxton Bay Dr, Jacksonville, FL 32218, USA",
+    "name": "13100 Broxton Bay Dr",
+    "place_id": "ChIJG_Rjik-u5YgRjMA2qNKNq4I",
+    "types": [
+      "premise"
+    ]
+  },
+  "3131 N UNIVERSITY BLVD, Jacksonville, FL 32211": {
+    "formatted_address": "3131 University Blvd N, Jacksonville, FL 32211, USA",
+    "name": "3131 University Blvd N",
+    "place_id": "ChIJDwkUd_6z5YgRp6TQBBCPE44",
+    "types": [
+      "premise"
+    ]
+  },
+  "3206 JUSTINA RD, Jacksonville, FL 32277": {
+    "formatted_address": "3206 Justina Rd, Jacksonville, FL 32277, USA",
+    "name": "3206 Justina Rd",
+    "place_id": "ChIJV7h4tP2z5YgRuL24MFNAG-c",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "3126 JUSTINA RD, Jacksonville, FL 32277": {
+    "formatted_address": "3126 Justina Rd, Jacksonville, FL 32277, USA",
+    "name": "3126 Justina Rd",
+    "place_id": "ChIJKzclM_yz5YgR4oPXH9-EGDE",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "3016 JUSTINA RD, Jacksonville, FL 32277": {
+    "formatted_address": "3016 Justina Rd, Jacksonville, FL 32277, USA",
+    "name": "3016 Justina Rd",
+    "place_id": "ChIJqd52g_6z5YgRyKUB--vfhng",
+    "types": [
+      "premise"
+    ]
+  },
+  "2912 JUSTINA RD, Jacksonville, FL 32277": {
+    "formatted_address": "2912 Justina Rd, Jacksonville, FL 32277, USA",
+    "name": "2912 Justina Rd",
+    "place_id": "ChIJg8ZRk_6z5YgRmMP1UtgkBBg",
+    "types": [
+      "premise"
+    ]
+  },
+  "3102 TALL PINE LN, Jacksonville, FL 32277": {
+    "formatted_address": "3102 Tall Pine Ln, Jacksonville, FL 32277, USA",
+    "name": "3102 Tall Pine Ln",
+    "place_id": "Ei4zMTAyIFRhbGwgUGluZSBMbiwgSmFja3NvbnZpbGxlLCBGTCAzMjI3NywgVVNBIjESLwoUChIJOTBmf_6z5YgREiGJrHJEZ6gQnhgqFAoSCQcZQJL-s-WIEfcO_EP6WO4-",
+    "types": [
+      "street_address"
+    ]
+  },
+  "5643 HOLLY BELL DR, Jacksonville, FL 32277": {
+    "formatted_address": "5643 Holly Bell Dr, Jacksonville, FL 32277, USA",
+    "name": "5643 Holly Bell Dr",
+    "place_id": "ChIJTxt47P2z5YgRfzh2a5GwLI4",
+    "types": [
+      "premise"
+    ]
+  },
+  "3031 TALL PINE LN, Jacksonville, FL 32277": {
+    "formatted_address": "3031 Tall Pine Ln, Jacksonville, FL 32277, USA",
+    "name": "3031 Tall Pine Ln",
+    "place_id": "Ei4zMDMxIFRhbGwgUGluZSBMbiwgSmFja3NvbnZpbGxlLCBGTCAzMjI3NywgVVNBIjESLwoUChIJOTBmf_6z5YgREyGJrHJEZ6gQ1xcqFAoSCQcZQJL-s-WIEfcO_EP6WO4-",
+    "types": [
+      "street_address"
+    ]
+  },
+  "11011 HARTS RD, Jacksonville, FL 32218": {
+    "formatted_address": "11011 Harts Rd, Jacksonville, FL 32218, USA",
+    "name": "11011 Harts Rd",
+    "place_id": "ChIJ8Rp0ji-w5YgRzJYuIfFW0J8",
+    "types": [
+      "premise"
+    ]
+  },
+  "6136 BLANDING BLVD, Jacksonville, FL 32244": {
+    "formatted_address": "6136 Blanding Blvd, Jacksonville, FL 32244, USA",
+    "name": "6136 Blanding Blvd",
+    "place_id": "ChIJ7Q8TcQ7H5YgRqaSfk2m-p90",
+    "types": [
+      "street_address"
+    ]
+  },
+  "10415 MONACO DR, Jacksonville, FL 32218": {
+    "formatted_address": "10415 Monaco Dr, Jacksonville, FL 32218, USA",
+    "name": "10415 Monaco Dr",
+    "place_id": "ChIJw1GCfzew5YgRUEI7bxa_QC0",
+    "types": [
+      "premise"
+    ]
+  },
+  "3333 MONUMENT RD, Jacksonville, FL 32225": {
+    "formatted_address": "3333 Monument Rd, Jacksonville, FL 32225, USA",
+    "name": "3333 Monument Rd",
+    "place_id": "ChIJibxznLhM5IgRvYoJc5HNzdY",
+    "types": [
+      "premise"
+    ]
+  },
+  "401 MONUMENT RD, Jacksonville, FL 32225": {
+    "formatted_address": "401 Monument Rd, Jacksonville, FL 32225, USA",
+    "name": "401 Monument Rd",
+    "place_id": "ChIJL7mBkJG05YgRtjxCQOZTlQw",
+    "types": [
+      "premise"
+    ]
+  },
+  "9050 NORFOLK BLVD, Jacksonville, FL 32208": {
+    "formatted_address": "9050 Norfolk Blvd, Jacksonville, FL 32208, USA",
+    "name": "9050 Norfolk Blvd",
+    "place_id": "ChIJYW6i1ve65YgR_c3IG1HxmZ8",
+    "types": [
+      "premise"
+    ]
+  },
+  "11291 HARTS RD, Jacksonville, FL 32218": {
+    "formatted_address": "11291 Harts Rd, Jacksonville, FL 32218, USA",
+    "name": "11291 Harts Rd",
+    "place_id": "ChIJQfkwByaw5YgRJenFhasevwI",
+    "types": [
+      "premise"
+    ]
+  },
+  "801 W 4TH ST, Jacksonville, FL 32209": {
+    "formatted_address": "801 W 4th St, Jacksonville, FL 32209, USA",
+    "name": "801 W 4th St",
+    "place_id": "ChIJF8xs0jm35YgRpS5U3bqtxyI",
+    "types": [
+      "premise"
+    ]
+  },
+  "4809 PLYMOUTH ST, Jacksonville, FL 32205": {
+    "formatted_address": "4809 Plymouth St, Jacksonville, FL 32205, USA",
+    "name": "4809 Plymouth St",
+    "place_id": "ChIJcyD5J1G45YgRid-JJQv4kxI",
+    "types": [
+      "premise"
+    ]
+  },
+  "4818 ALPHA AVE, Jacksonville, FL 32205": {
+    "formatted_address": "4818 Alpha Ave, Jacksonville, FL 32205, USA",
+    "name": "4818 Alpha Ave",
+    "place_id": "ChIJJ4UgMVG45YgRmrhvPCUfe64",
+    "types": [
+      "premise"
+    ]
+  },
+  "1175 RANDOLPH ST, Jacksonville, FL 32205": {
+    "formatted_address": "1175 Randolph St, Jacksonville, FL 32205, USA",
+    "name": "1175 Randolph St",
+    "place_id": "ChIJ1_IsK1G45YgRfT3O6c0QAdM",
+    "types": [
+      "premise"
+    ]
+  },
+  "2130 MAYPORT RD, Jacksonville, FL 32233": {
+    "formatted_address": "2130 Mayport Rd, Jacksonville, FL 32233, USA",
+    "name": "2130 Mayport Rd",
+    "place_id": "ChIJhzZOR7JO5IgRimMx6lnlfUk",
+    "types": [
+      "premise"
+    ]
+  },
+  "1251 BEACON POINT DR, Jacksonville, FL 32246": {
+    "formatted_address": "1251 Beacon Point Dr, Jacksonville, FL 32246, USA",
+    "name": "1251 Beacon Point Dr",
+    "place_id": "ChIJmcXTnvG05YgRgGIwDhbijzo",
+    "types": [
+      "premise"
+    ]
+  },
+  "6226 S BARNES RD, Jacksonville, FL 32216": {
+    "formatted_address": "6226 Barnes Rd S, Jacksonville, FL 32216, USA",
+    "name": "6226 Barnes Rd S",
+    "place_id": "ChIJgbaZtfy15YgRgF3lOt7sMLs",
+    "types": [
+      "premise"
+    ]
+  },
+  "3530 VICTORIA PARK RD, Jacksonville, FL 32216": {
+    "formatted_address": "3530 Victoria Park Rd, Jacksonville, FL 32216, USA",
+    "name": "3530 Victoria Park Rd",
+    "place_id": "ChIJ9dURUfm15YgRG6eNG72JmUo",
+    "types": [
+      "premise"
+    ]
+  },
+  "3541 VICTORIA PARK RD, Jacksonville, FL 32216": {
+    "formatted_address": "3541 Victoria Park Rd, Jacksonville, FL 32216, USA",
+    "name": "3541 Victoria Park Rd",
+    "place_id": "ChIJMzfG__u15YgR5kqPhyWm5lE",
+    "types": [
+      "premise"
+    ]
+  },
+  "1600 LANSDOWNE DR, Jacksonville, FL 32211": {
+    "formatted_address": "1600 Lansdowne Dr, Jacksonville, FL 32211, USA",
+    "name": "1600 Lansdowne Dr",
+    "place_id": "ChIJ44vLrnG05YgRabbzsu-jxLU",
+    "types": [
+      "premise"
+    ]
+  },
+  "4060 BARNES RD, Jacksonville, FL 32207": {
+    "formatted_address": "4060 Barnes Rd S, Jacksonville, FL 32207, USA",
+    "name": "4060 Barnes Rd S",
+    "place_id": "ChIJVQp6QnO25YgRxn3glqFX0hc",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "2601 N UNIVERSITY BLVD, Jacksonville, FL 32211": {
+    "formatted_address": "2601 University Blvd N, Jacksonville, FL 32211, USA",
+    "name": "2601 University Blvd N",
+    "place_id": "ChIJCfqpEgC05YgRyH42RdjN8B8",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "3933 PRITMORE RD, Jacksonville, FL 32257": {
+    "formatted_address": "3933 Pritmore Rd, Jacksonville, FL 32257, USA",
+    "name": "3933 Pritmore Rd",
+    "place_id": "ChIJl300xnrJ5YgRwebSoEne_-k",
+    "types": [
+      "premise"
+    ]
+  },
+  "8000 FLEET LANDING BLVD, Atlantic Beach, FL 32233": {
+    "formatted_address": "8000 Fleet Landing Blvd, Atlantic Beach, FL 32233, USA",
+    "name": "8000 Fleet Landing Blvd",
+    "place_id": "ChIJTW4uAb9O5IgRLPZb7LMwl80",
+    "types": [
+      "premise"
+    ]
+  },
+  "1085 ATLANTIC BLVD, Atlantic Beach, FL 32233": {
+    "formatted_address": "1085 Atlantic Blvd, Atlantic Beach, FL 32233, USA",
+    "name": "1085 Atlantic Blvd",
+    "place_id": "ChIJcfuUrFpJ5IgRr4FTE6u-rUY",
+    "types": [
+      "premise"
+    ]
+  },
+  "1646 W 45TH ST, Jacksonville, FL 32208": {
+    "formatted_address": "1646 W 45th St, Jacksonville, FL 32208, USA",
+    "name": "1646 W 45th St",
+    "place_id": "ChIJWfe8hKOw5YgRiGllorkBqQc",
+    "types": [
+      "premise"
+    ]
+  },
+  "7911 TALLAHASSEE AVE, Jacksonville, FL 32208": {
+    "formatted_address": "7911 Tallahassee Ave, Jacksonville, FL 32208, USA",
+    "name": "7911 Tallahassee Ave",
+    "place_id": "ChIJ-_qcF4Ww5YgRiS_wVj8y5LY",
+    "types": [
+      "premise"
+    ]
+  },
+  "1241 N BLUEHILL DR, Jacksonville, FL 32218": {
+    "formatted_address": "1241 Bluehill Dr N, Jacksonville, FL 32218, USA",
+    "name": "1241 Bluehill Dr N",
+    "place_id": "ChIJG_zMzCKw5YgRF_11VoJ8rlU",
+    "types": [
+      "premise"
+    ]
+  },
+  "5139 TIMUQUANA RD, Jacksonville, FL 32210": {
+    "formatted_address": "5139 Timuquana Rd, Jacksonville, FL 32210, USA",
+    "name": "5139 Timuquana Rd",
+    "place_id": "ChIJD3ewmpTH5YgRBdlJUi7Jt1M",
+    "types": [
+      "premise"
+    ]
+  },
+  "1850 HELEN DR, Jacksonville, FL 32210": {
+    "formatted_address": "1850 Helen Dr, Jacksonville, FL 32210, USA",
+    "name": "1850 Helen Dr",
+    "place_id": "ChIJwZPJsUW_5YgRJ8xOQdH_Kmg",
+    "types": [
+      "street_address"
+    ]
+  },
+  "2250 JAMMES RD, Jacksonville, FL 32210": {
+    "formatted_address": "2250 Jammes Rd, Jacksonville, FL 32210, USA",
+    "name": "2250 Jammes Rd",
+    "place_id": "ChIJTUEwpJu45YgRn8P7W0Mp6Tc",
+    "types": [
+      "premise"
+    ]
+  },
+  "1290 KENDALL TOWN BLVD, Jacksonville, FL 32225": {
+    "formatted_address": "1290 Kendall Town Blvd, Jacksonville, FL 32225, USA",
+    "name": "1290 Kendall Town Blvd",
+    "place_id": "ChIJyajmNoO05YgR3LckMp3OP3Y",
+    "types": [
+      "premise"
+    ]
+  },
+  "9670 KENDALL POINTE DR, Jacksonville, FL 32225": {
+    "formatted_address": "9433 sentry drive, Jacksonville, FL 32225, United States",
+    "name": "Kendall Pointe Townhomes",
+    "place_id": "ChIJ4cx-Jj-15YgRRU108zJ-opA",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ]
+  },
+  "12633 MILLEDGE AVE, Jacksonville, FL 32218": {
+    "formatted_address": "12633 Milledge Ave, Jacksonville, FL 32218, USA",
+    "name": "12633 Milledge Ave",
+    "place_id": "ChIJOQx1l0Wl5YgRXS3e4NJfJQk",
+    "types": [
+      "street_address"
+    ]
+  },
+  "7893 HOGAN SETTLEMENT RD, Jacksonville, FL 32221": {
+    "formatted_address": "7893 Hogan Settlement Rd, Jacksonville, FL 32221, USA",
+    "name": "7893 Hogan Settlement Rd",
+    "place_id": "ChIJo747wjS_5YgRLWueGZYJhaY",
+    "types": [
+      "street_address"
+    ]
+  },
+  "11291 ALUMNI WAY, Jacksonville, FL 32246": {
+    "formatted_address": "11291 Alumni Way, Jacksonville, FL 32246, USA",
+    "name": "11291 Alumni Way",
+    "place_id": "ChIJ99xwO0i15YgRLOQDnszqZVw",
+    "types": [
+      "premise"
+    ]
+  },
+  "6734 103RD ST, Jacksonville, FL 32210": {
+    "formatted_address": "6734 103rd St, Jacksonville, FL 32210, USA",
+    "name": "6734 103rd St",
+    "place_id": "ChIJec5ZKhXH5YgRFx7sIMH5AIw",
+    "types": [
+      "premise"
+    ]
+  },
+  "126 S 13TH AVE, Jacksonville Beach, FL 32250": {
+    "formatted_address": "126 13th Ave S, Jacksonville Beach, FL 32250, USA",
+    "name": "126 13th Ave S",
+    "place_id": "ChIJ56nzTLJJ5IgRlsvFEAMYNy0",
+    "types": [
+      "premise"
+    ]
+  },
+  "1701 LAKE SHORE BLVD, Jacksonville, FL 32210": {
+    "formatted_address": "1701 Lake Shore Blvd, Jacksonville, FL 32210, USA",
+    "name": "1701 Lake Shore Blvd",
+    "place_id": "ChIJT2nbnIq45YgR2CqmBTH0DRQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "500 ACME ST, Jacksonville, FL 32211": {
+    "formatted_address": "500 Acme St, Jacksonville, FL 32211, USA",
+    "name": "500 Acme St",
+    "place_id": "ChIJN9RQVkK05YgR_Hem21vnxIw",
+    "types": [
+      "premise"
+    ]
+  },
+  "7960 MERCHANTS WAY, Jacksonville, FL 32222": {
+    "formatted_address": "7960 Merchants Way, Jacksonville, FL 32222, USA",
+    "name": "7960 Merchants Way",
+    "place_id": "ChIJT3AXYL3B5YgRG9zc7sDHIZQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "7777 NORMANDY BLVD, Jacksonville, FL 32221": {
+    "formatted_address": "7777 Normandy Blvd, Jacksonville, FL 32221, USA",
+    "name": "7777 Normandy Blvd",
+    "place_id": "ChIJ7aMrQsu45YgR-59EGkEEpzo",
+    "types": [
+      "premise"
+    ]
+  },
+  "7528 ARLINGTON EXPY, Jacksonville, FL 32211": {
+    "formatted_address": "7528 Arlington Expy, Jacksonville, FL 32211, USA",
+    "name": "7528 Arlington Expy",
+    "place_id": "ChIJfYrsmGq05YgRg4a5PVQFDmY",
+    "types": [
+      "premise"
+    ]
+  },
+  "2796 WOOLERY DR, Jacksonville, FL 32211": {
+    "formatted_address": "2796 Woolery Dr, Jacksonville, FL 32211, USA",
+    "name": "2796 Woolery Dr",
+    "place_id": "ChIJQa1JyYaz5YgRPBp6FafVni0",
+    "types": [
+      "premise"
+    ]
+  },
+  "2791 WOOLERY DR, Jacksonville, FL 32211": {
+    "formatted_address": "2791 Woolery Dr, Jacksonville, FL 32211, USA",
+    "name": "2791 Woolery Dr",
+    "place_id": "ChIJe25tNIGz5YgRINnRkOBYfV4",
+    "types": [
+      "premise"
+    ]
+  },
+  "5800 W UNIVERSITY BLVD, Jacksonville, FL 32216": {
+    "formatted_address": "5800 University Blvd W, Jacksonville, FL 32216, USA",
+    "name": "5800 University Blvd W",
+    "place_id": "ChIJKwjxYAi25YgReWTZu09Bl5g",
+    "types": [
+      "premise"
+    ]
+  },
+  "10667 BRIGHTMAN BLVD, Jacksonville, FL 32246": {
+    "formatted_address": "10667 Brightman Blvd, Jacksonville, FL 32246, USA",
+    "name": "10667 Brightman Blvd",
+    "place_id": "ChIJn8g1YlS15YgRxrNTB0mFTTY",
+    "types": [
+      "premise"
+    ]
+  },
+  "4235 MARSH LANDING BLVD, Jacksonville Beach, FL 32250": {
+    "formatted_address": "4235 Marsh Landing Blvd, Jacksonville Beach, FL 32250, USA",
+    "name": "4235 Marsh Landing Blvd",
+    "place_id": "ChIJ4dFQhNtJ5IgRUsnJSqIx_1k",
+    "types": [
+      "premise"
+    ]
+  },
+  "2753 MAYPORT RD, Jacksonville, FL 32233": {
+    "formatted_address": "2753 Mayport Rd, Jacksonville, FL 32233, USA",
+    "name": "2753 Mayport Rd",
+    "place_id": "ChIJ_ZM2xJhO5IgR1tCukhf9VVg",
+    "types": [
+      "premise"
+    ]
+  },
+  "15001 N MAIN ST, Jacksonville, FL 32218": {
+    "formatted_address": "15001 N Main St, Jacksonville, FL 32218, USA",
+    "name": "15001 N Main St",
+    "place_id": "ChIJZ7uTuZWu5YgRkQVNlZnhHYo",
+    "types": [
+      "premise"
+    ]
+  },
+  "3355 CLAIRE LN, Jacksonville, FL 32216": {
+    "formatted_address": "3355 Claire Ln, Jacksonville, FL 32223, USA",
+    "name": "3355 Claire Ln",
+    "place_id": "ChIJQ5LfPEnJ5YgRRykMe9enUgM",
+    "types": [
+      "premise"
+    ]
+  },
+  "4925 COLLINS RD, Jacksonville, FL 32244": {
+    "formatted_address": "4925 Collins Rd, Jacksonville, FL 32244, USA",
+    "name": "4925 Collins Rd",
+    "place_id": "ChIJD2jTKxXG5YgRmoh8JCOfNNI",
+    "types": [
+      "premise"
+    ]
+  },
+  "4754 ORTEGA HILLS DR, Jacksonville, FL 32244": {
+    "formatted_address": "4754 Ortega Hills Dr, Jacksonville, FL 32244, USA",
+    "name": "4754 Ortega Hills Dr",
+    "place_id": "ChIJzWhX1jLG5YgREVXCgVelkpc",
+    "types": [
+      "premise"
+    ]
+  },
+  "1025 ASSISI LN, Jacksonville, FL 32233": {
+    "formatted_address": "1025 Assisi Ln, Jacksonville, FL 32233, USA",
+    "name": "1025 Assisi Ln",
+    "place_id": "ChIJ98pOaKRO5IgRD_UfzwGpxCM",
+    "types": [
+      "premise"
+    ]
+  },
+  "1600 SHETTER AVE, Jacksonville Beach, FL 32250": {
+    "formatted_address": "1600 Shetter Ave, Jacksonville Beach, FL 32250, USA",
+    "name": "1600 Shetter Ave",
+    "place_id": "ChIJQRZgJZlJ5IgR3yFsHj4UcRo",
+    "types": [
+      "premise"
+    ]
+  },
+  "11390 SQUARE ST, Jacksonville, FL 32256": {
+    "formatted_address": "11390 Square St, Jacksonville, FL 32256, USA",
+    "name": "11390 Square St",
+    "place_id": "ChIJn4sq3Kg05IgR8qs9EmuUg-w",
+    "types": [
+      "premise"
+    ]
+  },
+  "11901 ABESS BLVD, Jacksonville, FL 32225": {
+    "formatted_address": "11901 Abess Blvd, Jacksonville, FL 32225, USA",
+    "name": "11901 Abess Blvd",
+    "place_id": "ChIJnxxA8kFL5IgR6OXKk-y9zAY",
+    "types": [
+      "premise"
+    ]
+  },
+  "12001 ABESS BLVD, Jacksonville, FL 32225": {
+    "formatted_address": "12001 Abess Blvd, Jacksonville, FL 32225, USA",
+    "name": "12001 Abess Blvd",
+    "place_id": "ChIJM0ye12NL5IgRaqcEhIwaNBY",
+    "types": [
+      "premise"
+    ]
+  },
+  "814 N 1ST ST, Jacksonville Beach, FL 32250": {
+    "formatted_address": "814 1st St N, Jacksonville Beach, FL 32250, USA",
+    "name": "814 1st St N",
+    "place_id": "ChIJW_XJJwRJ5IgR1FqeeW9FAR0",
+    "types": [
+      "premise"
+    ]
+  },
+  "6650 103RD ST, Jacksonville, FL 32210": {
+    "formatted_address": "6650 103rd St, Jacksonville, FL 32210, USA",
+    "name": "6650 103rd St",
+    "place_id": "ChIJr125GWvH5YgRdgdeXxkzuJo",
+    "types": [
+      "premise"
+    ]
+  },
+  "13050 W GRAN BAY PKWY, Jacksonville, FL 32258": {
+    "formatted_address": "13050 Gran Bay Pkwy, Jacksonville, FL 32258, USA",
+    "name": "13050 Gran Bay Pkwy",
+    "place_id": "ChIJo5HmYc_M5YgRul3gMEuPiLQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "5101 N MAIN ST, Jacksonville, FL 32206": {
+    "formatted_address": "5101 N Main St, Jacksonville, FL 32206, USA",
+    "name": "5101 N Main St",
+    "place_id": "ChIJ76FENdmw5YgRMCrvHu-2GNQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "10621 MONACO DR, Jacksonville, FL 32218": {
+    "formatted_address": "10621 Monaco Dr, Jacksonville, FL 32218, USA",
+    "name": "10621 Monaco Dr",
+    "place_id": "ChIJHzR5oCex5YgRx9Qbf3JKoNI",
+    "types": [
+      "premise"
+    ]
+  },
+  "8050 W BAYMEADOWS CIR, Jacksonville, FL 32256": {
+    "formatted_address": "8050 Baymeadows Cir W, Jacksonville, FL 32256, United States",
+    "name": "Lofts at Baymeadows",
+    "place_id": "ChIJwyp-kATL5YgRR6BGU-28lyw",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ]
+  },
+  "3780 UNIVERSITY CLUB BLVD, Jacksonville, FL 32277": {
+    "formatted_address": "3780 University Club Blvd, Jacksonville, FL 32277, USA",
+    "name": "3780 University Club Blvd",
+    "place_id": "ChIJw7gjP-Gz5YgR69fWMkggJyo",
+    "types": [
+      "premise"
+    ]
+  },
+  "5681 EDENFIELD RD, Jacksonville, FL 32277": {
+    "formatted_address": "5681 Edenfield Rd, Jacksonville, FL 32277, USA",
+    "name": "5681 Edenfield Rd",
+    "place_id": "ChIJV84FD9iz5YgRAMrrsChzMAY",
+    "types": [
+      "premise"
+    ]
+  },
+  "139 COTTAGE AVE, Jacksonville, FL 32206": {
+    "formatted_address": "139 Cottage Ave, Jacksonville, FL 32206, USA",
+    "name": "139 Cottage Ave",
+    "place_id": "ChIJlUUdui235YgRTBkALXvrhqU",
+    "types": [
+      "premise"
+    ]
+  },
+  "1173 PECAN PARK RD, Jacksonville, FL 32218": {
+    "formatted_address": "1173 Pecan Park Rd, Jacksonville, FL 32218, USA",
+    "name": "1173 Pecan Park Rd",
+    "place_id": "ChIJ9QlJGCev5YgR5VjNK59D214",
+    "types": [
+      "premise"
+    ]
+  },
+  "1333 DUNN AVE, Jacksonville, FL 32218": {
+    "formatted_address": "1333 Dunn Ave, Jacksonville, FL 32218, USA",
+    "name": "1333 Dunn Ave",
+    "place_id": "ChIJKR7h1Rew5YgR2-4bKzF-w78",
+    "types": [
+      "premise"
+    ]
+  },
+  "3760 S UNIVERSITY BLVD, Jacksonville, FL 32216": {
+    "formatted_address": "3760 University Blvd S, Jacksonville, FL 32216, USA",
+    "name": "3760 University Blvd S",
+    "place_id": "ChIJjzb1_3W25YgRWziaeLLrDoA",
+    "types": [
+      "premise"
+    ]
+  },
+  "1504 PERRY ST, Jacksonville, FL 32206": {
+    "formatted_address": "1504 Perry St, Jacksonville, FL 32206, USA",
+    "name": "1504 Perry St",
+    "place_id": "ChIJc2AtfDC35YgRIRO4z9OfpcI",
+    "types": [
+      "premise"
+    ]
+  },
+  "1800 CORPORATE SQUARE BLVD, Jacksonville, FL 32211": {
+    "formatted_address": "1800 Corporate Square Blvd, Jacksonville, FL 32216, USA",
+    "name": "1800 Corporate Square Blvd",
+    "place_id": "ChIJ3clIhFe05YgRIJq3u0VjUvs",
+    "types": [
+      "premise"
+    ]
+  },
+  "20 W ADAMS ST, Jacksonville, FL 32202": {
+    "formatted_address": "20 W Adams St, Jacksonville, FL 32202, USA",
+    "name": "20 W Adams St",
+    "place_id": "EioyMCBXIEFkYW1zIFN0LCBKYWNrc29udmlsbGUsIEZMIDMyMjAyLCBVU0EiMBIuChQKEgk_AJcqGLfliBGn83df5g6eUBAUKhQKEgnjxphyFbfliBFq7ClwkUKdcw",
+    "types": [
+      "street_address"
+    ]
+  },
+  "11750 ALDEN RD, Jacksonville, FL 32246": {
+    "formatted_address": "11750 Alden Rd, Jacksonville, FL 32246, USA",
+    "name": "11750 Alden Rd",
+    "place_id": "ChIJx6SF0CpL5IgRTWqDVqdN0eo",
+    "types": [
+      "premise"
+    ]
+  },
+  "7920 ORIOLE ST, Jacksonville, FL 32208": {
+    "formatted_address": "7920 Oriole St, Jacksonville, FL 32208, USA",
+    "name": "7920 Oriole St",
+    "place_id": "ChIJnY66lZyw5YgR6WlVMwcA6hA",
+    "types": [
+      "premise"
+    ]
+  },
+  "7500 POWERS AVE, Jacksonville, FL 32217": {
+    "formatted_address": "7500 Powers Ave, Jacksonville, FL 32217, USA",
+    "name": "7500 Powers Ave",
+    "place_id": "ChIJN4pSSvHJ5YgRQA9b5pc0JFA",
+    "types": [
+      "premise"
+    ]
+  },
+  "8760 PINNACLE PARK BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "8760 Pinnacle Park Boulevard, Jacksonville, FL 32256, United States",
+    "name": "Pinnacle",
+    "place_id": "ChIJjfd4Zkw15IgRFo1u9zI5Z1U",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ]
+  },
+  "11833 N MAIN ST, Jacksonville, FL 32218": {
+    "formatted_address": "11833 N Main St, Jacksonville, FL 32218, USA",
+    "name": "11833 N Main St",
+    "place_id": "ChIJkfwYDSWu5YgRojzxJp57USo",
+    "types": [
+      "premise"
+    ]
+  },
+  "5545 PLAYA WAY, Jacksonville, FL 32211": {
+    "formatted_address": "5545 Playa Way, Jacksonville, FL 32211, USA",
+    "name": "5545 Playa Way",
+    "place_id": "ChIJ98o2paC25YgRydKPxIQeSQ4",
+    "types": [
+      "premise"
+    ]
+  },
+  "1218 HICKMAN RD, Jacksonville, FL 32216": {
+    "formatted_address": "1218 Hickman Rd, Jacksonville, FL 32216, USA",
+    "name": "1218 Hickman Rd",
+    "place_id": "ChIJd5Pdnda15YgR0yh-_FhlUvE",
+    "types": [
+      "premise"
+    ]
+  },
+  "440 BURBANK AVE, Jacksonville, FL 32081": {
+    "formatted_address": "440 Burbank Ave, Nocatee, FL 32081, USA",
+    "name": "440 Burbank Ave",
+    "place_id": "ChIJUdUIozUy5IgRC77HPyFSppY",
+    "types": [
+      "premise"
+    ]
+  },
+  "2600 ART MUSEUM DR, Jacksonville, FL 32207": {
+    "formatted_address": "2600 Art Museum Dr, Jacksonville, FL 32207, USA",
+    "name": "2600 Art Museum Dr",
+    "place_id": "ChIJRzptq3y25YgRg3PpXBZ6sa8",
+    "types": [
+      "premise"
+    ]
+  },
+  "6610 POWERS AVE, Jacksonville, FL 32217": {
+    "formatted_address": "6610 Powers Ave, Jacksonville, FL 32217, USA",
+    "name": "6610 Powers Ave",
+    "place_id": "ChIJs_k9eOPJ5YgRvHUMaOmS8Z8",
+    "types": [
+      "premise"
+    ]
+  },
+  "7925 MERRILL RD, Jacksonville, FL 32277": {
+    "formatted_address": "7925 Merrill Rd, Jacksonville, FL 32277, USA",
+    "name": "7925 Merrill Rd",
+    "place_id": "ChIJe-qZQIKz5YgRa0_QdeH1cxA",
+    "types": [
+      "premise"
+    ]
+  },
+  "780 ISLAND POINT DR, Jacksonville, FL 32218": {
+    "formatted_address": "780 Island Point Dr, Jacksonville, FL 32218, USA",
+    "name": "780 Island Point Dr",
+    "place_id": "ChIJ4yFceluw5YgRt3ONQxOgkgw",
+    "types": [
+      "premise"
+    ]
+  },
+  "780 SCAUP WAY, Jacksonville, FL 32218": {
+    "formatted_address": "780 Scaup Wy, Jacksonville, FL 32218, USA",
+    "name": "780 Scaup Wy",
+    "place_id": "ChIJlY_o_Fyw5YgRrUsMr0N83hQ",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "2831 HERSCHEL ST, Jacksonville, FL 32205": {
+    "formatted_address": "2831 Herschel St, Jacksonville, FL 32205, USA",
+    "name": "2831 Herschel St",
+    "place_id": "ChIJzwfdfyu45YgRRbJ3vcFkwzU",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "8649 A C SKINNER PKWY, Jacksonville, FL 32256": {
+    "formatted_address": "8649 A C Skinner Pkwy, Jacksonville, FL 32256, USA",
+    "name": "8649 A C Skinner Pkwy",
+    "place_id": "ChIJP6QYBIfK5YgRRi-pU5Mfinc",
+    "types": [
+      "premise"
+    ]
+  },
+  "1905 PROMENADE WAY, Jacksonville, FL 32207": {
+    "formatted_address": "1905 Promenade Way, Jacksonville, FL 32207, USA",
+    "name": "1905 Promenade Way",
+    "place_id": "ChIJr68hjlS25YgR5OutG3RrYto",
+    "types": [
+      "premise"
+    ]
+  },
+  "9800 E TOUCHTON RD, Jacksonville, FL 32246": {
+    "formatted_address": "9800 Touchton Rd, Jacksonville, FL 32246, USA",
+    "name": "9800 Touchton Rd",
+    "place_id": "ChIJFRdcYXq15YgR0BahF2gJ8Ew",
+    "types": [
+      "premise"
+    ]
+  },
+  "6870 103RD ST, Jacksonville, FL 32210": {
+    "formatted_address": "6870 103rd St, Jacksonville, FL 32210, USA",
+    "name": "6870 103rd St",
+    "place_id": "ChIJt3XCDEDH5YgRvQt6o6GaMgg",
+    "types": [
+      "premise"
+    ]
+  },
+  "2160 MAYPORT RD, Jacksonville, FL 32233": {
+    "formatted_address": "2160 Mayport Rd, Jacksonville, FL 32233, USA",
+    "name": "2160 Mayport Rd",
+    "place_id": "ChIJq5KI4K1O5IgRoGgMY56x3DQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "4800 ORTEGA FARMS BLVD, Jacksonville, FL 32210": {
+    "formatted_address": "4800 Ortega Farms Blvd, Jacksonville, FL 32210, USA",
+    "name": "4800 Ortega Farms Blvd",
+    "place_id": "ChIJtRv45pHH5YgRrE1XsgHorxw",
+    "types": [
+      "premise"
+    ]
+  },
+  "2775 HERSCHEL ST, Jacksonville, FL 32205": {
+    "formatted_address": "2775 Herschel St, Jacksonville, FL 32205, USA",
+    "name": "2775 Herschel St",
+    "place_id": "ChIJu8oAQCu45YgRQgaQAOY78Zk",
+    "types": [
+      "premise"
+    ]
+  },
+  "6473 SAN JUAN AVE, Jacksonville, FL 32210": {
+    "formatted_address": "6473 San Juan Ave, Jacksonville, FL 32210, USA",
+    "name": "6473 San Juan Ave",
+    "place_id": "ChIJCws6J5G45YgRD6fQKpDV0SQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "5255 RACETRACK RD, Jacksonville, FL 32259": {
+    "formatted_address": "5255 Race Track Rd, Jacksonville, FL 32259, USA",
+    "name": "5255 Race Track Rd",
+    "place_id": "ChIJCWYSaC3N5YgR_u2PnCmKZQQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "7557 ARLINGTON EXPY, Jacksonville, FL 32211": {
+    "formatted_address": "7557 Arlington Expy, Jacksonville, FL 32211, USA",
+    "name": "7557 Arlington Expy",
+    "place_id": "ChIJvx_MA2u05YgRKZDHRf3QFxk",
+    "types": [
+      "premise"
+    ]
+  },
+  "8030 S OLD KINGS RD, Jacksonville, FL 32217": {
+    "formatted_address": "8030 Old Kings Rd S, Jacksonville, FL 32217, USA",
+    "name": "8030 Old Kings Rd S",
+    "place_id": "ChIJGZmIVYrJ5YgRn8dvZmfIbrQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "1504 S MCDUFF AVE, Jacksonville, FL 32205": {
+    "formatted_address": "1504 McDuff Ave S, Jacksonville, FL 32205, USA",
+    "name": "1504 McDuff Ave S",
+    "place_id": "ChIJCSaweC645YgRT8BbvqRed_g",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "12900 BROXTON BAY DR, Jacksonville, FL 32218": {
+    "formatted_address": "12900 Broxton Bay Dr, Jacksonville, FL 32218, USA",
+    "name": "12900 Broxton Bay Dr",
+    "place_id": "ChIJLUAxFm-v5YgRNGvig3eypTQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "4800 ATLANTIC BLVD, Jacksonville, FL 32207": {
+    "formatted_address": "4800 Atlantic Blvd, Jacksonville, FL 32207, USA",
+    "name": "4800 Atlantic Blvd",
+    "place_id": "ChIJfb99Loa25YgRRWtM0Ls8ySA",
+    "types": [
+      "premise"
+    ]
+  },
+  "9855 REGENCY SQUARE BLVD, Jacksonville, FL 32225": {
+    "formatted_address": "9855 Regency Square Blvd, Jacksonville, FL 32225, USA",
+    "name": "9855 Regency Square Blvd",
+    "place_id": "ChIJM1RU7JO05YgRePcvUEF5eoY",
+    "types": [
+      "premise"
+    ]
+  },
+  "14951 WALDEN SPRINGS WAY, Jacksonville, FL 32258": {
+    "formatted_address": "14951 Walden Springs Way, Jacksonville, FL 32258, USA",
+    "name": "14951 Walden Springs Way",
+    "place_id": "ChIJlZDXQ_sy5IgRaKR7c0K2kkE",
+    "types": [
+      "premise"
+    ]
+  },
+  "2600 TROLLIE LN, Jacksonville, FL 32211": {
+    "formatted_address": "2600 Trollie Ln, Jacksonville, FL 32211, USA",
+    "name": "2600 Trollie Ln",
+    "place_id": "ChIJj_Wyqviz5YgRuaXI45Aywss",
+    "types": [
+      "premise"
+    ]
+  },
+  "3420 S UNIVERSITY BLVD, Jacksonville, FL 32216": {
+    "formatted_address": "3420 University Blvd S, Jacksonville, FL 32216, USA",
+    "name": "3420 University Blvd S",
+    "place_id": "ChIJNQ1Edti15YgR30FF17mYbF4",
+    "types": [
+      "premise"
+    ]
+  },
+  "7124 PONCE DE LEON AVE, Jacksonville, FL 32217": {
+    "formatted_address": "7124 Ponce De Leon Ave, Jacksonville, FL 32217, USA",
+    "name": "7124 Ponce De Leon Ave",
+    "place_id": "ChIJ71mWVNvJ5YgRxNA4ou6mr2Y",
+    "types": [
+      "premise"
+    ]
+  },
+  "1462 SOLERA TER, Jacksonville, FL 32211": {
+    "formatted_address": "1462 Solera Terrace, Jacksonville, FL 32211, USA",
+    "name": "1462 Solera Terrace",
+    "place_id": "ChIJY_g8mYi05YgRAgQTDq-rvgE",
+    "types": [
+      "premise"
+    ]
+  },
+  "2345 POST ST, Jacksonville, FL 32204": {
+    "formatted_address": "2345 Post St, Jacksonville, FL 32204, USA",
+    "name": "2345 Post St",
+    "place_id": "ChIJ084MYn635YgROBLcjSuF5cM",
+    "types": [
+      "premise"
+    ]
+  },
+  "11401 OLD ST AUGUSTINE RD, Jacksonville, FL 32258": {
+    "formatted_address": "11401 Old St Augustine Rd, Jacksonville, FL 32258, USA",
+    "name": "11401 Old St Augustine Rd",
+    "place_id": "ChIJT_WKWv_L5YgRIAWMnF5dt-o",
+    "types": [
+      "premise"
+    ]
+  },
+  "1650 RIVER RD, Jacksonville, FL 32207": {
+    "formatted_address": "1650 River Rd, Jacksonville, FL 32207, USA",
+    "name": "1650 River Rd",
+    "place_id": "ChIJ3RUNY6e35YgRKdWD4AG0Erw",
+    "types": [
+      "premise"
+    ]
+  },
+  "1591 S LANE AVE, Jacksonville, FL 32210": {
+    "formatted_address": "1591 Lane Ave S, Jacksonville, FL 32210, USA",
+    "name": "1591 Lane Ave S",
+    "place_id": "ChIJvwtpu-y45YgRtbVDVNi6XD8",
+    "types": [
+      "premise"
+    ]
+  },
+  "5520 COLLINS RD, Jacksonville, FL 32244": {
+    "formatted_address": "5520 Collins Rd, Jacksonville, FL 32244, USA",
+    "name": "5520 Collins Rd",
+    "place_id": "ChIJBYHSF13G5YgR256-eYptAa4",
+    "types": [
+      "premise"
+    ]
+  },
+  "2738 RIVERSIDE AVE, Jacksonville, FL 32205": {
+    "formatted_address": "2738 Riverside Ave, Jacksonville, FL 32205, USA",
+    "name": "2738 Riverside Ave",
+    "place_id": "ChIJl07s9iq45YgRsqcl2dPpkJ8",
+    "types": [
+      "premise"
+    ]
+  },
+  "2054 RIVERSIDE AVE, Jacksonville, FL 32204": {
+    "formatted_address": "2054 Riverside Ave, Jacksonville, FL 32204, USA",
+    "name": "2054 Riverside Ave",
+    "place_id": "ChIJZWjXFni35YgRI_THMZRtPHc",
+    "types": [
+      "premise"
+    ]
+  },
+  "750 OAK ST, Jacksonville, FL 32204": {
+    "formatted_address": "750 Oak St, Jacksonville, FL 32204, USA",
+    "name": "750 Oak St",
+    "place_id": "ChIJ-URgknC35YgR4wFqz4mWtGc",
+    "types": [
+      "premise"
+    ]
+  },
+  "1045 OAK ST, Jacksonville, FL 32204": {
+    "formatted_address": "1045 Oak St, Jacksonville, FL 32204, USA",
+    "name": "1045 Oak St",
+    "place_id": "ChIJ31nXRHe35YgRlx28yDRLTSw",
+    "types": [
+      "premise"
+    ]
+  },
+  "1826 BAYARD PL, Jacksonville, FL 32205": {
+    "formatted_address": "1826 Bayard Pl, Jacksonville, FL 32205, USA",
+    "name": "1826 Bayard Pl",
+    "place_id": "ChIJ3bhvPiq45YgRB4Ka2lg4n_M",
+    "types": [
+      "premise"
+    ]
+  },
+  "2790 ST JOHNS AVE, Jacksonville, FL 32205": {
+    "formatted_address": "2790 St Johns Ave, Jacksonville, FL 32205, USA",
+    "name": "2790 St Johns Ave",
+    "place_id": "ChIJreyuNyq45YgR6DOk9BQsgyM",
+    "types": [
+      "premise"
+    ]
+  },
+  "2722 W UNIVERSITY BLVD, Jacksonville, FL 32217": {
+    "formatted_address": "2722 University Blvd W, Jacksonville, FL 32217, USA",
+    "name": "2722 University Blvd W",
+    "place_id": "ChIJF5awVd_J5YgRRc8vRkJ5zrs",
+    "types": [
+      "premise"
+    ]
+  },
+  "6727 WOLFPACK WAY, Jacksonville, FL 32217": {
+    "formatted_address": "6727 Wolfpack Way, Jacksonville, FL 32217, USA",
+    "name": "6727 Wolfpack Way",
+    "place_id": "ChIJHVO1TeTJ5YgRlpfNBuEh3nE",
+    "types": [
+      "premise"
+    ]
+  },
+  "9009 WESTERN LAKE DR, Jacksonville, FL 32256": {
+    "formatted_address": "9009 Western Lake Dr, Jacksonville, FL 32256, USA",
+    "name": "9009 Western Lake Dr",
+    "place_id": "ChIJ0R8VcwLL5YgR6KGzs71_r2c",
+    "types": [
+      "premise"
+    ]
+  },
+  "7820 E BAYMEADOWS RD, Jacksonville, FL 32256": {
+    "formatted_address": "7820 Baymeadows Rd, Jacksonville, FL 32256, USA",
+    "name": "7820 Baymeadows Rd",
+    "place_id": "Ei83ODIwIEJheW1lYWRvd3MgUmQsIEphY2tzb252aWxsZSwgRkwgMzIyNTYsIFVTQSIxEi8KFAoSCW2ODSU3yuWIEYAJz05A9Fn2EIw9KhQKEgl3AMTVVsrliBHmNmieMVQaUw",
+    "types": [
+      "street_address"
+    ]
+  },
+  "931 RUBEL ST, Jacksonville, FL 32205": {
+    "formatted_address": "931 Rubel St, Jacksonville, FL 32205, USA",
+    "name": "931 Rubel St",
+    "place_id": "ChIJpZp8edK55YgRWimRsXl5RRY",
+    "types": [
+      "premise"
+    ]
+  },
+  "4101 SAN PABLO PKWY, Jacksonville, FL 32224": {
+    "formatted_address": "4101 San Pablo Pkwy, Jacksonville, FL 32224, USA",
+    "name": "4101 San Pablo Pkwy",
+    "place_id": "ChIJIclnUj1K5IgR_p2gI8f_OYA",
+    "types": [
+      "street_address"
+    ]
+  },
+  "7061 S OLD KINGS RD, Jacksonville, FL 32217": {
+    "formatted_address": "7061 Old Kings Rd S, Jacksonville, FL 32217, USA",
+    "name": "7061 Old Kings Rd S",
+    "place_id": "ChIJ5fwYIeTJ5YgRql213MRk3AY",
+    "types": [
+      "premise"
+    ]
+  },
+  "8715 BELLE RIVE BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "8715 Belle Rive Blvd, Jacksonville, FL 32256, USA",
+    "name": "8715 Belle Rive Blvd",
+    "place_id": "ChIJ3aqSHQLL5YgRvwIgJfr5wAc",
+    "types": [
+      "premise"
+    ]
+  },
+  "2150 EMERSON ST, Jacksonville, FL 32207": {
+    "formatted_address": "2150 Emerson St, Jacksonville, FL 32207, USA",
+    "name": "2150 Emerson St",
+    "place_id": "ChIJj-y6bDa25YgRBJjZ2V484oE",
+    "types": [
+      "premise"
+    ]
+  },
+  "3037 JOHN HANCOCK CT, Jacksonville, FL 32221": {
+    "formatted_address": "3037 John Hancock Ct, Jacksonville, FL 32221, USA",
+    "name": "3037 John Hancock Ct",
+    "place_id": "ChIJJ4hulArr5YgRUKjKkREidzE",
+    "types": [
+      "premise"
+    ]
+  },
+  "3014 BICENTENNIAL DR, Jacksonville, FL 32221": {
+    "formatted_address": "3014 Bicentennial Dr, Jacksonville, FL 32221, USA",
+    "name": "3014 Bicentennial Dr",
+    "place_id": "ChIJbzZtM6jr5YgROKoTVCmBwdc",
+    "types": [
+      "premise"
+    ]
+  },
+  "8401 SOUTHSIDE BLVD, Jacksonville, FL 32256": {
+    "formatted_address": "8401 Southside Blvd, Jacksonville, FL 32256, USA",
+    "name": "8401 Southside Blvd",
+    "place_id": "ChIJK0pAzOTK5YgRIXD2ewaJYCE",
+    "types": [
+      "premise"
+    ]
+  },
+  "13283 MAIN ST, Jacksonville, FL 32218": {
+    "formatted_address": "13283 N Main St, Jacksonville, FL 32218, USA",
+    "name": "13283 N Main St",
+    "place_id": "ChIJ8bzKO12u5YgRQerrF0qsARo",
+    "types": [
+      "premise"
+    ]
+  },
+  "2800 SOPHIA ST, Jacksonville, FL 32254": {
+    "formatted_address": "2800 Sophia St, Jacksonville, FL 32254, USA",
+    "name": "2800 Sophia St",
+    "place_id": "ChIJAS4_7pS55YgRF9m76HEJ0Cs",
+    "types": [
+      "premise"
+    ]
+  },
+  "3451 SALAND WAY, Jacksonville, FL 32246": {
+    "formatted_address": "3451 Saland Way, Jacksonville, FL 32246, USA",
+    "name": "3451 Saland Way",
+    "place_id": "ChIJbzE6Mzy15YgRuD78_FfLP-8",
+    "types": [
+      "premise"
+    ]
+  },
+  "5021 QUAN DR, Jacksonville, FL 32205": {
+    "formatted_address": "5021 Quan Dr, Jacksonville, FL 32205, USA",
+    "name": "5021 Quan Dr",
+    "place_id": "ChIJbTAKPVm45YgRh5X8c3X8Ubw",
+    "types": [
+      "premise"
+    ]
+  },
+  "6455 SAN JUAN AVE, Jacksonville, FL 32210": {
+    "formatted_address": "6455 San Juan Ave, Jacksonville, FL 32210, USA",
+    "name": "6455 San Juan Ave",
+    "place_id": "ChIJ7TmcGZG45YgRg5pbMSUX9vI",
+    "types": [
+      "premise"
+    ]
+  },
+  "6535 CHESTER AVE, Jacksonville, FL 32217": {
+    "formatted_address": "6535 Chester Ave, Jacksonville, FL 32217, USA",
+    "name": "6535 Chester Ave",
+    "place_id": "ChIJyQx5k-HJ5YgRqykPu5_FS98",
+    "types": [
+      "premise"
+    ]
+  },
+  "1124 WOODRUFF AVE, Jacksonville, FL 32205": {
+    "formatted_address": "1124 Woodruff Ave, Jacksonville, FL 32205, USA",
+    "name": "1124 Woodruff Ave",
+    "place_id": "ChIJb3gsRVG45YgR96V1M8RXduk",
+    "types": [
+      "premise"
+    ]
+  },
+  "3622 GALICIA RD, Jacksonville, FL 32217": {
+    "formatted_address": "3622 Galicia Rd, Jacksonville, FL 32217, USA",
+    "name": "3622 Galicia Rd",
+    "place_id": "ChIJ1SbJjufJ5YgRMDkzuhB0JM4",
+    "types": [
+      "premise"
+    ]
+  },
+  "6705 ST AUGUSTINE RD, Jacksonville, FL 32217": {
+    "formatted_address": "6705 St Augustine Rd, Jacksonville, FL 32217, USA",
+    "name": "6705 St Augustine Rd",
+    "place_id": "ChIJx-GYHN7J5YgR2p9qU-P8ui0",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "7008 PONCE DE LEON AVE, Jacksonville, FL 32217": {
+    "formatted_address": "7008 Ponce De Leon Ave, Jacksonville, FL 32217, USA",
+    "name": "7008 Ponce De Leon Ave",
+    "place_id": "ChIJQbQwKdvJ5YgRfDazGE1sHDA",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "2943 SPRING PARK RD, Jacksonville, FL 32207": {
+    "formatted_address": "2943 Spring Park Rd, Jacksonville, FL 32207, USA",
+    "name": "2943 Spring Park Rd",
+    "place_id": "ChIJ43AfUl225YgRwlGHk-____0",
+    "types": [
+      "premise"
+    ]
+  },
+  "1924 DANESE CT, Jacksonville, FL 32207": {
+    "formatted_address": "1924 Danese Ct, Jacksonville, FL 32207, USA",
+    "name": "1924 Danese Ct",
+    "place_id": "ChIJmQP2AU225YgRiPeWSCRVECs",
+    "types": [
+      "premise"
+    ]
+  },
+  "1823 DANESE CT, Jacksonville, FL 32207": {
+    "formatted_address": "1823 Danese Ct, Jacksonville, FL 32207, USA",
+    "name": "1823 Danese Ct",
+    "place_id": "ChIJ5-xzHU225YgRb1HNyF4U2i8",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "3551 S SAN PABLO RD, Jacksonville, FL 32250": {
+    "formatted_address": "3551 San Pablo Rd S, Jacksonville, FL 32250, USA",
+    "name": "3551 San Pablo Rd S",
+    "place_id": "EjAzNTUxIFNhbiBQYWJsbyBSZCBTLCBKYWNrc29udmlsbGUsIEZMIDMyMjUwLCBVU0EiMRIvChQKEgkt6o3DL0rkiBHsDZmxhKlJZxDfGyoUChIJ06qNFS5K5IgRPnRfWbThgrM",
+    "types": [
+      "street_address"
+    ]
+  },
+  "3650 SAN PABLO PKWY, Jacksonville, FL 32224": {
+    "formatted_address": "3650 San Pablo Pkwy, Jacksonville, FL 32250, USA",
+    "name": "3650 San Pablo Pkwy",
+    "place_id": "EjAzNjUwIFNhbiBQYWJsbyBQa3d5LCBKYWNrc29udmlsbGUsIEZMIDMyMjUwLCBVU0EiMRIvChQKEgmLvCupOkrkiBEb8AoFdcxY5RDCHCoUChIJYfL06xlK5IgR8KNxLoQo59I",
+    "types": [
+      "street_address"
+    ]
+  },
+  "843 ALDERMAN RD, Jacksonville, FL 32211": {
+    "formatted_address": "843 Alderman Rd, Jacksonville, FL 32211, USA",
+    "name": "843 Alderman Rd",
+    "place_id": "ChIJ47DcGGm05YgRmZvXGhs3PtY",
+    "types": [
+      "premise"
+    ]
+  },
+  "10640 SATORI LN, Jacksonville, FL 32256": {
+    "formatted_address": "10640 Satori Lane, Jacksonville, FL 32256, United States",
+    "name": "Satori Town Center Apartments",
+    "place_id": "ChIJ621ljqPL5YgRoGhf8O5UZpw",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ]
+  },
+  "6945 MORSE AVE, Jacksonville, FL 32244": {
+    "formatted_address": "6945 Morse Ave, Jacksonville, FL 32244, USA",
+    "name": "6945 Morse Ave",
+    "place_id": "ChIJ7UUmdSPH5YgR3leoFl5-TAc",
+    "types": [
+      "premise"
+    ]
+  },
+  "14304 MARINA SAN PABLO PL, Jacksonville, FL 32224": {
+    "formatted_address": "14304 Marina San Pablo Pl, Jacksonville, FL 32224, USA",
+    "name": "14304 Marina San Pablo Pl",
+    "place_id": "ChIJrUaNrAVK5IgRqpGcQPpBv4w",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "421 W CHURCH ST, Jacksonville, FL 32202": {
+    "formatted_address": "421 Church St W, Jacksonville, FL 32202, United States",
+    "name": "421 West Church Street",
+    "place_id": "ChIJsVS6jD235YgRXYJuWqtJRSw",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ]
+  },
+  "3146 POST ST, Jacksonville, FL 32205": {
+    "formatted_address": "3146 Post St, Jacksonville, FL 32205, USA",
+    "name": "3146 Post St",
+    "place_id": "ChIJY65AEsu55YgRHgBtL26l5dk",
+    "types": [
+      "premise"
+    ]
+  },
+  "555 BISHOP GATE LN, Jacksonville, FL 32204": {
+    "formatted_address": "555 Bishop Gate Ln, Jacksonville, FL 32204, USA",
+    "name": "555 Bishop Gate Ln",
+    "place_id": "ChIJpe-cwna35YgRrsZLOhNS2X8",
+    "types": [
+      "premise"
+    ]
+  },
+  "500 BISHOP GATE LN, Jacksonville, FL 32204": {
+    "formatted_address": "500 Bishop Gate Ln, Jacksonville, FL 32204, USA",
+    "name": "500 Bishop Gate Ln",
+    "place_id": "ChIJlXJb73a35YgRl3ERHk0-up8",
+    "types": [
+      "premise"
+    ]
+  },
+  "900 PLAZA, Atlantic Beach, FL 32233": {
+    "formatted_address": "900 Plaza, Atlantic Beach, FL 32233, USA",
+    "name": "900 Plaza",
+    "place_id": "ChIJ1XDKgU5J5IgRHzBbqxZ2Ljg",
+    "types": [
+      "premise"
+    ]
+  },
+  "1701 S SAN PABLO RD, Jacksonville, FL 32224": {
+    "formatted_address": "1701 San Pablo Rd S, Jacksonville, FL 32224, United States",
+    "name": "Seagrass Apartment Homes",
+    "place_id": "ChIJPa-msepL5IgRBunA53dC7aE",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ]
+  },
+  "8833 S OLD KINGS RD, Jacksonville, FL 32257": {
+    "formatted_address": "8833 Old Kings Rd S, Jacksonville, FL 32257, USA",
+    "name": "8833 Old Kings Rd S",
+    "place_id": "ChIJG6ADtzHK5YgRKlXaivrNjHs",
+    "types": [
+      "premise"
+    ]
+  },
+  "5640 ANSLEY ST, Jacksonville, FL 32211": {
+    "formatted_address": "5640 Ansley St, Jacksonville, FL 32211, USA",
+    "name": "5640 Ansley St",
+    "place_id": "ChIJ734OFx205YgRZXpiz-wTL-M",
+    "types": [
+      "premise"
+    ]
+  },
+  "401 CENTURY 21 DR, Jacksonville, FL 32211": {
+    "formatted_address": "401 Century 21 Dr, Jacksonville, FL 32216, USA",
+    "name": "401 Century 21 Dr",
+    "place_id": "ChIJya4gBFG05YgRVGmn2_zPFTw",
+    "types": [
+      "premise"
+    ]
+  },
+  "4455 CONFEDERATE POINT RD, Jacksonville, FL 32210": {
+    "formatted_address": "4455 Confederate Point Rd, Jacksonville, FL 32210, USA",
+    "name": "4455 Confederate Point Rd",
+    "place_id": "ChIJzf4OWIbH5YgR9d6L-4W1tqc",
+    "types": [
+      "premise"
+    ]
+  },
+  "4342 SPRING PARK RD, Jacksonville, FL 32207": {
+    "formatted_address": "4342 Spring Park Rd, Jacksonville, FL 32207, USA",
+    "name": "4342 Spring Park Rd",
+    "place_id": "ChIJHZfgpxO25YgRXkHqfEjzhCE",
+    "types": [
+      "premise"
+    ]
+  },
+  "5701 FISHING PEN CREEK CT, Jacksonville, FL 32244": {
+    "formatted_address": "5701 Fishing Pen Creek Ct, Jacksonville, FL 32244, USA",
+    "name": "5701 Fishing Pen Creek Ct",
+    "place_id": "ChIJs7iuF5_H5YgRbHoajVRVK94",
+    "types": [
+      "premise"
+    ]
+  },
+  "2650 DEAN RD, Jacksonville, FL 32216": {
+    "formatted_address": "2650 Dean Rd, Jacksonville, FL 32216, USA",
+    "name": "2650 Dean Rd",
+    "place_id": "ChIJo3Mlu-i15YgRBWMEirHI8CU",
+    "types": [
+      "premise"
+    ]
+  },
+  "4734 RADCLIFF CT, Jacksonville, FL 32217": {
+    "formatted_address": "4734 Radcliff Ct, Jacksonville, FL 32217, USA",
+    "name": "4734 Radcliff Ct",
+    "place_id": "ChIJkSl1UyDK5YgR6A8CGbcqPb0",
+    "types": [
+      "premise"
+    ]
+  },
+  "3737 S ST JOHNS BLUFF RD, Jacksonville, FL 32224": {
+    "formatted_address": "3737 St Johns Bluff Rd S, Jacksonville, FL 32224, USA",
+    "name": "3737 St Johns Bluff Rd S",
+    "place_id": "ChIJu3Us23-15YgRprohijOkfbY",
+    "types": [
+      "premise"
+    ]
+  },
+  "7211 CRANE AVE, Jacksonville, FL 32216": {
+    "formatted_address": "7211 Crane Ave, Jacksonville, FL 32216, USA",
+    "name": "7211 Crane Ave",
+    "place_id": "ChIJ8bPnAza05YgRsV9Yqb5DNII",
+    "types": [
+      "premise"
+    ]
+  },
+  "3937 SPRING PARK RD, Jacksonville, FL 32207": {
+    "formatted_address": "3937 Spring Park Rd, Jacksonville, FL 32207, USA",
+    "name": "3937 Spring Park Rd",
+    "place_id": "ChIJHTRZi2u25YgR9udV7NVEY7E",
+    "types": [
+      "premise"
+    ]
+  },
+  "5262 TIMUQUANA RD, Jacksonville, FL 32210": {
+    "formatted_address": "5262 Timuquana Rd, Jacksonville, FL 32210, USA",
+    "name": "5262 Timuquana Rd",
+    "place_id": "ChIJA7juKZTH5YgR5HD_XxzDlNA",
+    "types": [
+      "premise"
+    ]
+  },
+  "3210 DISCOVERY WAY, Jacksonville, FL 32224": {
+    "formatted_address": "3210 Discovery Way, Jacksonville, FL 32224, USA",
+    "name": "3210 Discovery Way",
+    "place_id": "ChIJ7bzv30tK5IgR17loGiKRLx4",
+    "types": [
+      "premise"
+    ]
+  },
+  "5565 CONNIE JEAN RD, Jacksonville, FL 32222": {
+    "formatted_address": "5565 Connie Jean Rd, Jacksonville, FL 32222, USA",
+    "name": "5565 Connie Jean Rd",
+    "place_id": "ChIJv2Z66vXA5YgRhtV2PBpciYY",
+    "types": [
+      "premise"
+    ]
+  },
+  "6090 TERRY RD, Jacksonville, FL 32216": {
+    "formatted_address": "6090 Terry Rd, Jacksonville, FL 32216, USA",
+    "name": "6090 Terry Rd",
+    "place_id": "ChIJPb2SP-K15YgRJ86eWtydFQY",
+    "types": [
+      "premise"
+    ]
+  },
+  "1900 OLEVIA ST, Jacksonville, FL 32207": {
+    "formatted_address": "1900 Olevia St, Jacksonville, FL 32207, USA",
+    "name": "1900 Olevia St",
+    "place_id": "ChIJDSpLraq35YgRiOo64y-ofEg",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "1810 BERTHA ST, Jacksonville, FL 32207": {
+    "formatted_address": "1810 Bertha St, Jacksonville, FL 32207, USA",
+    "name": "1810 Bertha St",
+    "place_id": "ChIJNbghz6q35YgRZ-di-z2tg_I",
+    "types": [
+      "premise"
+    ]
+  },
+  "2600 PHILIPS HWY, Jacksonville, FL 32207": {
+    "formatted_address": "2600 Philips Hwy, Jacksonville, FL 32207, USA",
+    "name": "2600 Philips Hwy",
+    "place_id": "ChIJ03GhX1S25YgRtGFFLb_0wco",
+    "types": [
+      "street_address"
+    ]
+  },
+  "1444 HOME ST, Jacksonville, FL 32207": {
+    "formatted_address": "1444 Home St, Jacksonville, FL 32207, USA",
+    "name": "1444 Home St",
+    "place_id": "ChIJMTRcsQW35YgRWRxYpg8jq78",
+    "types": [
+      "premise"
+    ]
+  },
+  "2146 INWOOD TER, Jacksonville, FL 32207": {
+    "formatted_address": "2146 Inwood Terrace, Jacksonville, FL 32207, USA",
+    "name": "2146 Inwood Terrace",
+    "place_id": "ChIJIVwNsE625YgReCJLID7iX8Y",
+    "types": [
+      "premise"
+    ]
+  },
+  "8745 PALM BREEZE RD, Jacksonville, FL 32256": {
+    "formatted_address": "8745 Palm Breeze Rd, Jacksonville, FL 32256, USA",
+    "name": "8745 Palm Breeze Rd",
+    "place_id": "ChIJX89TxRzL5YgR7TMU13wCcNo",
+    "types": [
+      "premise"
+    ]
+  },
+  "9801 OLD BAYMEADOWS RD, Jacksonville, FL 32256": {
+    "formatted_address": "9801 Old Baymeadows Rd, Jacksonville, FL 32256, USA",
+    "name": "9801 Old Baymeadows Rd",
+    "place_id": "ChIJp7pUWffK5YgR4ZK0XikVw0E",
+    "types": [
+      "premise"
+    ]
+  },
+  "5170 COLLINS RD, Jacksonville, FL 32244": {
+    "formatted_address": "5170 Collins Rd, Jacksonville, FL 32244, USA",
+    "name": "5170 Collins Rd",
+    "place_id": "ChIJWUg5Z2nG5YgRRcWQ7jW638A",
+    "types": [
+      "premise"
+    ]
+  },
+  "3650 RING LN, Jacksonville, FL 32207": {
+    "formatted_address": "3650 Ring Ln, Jacksonville, FL 32207, USA",
+    "name": "3650 Ring Ln",
+    "place_id": "ChIJLa4CBG625YgRGdV-dUdgVKM",
+    "types": [
+      "premise"
+    ]
+  },
+  "3190 W EDGEWOOD AVE, Jacksonville, FL 32209": {
+    "formatted_address": "3190 Edgewood Ave W, Jacksonville, FL 32209, USA",
+    "name": "3190 Edgewood Ave W",
+    "place_id": "ChIJu6AqeTy65YgRqICrgTG4sHo",
+    "types": [
+      "premise"
+    ]
+  },
+  "3465 PHILIPS HWY, Jacksonville, FL 32207": {
+    "formatted_address": "3465 Philips Hwy, Jacksonville, FL 32207, USA",
+    "name": "3465 Philips Hwy",
+    "place_id": "ChIJd9-XDEW25YgRtP_Lj5bqQis",
+    "types": [
+      "premise"
+    ]
+  },
+  "8201 KONA AVE, Jacksonville, FL 32211": {
+    "formatted_address": "8201 Kona Ave, Jacksonville, FL 32211, USA",
+    "name": "8201 Kona Ave",
+    "place_id": "ChIJxUZxIlS15YgRHHnDAZZfQg4",
+    "types": [
+      "premise"
+    ]
+  },
+  "1801 KERNAN BLVD, Jacksonville, FL 32246": {
+    "formatted_address": "1801 Kernan Blvd S, Jacksonville, FL 32246, USA",
+    "name": "1801 Kernan Blvd S",
+    "place_id": "ChIJC67K4RNL5IgRcGKJbWqadhE",
+    "types": [
+      "premise"
+    ]
+  },
+  "605 N OCEAN ST, Jacksonville, FL 32202": {
+    "formatted_address": "605 N Ocean St, Jacksonville, FL 32202, USA",
+    "name": "605 N Ocean St",
+    "place_id": "ChIJV9J-eSK35YgRmVZ3dnoIKJk",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "12250 ATLANTIC BLVD, Jacksonville, FL 32225": {
+    "formatted_address": "12250 Atlantic Blvd, Jacksonville, FL 32225, USA",
+    "name": "12250 Atlantic Blvd",
+    "place_id": "ChIJJ5KSMhJL5IgR9ZhX5B66HRM",
+    "types": [
+      "premise"
+    ]
+  },
+  "1250 BROOKWOOD FOREST BLVD, Jacksonville, FL 32225": {
+    "formatted_address": "1250 Brookwood Forest Blvd, Jacksonville, FL 32225, USA",
+    "name": "1250 Brookwood Forest Blvd",
+    "place_id": "ChIJq0rtcKG05YgR8TZOulKwwJQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "445 MONUMENT RD, Jacksonville, FL 32225": {
+    "formatted_address": "445 Monument Rd, Jacksonville, FL 32225, USA",
+    "name": "445 Monument Rd",
+    "place_id": "ChIJK6EiEZG05YgRGaNMF-cTd1Y",
+    "types": [
+      "premise"
+    ]
+  },
+  "1148 N MAIN ST, Jacksonville, FL 32206": {
+    "formatted_address": "1148 N Main St, Jacksonville, FL 32206, USA",
+    "name": "1148 N Main St",
+    "place_id": "ChIJlQUbYSS35YgREDS6LdCUx84",
+    "types": [
+      "premise"
+    ]
+  },
+  "5140 GATE PKWY, Jacksonville, FL 32256": {
+    "formatted_address": "5140 Gate Pkwy, Jacksonville, FL 32256, USA",
+    "name": "5140 Gate Pkwy",
+    "place_id": "ChIJCSMvU7vK5YgRF8nxnlEDJ2U",
+    "types": [
+      "premise"
+    ]
+  },
+  "3820 LOSCO RD, Jacksonville, FL 32257": {
+    "formatted_address": "3820 Losco Rd, Jacksonville, FL 32257, USA",
+    "name": "3820 Losco Rd",
+    "place_id": "ChIJmdZVP1TJ5YgRCXJfJl96Kz4",
+    "types": [
+      "premise"
+    ]
+  },
+  "5620 COLLINS RD, Jacksonville, FL 32244": {
+    "formatted_address": "5620 Collins Rd, Jacksonville, FL 32244, USA",
+    "name": "5620 Collins Rd",
+    "place_id": "ChIJa1k9l13G5YgRfanFbGoeoYw",
+    "types": [
+      "premise"
+    ]
+  },
+  "7610 BLANDING BLVD, Jacksonville, FL 32244": {
+    "formatted_address": "7610 Blanding Blvd, Jacksonville, FL 32244, USA",
+    "name": "7610 Blanding Blvd",
+    "place_id": "ChIJW5CunPDG5YgR4fCJY31sxyg",
+    "types": [
+      "premise"
+    ]
+  },
+  "11501 HARTS RD, Jacksonville, FL 32218": {
+    "formatted_address": "11501 Harts Rd, Jacksonville, FL 32218, USA",
+    "name": "11501 Harts Rd",
+    "place_id": "ChIJsy2GHimw5YgRJrK781gJBAI",
+    "types": [
+      "premise"
+    ]
+  },
+  "4320 SUNBEAM RD, Jacksonville, FL 32257": {
+    "formatted_address": "4320 Sunbeam Rd, Jacksonville, FL 32257, USA",
+    "name": "4320 Sunbeam Rd",
+    "place_id": "ChIJsx5zxNfL5YgRUjgm85u-vDo",
+    "types": [
+      "premise"
+    ]
+  },
+  "8500 ARGYLE BUSINESS LOOP BLVD, Jacksonville, FL 32244": {
+    "formatted_address": "8500 Argyle Business Loop, Jacksonville, FL 32244, United States",
+    "name": "Lindsey Terrace Apartments",
+    "place_id": "ChIJqa9xdZLG5YgRFmijkdwNn8o",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ]
+  },
+  "5710 LENOX AVE, Jacksonville, FL 32205": {
+    "formatted_address": "5710 Lenox Ave, Jacksonville, FL 32205, USA",
+    "name": "5710 Lenox Ave",
+    "place_id": "ChIJGXFiDvC45YgRwboGRFwY5rg",
+    "types": [
+      "premise"
+    ]
+  },
+  "3875 S SAN PABLO RD, Jacksonville, FL 32224": {
+    "formatted_address": "3875 San Pablo Rd S, Jacksonville, FL 32224, USA",
+    "name": "3875 San Pablo Rd S",
+    "place_id": "ChIJ2SmBQPVL5IgRpREjYQ7EtGE",
+    "types": [
+      "premise"
+    ]
+  },
+  "4901 SUNBEAM RD, Jacksonville, FL 32257": {
+    "formatted_address": "4901 Sunbeam Rd, Jacksonville, FL 32257, USA",
+    "name": "4901 Sunbeam Rd",
+    "place_id": "ChIJB6eLUcrL5YgR7BGkplsUSRQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "8450 W GATE PKWY, Jacksonville, FL 32216": {
+    "formatted_address": "8450 Gate Pkwy W, Jacksonville, FL 32216, USA",
+    "name": "8450 Gate Pkwy W",
+    "place_id": "ChIJddgVu37K5YgRBxkEQE4unw4",
+    "types": [
+      "premise"
+    ]
+  },
+  "19 W 38TH ST, Jacksonville, FL 32206": {
+    "formatted_address": "19 W 38th St, Jacksonville, FL 32206, USA",
+    "name": "19 W 38th St",
+    "place_id": "ChIJgSuFf9mw5YgRinBysZ9uaKo",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "22 W 38TH ST, Jacksonville, FL 32206": {
+    "formatted_address": "22 W 38th St, Jacksonville, FL 32206, USA",
+    "name": "22 W 38th St",
+    "place_id": "ChIJ46udKtqw5YgRuMdzKMCAjAE",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "2216 SPRING PARK RD, Jacksonville, FL 32207": {
+    "formatted_address": "2216 Spring Park Rd, Jacksonville, FL 32207, USA",
+    "name": "2216 Spring Park Rd",
+    "place_id": "ChIJQ7f1uFm25YgRijQrPe8FZFs",
+    "types": [
+      "premise"
+    ]
+  },
+  "2761 ST JOHNS AVE, Jacksonville, FL 32205": {
+    "formatted_address": "2761 St Johns Ave, Jacksonville, FL 32205, USA",
+    "name": "2761 St Johns Ave",
+    "place_id": "ChIJ71C6Wiq45YgR7XwmkA6qKvE",
+    "types": [
+      "premise"
+    ]
+  },
+  "7595 W BAYMEADOWS CIR, Jacksonville, FL 32256": {
+    "formatted_address": "7595 Baymeadows Cir W, Jacksonville, FL 32256, USA",
+    "name": "7595 Baymeadows Cir W",
+    "place_id": "ChIJWyO0s4rK5YgRgQgWro0nKU0",
+    "types": [
+      "premise"
+    ]
+  },
+  "2678 ST JOHNS BLUFF RD, Jacksonville, FL 32246": {
+    "formatted_address": "2678 St Johns Bluff Rd S, Jacksonville, FL 32246, USA",
+    "name": "2678 St Johns Bluff Rd S",
+    "place_id": "ChIJl2s1_Se15YgR510JnPbLYQ8",
+    "types": [
+      "premise"
+    ]
+  },
+  "12310 SEACREST LN, Jacksonville, FL 32224": {
+    "formatted_address": "12310 Seacrest Lane, Jacksonville, FL 32224, United States",
+    "name": "Vinoy at St. Johns",
+    "place_id": "ChIJjd29pKFK5IgRTs1uoSXAkdc",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ]
+  },
+  "5824 JUSTINA CT, Jacksonville, FL 32277": {
+    "formatted_address": "5824 Justina Ct, Jacksonville, FL 32277, USA",
+    "name": "5824 Justina Ct",
+    "place_id": "ChIJDxjq-vyz5YgR_36UPBFnaZU",
+    "types": [
+      "premise"
+    ]
+  },
+  "3273 JUSTINA RD, Jacksonville, FL 32277": {
+    "formatted_address": "3273 Justina Rd, Jacksonville, FL 32277, USA",
+    "name": "3273 Justina Rd",
+    "place_id": "ChIJmTprPKKz5YgRo75D-X2bMzk",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "6919 N MAIN ST, Jacksonville, FL 32208": {
+    "formatted_address": "6919 N Main St, Jacksonville, FL 32208, USA",
+    "name": "6919 N Main St",
+    "place_id": "ChIJI6JKOuKw5YgRNPc93eKa3bw",
+    "types": [
+      "street_address"
+    ]
+  },
+  "26 E 59TH ST, Jacksonville, FL 32208": {
+    "formatted_address": "26 E 59th St, Jacksonville, FL 32208, USA",
+    "name": "26 E 59th St",
+    "place_id": "ChIJTbpqmuGw5YgRx3FHqIZeRiA",
+    "types": [
+      "premise"
+    ]
+  },
+  "3658 STANLEY ST, Jacksonville, FL 32207": {
+    "formatted_address": "3658 Stanley St, Jacksonville, FL 32207, USA",
+    "name": "3658 Stanley St",
+    "place_id": "ChIJdxb4twe35YgRL2NCsigrquY",
+    "types": [
+      "premise"
+    ]
+  },
+  "5754 MERRILL RD, Jacksonville, FL 32277": {
+    "formatted_address": "5754 Merrill Rd, Jacksonville, FL 32277, USA",
+    "name": "5754 Merrill Rd",
+    "place_id": "ChIJO9mFE_-z5YgR1V5QLHjfqV0",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "2712 STARDUST CT, Jacksonville, FL 32211": {
+    "formatted_address": "2712 Stardust Ct, Jacksonville, FL 32211, USA",
+    "name": "2712 Stardust Ct",
+    "place_id": "ChIJCzPiZ_-z5YgRVPQ5qUc_o5k",
+    "types": [
+      "premise"
+    ]
+  },
+  "2753 STARDUST CT, Jacksonville, FL 32211": {
+    "formatted_address": "2753 Stardust Ct, Jacksonville, FL 32211, USA",
+    "name": "2753 Stardust Ct",
+    "place_id": "ChIJa1LYOP-z5YgRrrZnZWsECZA",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "8599 A C SKINNER PKWY, Jacksonville, FL 32256": {
+    "formatted_address": "8599 A C Skinner Pkwy, Jacksonville, FL 32256, USA",
+    "name": "8599 A C Skinner Pkwy",
+    "place_id": "ChIJG4G7vn3K5YgRJsI2euaiwGw",
+    "types": [
+      "premise"
+    ]
+  },
+  "11830 BUCKFIELD CIR, Jacksonville, FL 32256": {
+    "formatted_address": "11830 Buckfield Cir, Jacksonville, FL 32224, USA",
+    "name": "11830 Buckfield Cir",
+    "place_id": "ChIJtSQQ2VY15IgRGRhH6CREjdI",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "1020 STOCKTON ST, Jacksonville, FL 32204": {
+    "formatted_address": "1020 Stockton St, Jacksonville, FL 32204, USA",
+    "name": "1020 Stockton St",
+    "place_id": "ChIJR95lW3635YgReXcggcIgsiE",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "1655 PRUDENTIAL DR, Jacksonville, FL 32207": {
+    "formatted_address": "1655 Prudential Dr, Jacksonville, FL 32207, USA",
+    "name": "1655 Prudential Dr",
+    "place_id": "ChIJ8Y4bFAO35YgR-g7QYviGlvE",
+    "types": [
+      "premise"
+    ]
+  },
+  "2930 STONEMONT ST, Jacksonville, FL 32207": {
+    "formatted_address": "2930 Stonemont St, Jacksonville, FL 32207, USA",
+    "name": "2930 Stonemont St",
+    "place_id": "ChIJV1OX9U-25YgR76DRBXIuDKA",
+    "types": [
+      "premise"
+    ]
+  },
+  "8300 S OLD KINGS RD, Jacksonville, FL 32217": {
+    "formatted_address": "8300 Old Kings Rd S, Jacksonville, FL 32217, USA",
+    "name": "8300 Old Kings Rd S",
+    "place_id": "ChIJm1zfWyHK5YgRsYwK3OcfG2o",
+    "types": [
+      "premise"
+    ]
+  },
+  "13000 BROXTON BAY DR, Jacksonville, FL 32218": {
+    "formatted_address": "13000 Broxton Bay Dr, Jacksonville, FL 32218, USA",
+    "name": "13000 Broxton Bay Dr",
+    "place_id": "ChIJQ6VjmGSv5YgRr6y50hpq4L4",
+    "types": [
+      "premise"
+    ]
+  },
+  "3857 PRITMORE RD, Jacksonville, FL 32257": {
+    "formatted_address": "3857 Pritmore Rd, Jacksonville, FL 32257, USA",
+    "name": "3857 Pritmore Rd",
+    "place_id": "ChIJowASC-fJ5YgR58406IhOlrI",
+    "types": [
+      "premise"
+    ]
+  },
+  "3900 OLD SUNBEAM RD, Jacksonville, FL 32257": {
+    "formatted_address": "3900 Old Sunbeam Rd, Jacksonville, FL 32257, USA",
+    "name": "3900 Old Sunbeam Rd",
+    "place_id": "ChIJlcddnHrJ5YgRWmttJKsTn2I",
+    "types": [
+      "premise"
+    ]
+  },
+  "2335 RIVERSIDE AVE, Jacksonville, FL 32204": {
+    "formatted_address": "2335 Riverside Ave, Jacksonville, FL 32204, USA",
+    "name": "2335 Riverside Ave",
+    "place_id": "ChIJU2cuXH-35YgREyNzkwqxO04",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "5844 JUSTINA CT, Jacksonville, FL 32277": {
+    "formatted_address": "5844 Justina Ct, Jacksonville, FL 32277, USA",
+    "name": "5844 Justina Ct",
+    "place_id": "ChIJ314B7vyz5YgRb8ErKUlmAEw",
+    "types": [
+      "premise"
+    ]
+  },
+  "5717 TIMUQUANA RD, Jacksonville, FL 32210": {
+    "formatted_address": "5717 Timuquana Rd, Jacksonville, FL 32210, USA",
+    "name": "5717 Timuquana Rd",
+    "place_id": "ChIJ6Wzulp7H5YgRCeA03Vfyglo",
+    "types": [
+      "premise"
+    ]
+  },
+  "7385 PARK VILLAGE DR, Jacksonville, FL 32256": {
+    "formatted_address": "7385 Park Village Dr, Jacksonville, FL 32256, USA",
+    "name": "7385 Park Village Dr",
+    "place_id": "ChIJG-shvKzK5YgRbfTfGMCuqWE",
+    "types": [
+      "premise"
+    ]
+  },
+  "13885 S SUTTON PARK DR, Jacksonville, FL 32224": {
+    "formatted_address": "13885 Sutton Park Dr S, Jacksonville, FL 32224, USA",
+    "name": "13885 Sutton Park Dr S",
+    "place_id": "EjMxMzg4NSBTdXR0b24gUGFyayBEciBTLCBKYWNrc29udmlsbGUsIEZMIDMyMjI0LCBVU0EiMRIvChQKEgmZYm7zekrkiBGMKIWiJornpRC9bCoUChIJuyu04npK5IgRHWQkY2BlGH0",
+    "types": [
+      "street_address"
+    ]
+  },
+  "8575 MERCHANTS WAY, Jacksonville, FL 32222": {
+    "formatted_address": "8575 Merchants Way, Jacksonville, FL 32222, USA",
+    "name": "8575 Merchants Way",
+    "place_id": "ChIJ6WbMV4PB5YgRP3UFm-W_vkw",
+    "types": [
+      "premise"
+    ]
+  },
+  "3050 TAMAYA BLVD, Jacksonville, FL 32246": {
+    "formatted_address": "3050 Tamaya Blvd, Jacksonville, FL 32246, USA",
+    "name": "3050 Tamaya Blvd",
+    "place_id": "ChIJj6rrueNK5IgRVVdT5Q9XcCc",
+    "types": [
+      "premise"
+    ]
+  },
+  "6505 COLLINS RD, Jacksonville, FL 32244": {
+    "formatted_address": "6505 Collins Rd, Jacksonville, FL 32244, USA",
+    "name": "6505 Collins Rd",
+    "place_id": "ChIJg3E0Vu7G5YgR1uQbbOZyYEc",
+    "types": [
+      "premise"
+    ]
+  },
+  "6701 CHESTER AVE, Jacksonville, FL 32217": {
+    "formatted_address": "6701 Chester Ave, Jacksonville, FL 32217, USA",
+    "name": "6701 Chester Ave",
+    "place_id": "ChIJD5GSYeHJ5YgRZJsyJXCCPhc",
+    "types": [
+      "premise"
+    ]
+  },
+  "4450 TROPEA WAY, Jacksonville, FL 32246": {
+    "formatted_address": "4450 Tropea Wy, Jacksonville, FL 32246, USA",
+    "name": "4450 Tropea Wy",
+    "place_id": "ChIJSerdalu15YgRl98AlI_IA90",
+    "types": [
+      "premise"
+    ]
+  },
+  "1 RIVERSIDE AVE, Jacksonville, FL 32202": {
+    "formatted_address": "1 Riverside Ave, Jacksonville, FL 32202, USA",
+    "name": "1 Riverside Ave",
+    "place_id": "ChIJc8-dChO35YgRD6pDzD2F6z8",
+    "types": [
+      "premise"
+    ]
+  },
+  "6371 COLLINS RD, Jacksonville, FL 32244": {
+    "formatted_address": "6371 Collins Rd, Jacksonville, FL 32244, USA",
+    "name": "6371 Collins Rd",
+    "place_id": "ChIJjSQU1e_G5YgRbXaORi9T5Rs",
+    "types": [
+      "premise"
+    ]
+  },
+  "5675 BARNHILL DR, Jacksonville, FL 32207": {
+    "formatted_address": "5675 Barnhill Dr, Jacksonville, FL 32207, USA",
+    "name": "5675 Barnhill Dr",
+    "place_id": "ChIJzafFxgq25YgRxbIRo0iJaRY",
+    "types": [
+      "premise"
+    ]
+  },
+  "5615 SEABOARD AVE, Jacksonville, FL 32244": {
+    "formatted_address": "5615 Seaboard Ave, Jacksonville, FL 32244, USA",
+    "name": "5615 Seaboard Ave",
+    "place_id": "ChIJlYn8zJjH5YgRnCLO3ymxzZc",
+    "types": [
+      "premise"
+    ]
+  },
+  "2851 SOPHIA ST, Jacksonville, FL 32254": {
+    "formatted_address": "2851 Sophia St, Jacksonville, FL 32254, USA",
+    "name": "2851 Sophia St",
+    "place_id": "ChIJVdOWiZS55YgRvzTk-I29F38",
+    "types": [
+      "premise"
+    ]
+  },
+  "1400 LE BARON AVE, Jacksonville, FL 32207": {
+    "formatted_address": "1400 Le Baron Ave, Jacksonville, FL 32207, USA",
+    "name": "1400 Le Baron Ave",
+    "place_id": "ChIJG3dH2Au35YgRob2rhKmRq9U",
+    "types": [
+      "premise"
+    ]
+  },
+  "5000 BIG ISLAND DR, Jacksonville, FL 32246": {
+    "formatted_address": "5000 Big Island Drive, Jacksonville, FL 32246, USA",
+    "name": "5000 Big Island Drive",
+    "place_id": "ChIJY2Cv3qfK5YgRXTxiTAMi70E",
+    "types": [
+      "premise"
+    ]
+  },
+  "5000 KERNAN BLVD, Jacksonville, FL 32224": {
+    "formatted_address": "5000 Kernan Blvd S, Jacksonville, FL 32224, USA",
+    "name": "5000 Kernan Blvd S",
+    "place_id": "ChIJN9EkDqdK5IgRXxzujcBQ_TM",
+    "types": [
+      "premise"
+    ]
+  },
+  "3501 TOWNSEND BLVD, Jacksonville, FL 32277": {
+    "formatted_address": "3501 Townsend Blvd, Jacksonville, FL 32277, USA",
+    "name": "3501 Townsend Blvd",
+    "place_id": "ChIJATRgapKz5YgRmG5jqcPhPKM",
+    "types": [
+      "premise"
+    ]
+  },
+  "3450 TOWNSEND BLVD, Jacksonville, FL 32277": {
+    "formatted_address": "3450 Townsend Blvd, Jacksonville, FL 32277, USA",
+    "name": "3450 Townsend Blvd",
+    "place_id": "ChIJi4XNt5Oz5YgROAePPt0JDLQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "6355 MORSE AVE, Jacksonville, FL 32244": {
+    "formatted_address": "6355 Morse Ave, Jacksonville, FL 32244, USA",
+    "name": "6355 Morse Ave",
+    "place_id": "ChIJCWK0ZgPH5YgRM0VE-zNwtwI",
+    "types": [
+      "premise"
+    ]
+  },
+  "800 HAMMOND BLVD, Jacksonville, FL 32221": {
+    "formatted_address": "800 Hammond Blvd, Jacksonville, FL 32221, USA",
+    "name": "800 Hammond Blvd",
+    "place_id": "ChIJ42QFBh-_5YgR7-8U9qagwxQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "345 BURBANK AVE, Jacksonville, FL 32081": {
+    "formatted_address": "345 Burbank Ave, Nocatee, FL 32081, USA",
+    "name": "345 Burbank Ave",
+    "place_id": "EiczNDUgQnVyYmFuayBBdmUsIE5vY2F0ZWUsIEZMIDMyMDgxLCBVU0EiMRIvChQKEglbfEYuNDLkiBHywKBXJ3OUHxDZAioUChIJAapDlzYy5IgRG_L_v3pHtuw",
+    "types": [
+      "street_address"
+    ]
+  },
+  "3800 S UNIVERSITY BLVD, Jacksonville, FL 32216": {
+    "formatted_address": "3800 University Blvd S, Jacksonville, FL 32216, USA",
+    "name": "3800 University Blvd S",
+    "place_id": "ChIJx_IW-HW25YgRt_XX7HeS4W8",
+    "types": [
+      "premise"
+    ]
+  },
+  "3830 S UNIVERSITY BLVD, Jacksonville, FL 32216": {
+    "formatted_address": "3830 University Blvd S, Jacksonville, FL 32216, USA",
+    "name": "3830 University Blvd S",
+    "place_id": "ChIJg7re8XW25YgRa2SVQ7V6yyI",
+    "types": [
+      "premise"
+    ]
+  },
+  "4811 PAYNE STEWART DR, Jacksonville, FL 32209": {
+    "formatted_address": "4811 Payne Stewart, Jacksonville, FL 32209, USA",
+    "name": "4811 Payne Stewart",
+    "place_id": "ChIJ9QSmALmw5YgREnBjpLaQVwQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "4850 FIRST COAST TECHNOLOGY PKWY, Jacksonville, FL 32224": {
+    "formatted_address": "4850 First Coast Tech Pkwy, Jacksonville, FL 32224, USA",
+    "name": "4850 First Coast Tech Pkwy",
+    "place_id": "ChIJI6FilZdK5IgRvrjf7KHbJAM",
+    "types": [
+      "premise"
+    ]
+  },
+  "2749 VERNON TER, Jacksonville, FL 32205": {
+    "formatted_address": "2749 Vernon Terrace, Jacksonville, FL 32205, USA",
+    "name": "2749 Vernon Terrace",
+    "place_id": "ChIJySJnEiq45YgRnK4CCtZ4AtA",
+    "types": [
+      "premise"
+    ]
+  },
+  "5601 EDENFIELD RD, Jacksonville, FL 32277": {
+    "formatted_address": "5601 Edenfield Rd, Jacksonville, FL 32277, USA",
+    "name": "5601 Edenfield Rd",
+    "place_id": "ChIJt41otmKx5YgRoH-rvZyS0HA",
+    "types": [
+      "premise"
+    ]
+  },
+  "4263 LOSCO RD, Jacksonville, FL 32257": {
+    "formatted_address": "4263 Losco Rd, Jacksonville, FL 32257, USA",
+    "name": "4263 Losco Rd",
+    "place_id": "ChIJWShoz_3L5YgRlZbgQ06d620",
+    "types": [
+      "premise"
+    ]
+  },
+  "5551 AUBURN RD, Jacksonville, FL 32207": {
+    "formatted_address": "5551 Auburn Rd, Jacksonville, FL 32207, USA",
+    "name": "5551 Auburn Rd",
+    "place_id": "ChIJR5EH9Cm25YgRqKvBf8uy8Gs",
+    "types": [
+      "premise"
+    ]
+  },
+  "5121 CATOMA ST, Jacksonville, FL 32210": {
+    "formatted_address": "5121 Catoma St, Jacksonville, FL 32210, USA",
+    "name": "5121 Catoma St",
+    "place_id": "ChIJQ1YbgJHH5YgRmCE3ENiSRig",
+    "types": [
+      "premise"
+    ]
+  },
+  "5327 TIMUQUANA RD, Jacksonville, FL 32210": {
+    "formatted_address": "5327 Timuquana Rd, Jacksonville, FL 32210, USA",
+    "name": "5327 Timuquana Rd",
+    "place_id": "ChIJhR-WT5HH5YgRLMf-vERVlAQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "7740 PLANTATION BAY DR, Jacksonville, FL 32244": {
+    "formatted_address": "7740 Plantation Bay Dr, Jacksonville, FL 32244, USA",
+    "name": "7740 Plantation Bay Dr",
+    "place_id": "ChIJCbISZenG5YgRQdqfoAxuuAA",
+    "types": [
+      "premise"
+    ]
+  },
+  "7735 PLANTATION BAY DR, Jacksonville, FL 32244": {
+    "formatted_address": "7735 Plantation Bay Dr, Jacksonville, FL 32244, USA",
+    "name": "7735 Plantation Bay Dr",
+    "place_id": "ChIJ-Tnpvu7G5YgRmuAr0DyhE_o",
+    "types": [
+      "premise"
+    ]
+  },
+  "7730 PLANTATION BAY DR, Jacksonville, FL 32244": {
+    "formatted_address": "7730 Plantation Bay Dr, Jacksonville, FL 32244, USA",
+    "name": "7730 Plantation Bay Dr",
+    "place_id": "ChIJGZxPDunG5YgRA92H2K87ykY",
+    "types": [
+      "premise"
+    ]
+  },
+  "5020 CLEVELAND RD, Jacksonville, FL 32209": {
+    "formatted_address": "5020 Cleveland Rd, Jacksonville, FL 32209, USA",
+    "name": "5020 Cleveland Rd",
+    "place_id": "ChIJn9OHwRu65YgRs11KvMepW18",
+    "types": [
+      "premise"
+    ]
+  },
+  "660 STARRATT RD, Jacksonville, FL 32218": {
+    "formatted_address": "660 Starratt Rd, Jacksonville, FL 32218, USA",
+    "name": "660 Starratt Rd",
+    "place_id": "ChIJo9OwAXGu5YgRzyCYt2ZkAIw",
+    "types": [
+      "street_address"
+    ]
+  },
+  "7071 103RD ST, Jacksonville, FL 32210": {
+    "formatted_address": "7071 103rd St, Jacksonville, FL 32210, USA",
+    "name": "7071 103rd St",
+    "place_id": "ChIJPzscPUHH5YgRPmTIlmJRksg",
+    "types": [
+      "premise"
+    ]
+  },
+  "11391 SQUARE ST, Jacksonville, FL 32256": {
+    "formatted_address": "11391 Square St, Jacksonville, FL 32256, USA",
+    "name": "11391 Square St",
+    "place_id": "ChIJyyr5xag05IgRvEHrXbhmX-w",
+    "types": [
+      "premise"
+    ]
+  },
+  "716 W CHURCH ST, Jacksonville, FL 32202": {
+    "formatted_address": "716 Church St W, Jacksonville, FL 32202, USA",
+    "name": "716 Church St W",
+    "place_id": "ChIJo1q7Lz635YgRpzW43bK3ldY",
+    "types": [
+      "premise"
+    ]
+  },
+  "8275 SAN JOSE MANOR CT, Jacksonville, FL 32217": {
+    "formatted_address": "8275 San Jose Manor Ct, Jacksonville, FL 32217, USA",
+    "name": "8275 San Jose Manor Ct",
+    "place_id": "ChIJPyEPjyHK5YgR5SrHBYE4XnE",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "8270 PODRUG ST, Jacksonville, FL 32217": null,
+  "13700 N SUTTON PARK DR, Jacksonville, FL 32224": {
+    "formatted_address": "13700 Sutton Park Dr N, Jacksonville, FL 32224, USA",
+    "name": "13700 Sutton Park Dr N",
+    "place_id": "ChIJdVADl2RK5IgRGV5VxXvq7Hw",
+    "types": [
+      "premise"
+    ]
+  },
+  "7651 GATE PKWY, Jacksonville, FL 32256": {
+    "formatted_address": "7651 Gate Pkwy, Jacksonville, FL 32256, USA",
+    "name": "7651 Gate Pkwy",
+    "place_id": "ChIJk0Gj3rLK5YgRfk4xjQJbkC0",
+    "types": [
+      "premise"
+    ]
+  },
+  "113 W ADAMS ST, Jacksonville, FL 32202": {
+    "formatted_address": "113 W Adams St, Jacksonville, FL 32202, USA",
+    "name": "113 W Adams St",
+    "place_id": "ChIJCzp_mRe35YgRL7vCQpOLUFc",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "218 W CHURCH ST, Jacksonville, FL 32202": {
+    "formatted_address": "218 Church St W, Jacksonville, FL 32202, USA",
+    "name": "218 Church St W",
+    "place_id": "ChIJCW9c2Re35YgRMvgk6NitfLQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "208 N 10TH AVE, Jacksonville Beach, FL 32250": {
+    "formatted_address": "208 10th Ave N, Jacksonville Beach, FL 32250, USA",
+    "name": "208 10th Ave N",
+    "place_id": "ChIJTw5IugVJ5IgRvDqCwDFvmF0",
+    "types": [
+      "premise"
+    ]
+  },
+  "2304 S ST JOHNS BLUFF RD, Jacksonville, FL 32246": {
+    "formatted_address": "2304 St Johns Bluff Rd S, Jacksonville, FL 32246, USA",
+    "name": "2304 St Johns Bluff Rd S",
+    "place_id": "ChIJ27j-Xtq05YgRcimj9scuxS8",
+    "types": [
+      "premise"
+    ]
+  },
+  "1055 E 1ST ST, Jacksonville, FL 32206": {
+    "formatted_address": "1055 E 1st St, Jacksonville, FL 32206, USA",
+    "name": "1055 E 1st St",
+    "place_id": "ChIJSZby4Nu25YgRVBMGeTkSecI",
+    "types": [
+      "premise"
+    ]
+  },
+  "7960 103RD ST, Jacksonville, FL 32210": {
+    "formatted_address": "7960 103rd St, Jacksonville, FL 32210, USA",
+    "name": "7960 103rd St",
+    "place_id": "ChIJ38ZBocrA5YgRXIPjnflD7Ac",
+    "types": [
+      "premise"
+    ]
+  },
+  "7411 LA VENTURA DR, Jacksonville, FL 32210": {
+    "formatted_address": "7411 La Ventura Dr E, Jacksonville, FL 32210, USA",
+    "name": "7411 La Ventura Dr E",
+    "place_id": "ChIJT4dxx0jH5YgRJKvkyia86fs",
+    "types": [
+      "subpremise"
+    ]
+  },
+  "4910 SAMARITAN WAY, Jacksonville, FL 32210": {
+    "formatted_address": "4910 Samaritan Way, Jacksonville, FL 32210, USA",
+    "name": "4910 Samaritan Way",
+    "place_id": "ChIJ14lcYGrA5YgRitp1ZvbczGM",
+    "types": [
+      "premise"
+    ]
+  },
+  "7556 LA FONTAINE DR, Jacksonville, FL 32244": {
+    "formatted_address": "7556 La Fontaine Dr, Jacksonville, FL 32244, USA",
+    "name": "7556 La Fontaine Dr",
+    "place_id": "ChIJRwDbiPrG5YgRyvoBySYxBzI",
+    "types": [
+      "premise"
+    ]
+  },
+  "13723 ATLANTIC BLVD, Jacksonville, FL 32225": {
+    "formatted_address": "13723 Atlantic Blvd, Jacksonville, FL 32225, USA",
+    "name": "13723 Atlantic Blvd",
+    "place_id": "ChIJsY-yRexL5IgRCQ3bKtGlmU8",
+    "types": [
+      "premise"
+    ]
+  },
+  "7855 WILSON BLVD, Jacksonville, FL 32210": {
+    "formatted_address": "7855 Wilson Blvd, Jacksonville, FL 32210, USA",
+    "name": "7855 Wilson Blvd",
+    "place_id": "ChIJrwz-yaq45YgRnB426yZBjgk",
+    "types": [
+      "premise"
+    ]
+  },
+  "5626 WINDERMERE DR, Jacksonville, FL 32211": {
+    "formatted_address": "5626 Windermere Dr, Jacksonville, FL 32211, USA",
+    "name": "5626 Windermere Dr",
+    "place_id": "ChIJyRANOx205YgRlLYvcgS6t4c",
+    "types": [
+      "premise"
+    ]
+  },
+  "7602 ARBLE DR, Jacksonville, FL 32211": {
+    "formatted_address": "7602 Arble Dr, Jacksonville, FL 32211, USA",
+    "name": "7602 Arble Dr",
+    "place_id": "ChIJywARgne05YgRpEq6XBEzNYM",
+    "types": [
+      "premise"
+    ]
+  },
+  "7603 ARBLE DR, Jacksonville, FL 32211": {
+    "formatted_address": "7603 Arble Dr, Jacksonville, FL 32211, USA",
+    "name": "7603 Arble Dr",
+    "place_id": "ChIJbRQ3hHe05YgR9KonuYH0PgQ",
+    "types": [
+      "premise"
+    ]
+  },
+  "9439 SAN JOSE BLVD, Jacksonville, FL 32257": {
+    "formatted_address": "9439 San Jose Blvd, Jacksonville, FL 32257, USA",
+    "name": "9439 San Jose Blvd",
+    "place_id": "ChIJ1yePFnrJ5YgRJZ9HWmblVlk",
+    "types": [
+      "premise"
+    ]
+  },
+  "12175 PHILIPS HWY, Jacksonville, FL 32256": {
+    "formatted_address": "12175 Philips Hwy, Jacksonville, FL 32256, USA",
+    "name": "12175 Philips Hwy",
+    "place_id": "ChIJ-fRVz7HM5YgR2lTfu-LbcdQ",
+    "types": [
+      "street_address"
+    ]
+  },
+  "4929 SKYWAY DR, Jacksonville, FL 32246": {
+    "formatted_address": "4929 Skyway Dr, Jacksonville, FL 32246, USA",
+    "name": "4929 Skyway Dr",
+    "place_id": "ChIJbfE7ypzK5YgRBRdVv9CJoQ8",
+    "types": [
+      "premise"
+    ]
+  },
+  "8150 POINT MEADOWS DR, Jacksonville, FL 32256": {
+    "formatted_address": "8150 Point Meadows Dr, Jacksonville, FL 32256, USA",
+    "name": "8150 Point Meadows Dr",
+    "place_id": "ChIJp3ycRs3K5YgRQfY8Y4Gq2Z4",
+    "types": [
+      "premise"
+    ]
+  },
+  "3015 PARENTAL HOME RD, Jacksonville, FL 32216": {
+    "formatted_address": "3015 Parental Home Rd, Jacksonville, FL 32216, USA",
+    "name": "3015 Parental Home Rd",
+    "place_id": "ChIJy8_tS-615YgRFEcUH_zCKYM",
+    "types": [
+      "premise"
+    ]
+  }
+}
