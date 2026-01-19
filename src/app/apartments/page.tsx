@@ -91,10 +91,10 @@ async function getApartments(searchParams: SearchParams) {
   ])
 
   return {
-    apartments: apartments.map(apt => ({
+    apartments: apartments.map((apt: typeof apartments[number]) => ({
       ...apt,
       averageRating: apt.reviews.length > 0
-        ? apt.reviews.reduce((sum, r) => sum + r.overallRating, 0) / apt.reviews.length
+        ? apt.reviews.reduce((sum: number, r: { overallRating: number }) => sum + r.overallRating, 0) / apt.reviews.length
         : null,
       reviewCount: apt.reviews.length
     })),
