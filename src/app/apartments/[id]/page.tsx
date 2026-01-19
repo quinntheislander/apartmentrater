@@ -73,14 +73,14 @@ async function getApartment(id: string, userId?: string) {
 
   const reviewCount = apartment.reviews.length
   const avgRating = reviewCount > 0
-    ? apartment.reviews.reduce((sum, r) => sum + r.overallRating, 0) / reviewCount
+    ? apartment.reviews.reduce((sum: number, r) => sum + r.overallRating, 0) / reviewCount
     : null
 
   // Opinion-First rating categories (subjective impressions)
   const categoryAverages = reviewCount > 0 ? {
-    noiseLevel: apartment.reviews.reduce((sum, r) => sum + r.noiseLevel, 0) / reviewCount,
-    naturalLight: apartment.reviews.reduce((sum, r) => sum + r.naturalLight, 0) / reviewCount,
-    generalVibe: apartment.reviews.reduce((sum, r) => sum + r.generalVibe, 0) / reviewCount
+    noiseLevel: apartment.reviews.reduce((sum: number, r) => sum + r.noiseLevel, 0) / reviewCount,
+    naturalLight: apartment.reviews.reduce((sum: number, r) => sum + r.naturalLight, 0) / reviewCount,
+    generalVibe: apartment.reviews.reduce((sum: number, r) => sum + r.generalVibe, 0) / reviewCount
   } : null
 
   const recommendPercent = reviewCount > 0
