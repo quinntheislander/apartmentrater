@@ -56,12 +56,12 @@ export async function PUT(
     }
 
     // Opinion-First: 3 subjective categories
-    const categoryRatings = [
+    const categoryRatings: number[] = [
       data.noiseLevel,
       data.naturalLight,
       data.generalVibe
     ]
-    const overallRating = categoryRatings.reduce((a, b) => a + b, 0) / categoryRatings.length
+    const overallRating = categoryRatings.reduce((a: number, b: number) => a + b, 0) / categoryRatings.length
 
     const updatedReview = await prisma.review.update({
       where: { id: reviewId },

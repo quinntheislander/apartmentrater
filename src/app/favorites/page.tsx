@@ -6,6 +6,19 @@ import { authOptions } from '@/lib/auth'
 import { getUserFavorites } from '@/lib/favorites'
 import ApartmentCard from '@/components/ApartmentCard'
 
+interface FavoriteApartment {
+  id: string
+  name: string
+  address: string
+  city: string
+  state: string
+  zipCode: string
+  propertyType: string
+  imageUrl: string | null
+  averageRating: number | null
+  reviewCount: number
+}
+
 export default async function FavoritesPage() {
   const session = await getServerSession(authOptions)
 
@@ -28,7 +41,7 @@ export default async function FavoritesPage() {
             {favorites.length} saved apartment{favorites.length === 1 ? '' : 's'}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {favorites.map((apartment) => (
+            {favorites.map((apartment: FavoriteApartment) => (
               <ApartmentCard key={apartment.id} apartment={apartment} />
             ))}
           </div>
