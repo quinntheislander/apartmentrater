@@ -28,7 +28,7 @@ export async function getUserFavorites(userId: string): Promise<FavoriteApartmen
     orderBy: { createdAt: 'desc' }
   })
 
-  return favorites.map((fav) => ({
+  return favorites.map((fav: typeof favorites[number]) => ({
     id: fav.apartment.id,
     name: fav.apartment.name,
     address: fav.apartment.address,
