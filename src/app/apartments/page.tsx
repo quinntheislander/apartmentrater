@@ -103,7 +103,7 @@ async function getApartments(searchParams: SearchParams) {
     prisma.apartment.count({ where })
   ])
 
-  const apartmentsWithRating: ApartmentWithRating[] = apartments.map((apt) => ({
+  const apartmentsWithRating: ApartmentWithRating[] = apartments.map((apt: typeof apartments[number]) => ({
     id: apt.id,
     name: apt.name,
     address: apt.address,
