@@ -3,7 +3,7 @@ import { Resend } from 'resend'
 
 const resend = new Resend(process.env.RESEND_API_KEY)
 
-const FROM_EMAIL = 'Apartment Rater <noreply@apartmentrater.io>'
+const FROM_EMAIL = 'Apartment Rater <contact@apartmentrater.io>'
 
 export function generateToken(): string {
   return crypto.randomBytes(32).toString('hex')
