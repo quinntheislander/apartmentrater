@@ -21,11 +21,12 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Find Your Perfect Apartment
+              Find Your Perfect Apartment in Jacksonville
             </h1>
-            <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
               Real reviews from real tenants. Get the truth about noise levels,
               management, maintenance, and more before you sign the lease.
+              Currently exclusively serving the Jacksonville, FL area. We&apos;re working to expand into other Florida markets soon!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -51,7 +52,7 @@ export default function Home() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
-            Why Use Apartment Rater?
+            Why Use Apartment Rater in Jacksonville?
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-sm text-center">
