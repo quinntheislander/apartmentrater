@@ -82,7 +82,7 @@ export default function Navbar() {
                 </Link>
                 <Link
                   href="/auth/signup"
-                  className="bg-blue-600 text-white hover:bg-blue-700 px-4 py-2 rounded-md text-sm font-medium"
+                  className="bg-purple-600 text-white hover:bg-purple-700 px-4 py-2 rounded-md text-sm font-medium"
                 >
                   Sign Up
                 </Link>
@@ -190,7 +190,7 @@ export default function Navbar() {
               <Link
                 href="/auth/signup"
                 onClick={closeMenu}
-                className="flex items-center gap-2 bg-blue-600 text-white hover:bg-blue-700 px-3 py-3 rounded-md text-base font-medium"
+                className="flex items-center gap-2 bg-purple-600 text-white hover:bg-purple-700 px-3 py-3 rounded-md text-base font-medium"
                 role="menuitem"
               >
                 Sign Up
