@@ -49,20 +49,20 @@ async function getApartments(searchParams: SearchParams) {
   }
 
   // Filter by area/neighborhood
-  // SQLite's LIKE (used by contains) is case-insensitive for ASCII by default
+  // PostgreSQL requires mode: 'insensitive' for case-insensitive search
   if (searchParams.area && searchParams.area !== 'All Areas') {
     where.OR = [
-      { address: { contains: searchParams.area } },
-      { description: { contains: searchParams.area } }
+      { address: { contains: searchParams.area, mode: 'insensitive' } },
+      { description: { contains: searchParams.area, mode: 'insensitive' } }
     ]
   }
 
   // Search by name or address
-  // SQLite's LIKE (used by contains) is case-insensitive for ASCII by default
+  // PostgreSQL requires mode: 'insensitive' for case-insensitive search
   if (searchParams.search) {
     const searchConditions = [
-      { name: { contains: searchParams.search } },
-      { address: { contains: searchParams.search } }
+      { name: { contains: searchParams.search, mode: 'insensitive' } },
+      { address: { contains: searchParams.search, mode: 'insensitive' } }
     ]
 
     if (where.OR) {
