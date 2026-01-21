@@ -42,8 +42,16 @@ export default function SignInPage() {
   }
 
   return (
-    <div className="min-h-[calc(100vh-64px)] flex items-center justify-center px-4">
-      <div className="bg-white rounded-xl shadow-sm p-8 w-full max-w-md">
+    <div className="min-h-[calc(100vh-64px)] flex items-center justify-center px-4 relative">
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/jax_01.jpeg')" }}
+      />
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/70 to-blue-800/60" />
+
+      <div className="relative bg-white rounded-xl shadow-lg p-8 w-full max-w-md">
         <div className="text-center mb-8">
           <Building2 className="h-12 w-12 text-blue-600 mx-auto mb-4" />
           <h1 className="text-2xl font-bold">Welcome Back</h1>
