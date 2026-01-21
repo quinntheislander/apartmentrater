@@ -1,15 +1,14 @@
 'use client'
 
 import { useState } from 'react'
-import { signIn } from 'next-auth/react'
-import { useRouter } from 'next/navigation'
 import Link from 'next/link'
-import { Building2 } from 'lucide-react'
+import { Building2, Mail, CheckCircle } from 'lucide-react'
 
 export default function SignUpPage() {
-  const router = useRouter()
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  const [success, setSuccess] = useState(false)
+  const [submittedEmail, setSubmittedEmail] = useState('')
 
   const [formData, setFormData] = useState({
     name: '',
@@ -51,23 +50,49 @@ export default function SignUpPage() {
         throw new Error(data.error || 'Failed to create account')
       }
 
-      const result = await signIn('credentials', {
-        email: formData.email,
-        password: formData.password,
-        redirect: false
-      })
-
-      if (result?.error) {
-        throw new Error('Account created but failed to sign in')
-      }
-
-      router.push('/apartments')
-      router.refresh()
+      // Show success message instead of auto-signing in
+      setSubmittedEmail(formData.email)
+      setSuccess(true)
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Something went wrong')
     } finally {
       setLoading(false)
     }
+  }
+
+  // Show success message after registration
+  if (success) {
+    return (
+      <div className="min-h-[calc(100vh-64px)] flex items-center justify-center px-4">
+        <div className="bg-white rounded-xl shadow-sm p-8 w-full max-w-md text-center">
+          <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+            <Mail className="h-8 w-8 text-green-600" />
+          </div>
+          <h1 className="text-2xl font-bold text-gray-900 mb-2">Check Your Email</h1>
+          <p className="text-gray-600 mb-6">
+            We&apos;ve sent a verification link to <strong>{submittedEmail}</strong>.
+            Please click the link to verify your email and activate your account.
+          </p>
+          <div className="bg-blue-50 rounded-lg p-4 mb-6">
+            <div className="flex items-start gap-3">
+              <CheckCircle className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
+              <p className="text-sm text-blue-800 text-left">
+                After verifying your email, you&apos;ll be able to sign in and start reviewing apartments.
+              </p>
+            </div>
+          </div>
+          <Link
+            href="/auth/signin"
+            className="inline-block bg-blue-600 text-white py-3 px-6 rounded-lg font-medium hover:bg-blue-700"
+          >
+            Go to Sign In
+          </Link>
+          <p className="text-sm text-gray-500 mt-4">
+            Didn&apos;t receive the email? Check your spam folder.
+          </p>
+        </div>
+      </div>
+    )
   }
 
   return (
