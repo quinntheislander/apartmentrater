@@ -258,6 +258,8 @@ export default async function ApartmentPage({
           generalVibe: number
           unitNumber?: string | null
           isUnitVerified?: boolean
+          leaseStartDate?: Date | string | null
+          leaseEndDate?: Date | string | null
           wouldRecommend: boolean
           anonymous: boolean
           isVerified: boolean

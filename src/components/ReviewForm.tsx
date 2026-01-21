@@ -77,7 +77,7 @@ export default function ReviewForm({ apartmentId, apartmentInfo, editReview }: R
     title: '',
     experienceSummary: '',
     wouldRecommend: true,
-    anonymous: false,
+    anonymous: true, // Always anonymous - names are not displayed
     unitNumber: '',
     isUnitVerified: false,
     leaseStartDate: '',
@@ -295,10 +295,10 @@ export default function ReviewForm({ apartmentId, apartmentInfo, editReview }: R
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
-              Lease Start Date *
+              Lease Start (Month/Year) *
             </label>
             <input
-              type="date"
+              type="month"
               value={formData.leaseStartDate}
               onChange={(e) => setFormData(prev => ({ ...prev, leaseStartDate: e.target.value }))}
               className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
@@ -307,10 +307,10 @@ export default function ReviewForm({ apartmentId, apartmentInfo, editReview }: R
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
-              Lease End Date *
+              Lease End (Month/Year) *
             </label>
             <input
-              type="date"
+              type="month"
               value={formData.leaseEndDate}
               onChange={(e) => setFormData(prev => ({ ...prev, leaseEndDate: e.target.value }))}
               className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
@@ -338,17 +338,10 @@ export default function ReviewForm({ apartmentId, apartmentInfo, editReview }: R
             />
             <span className="text-sm">I would recommend this apartment</span>
           </label>
-
-          <label className="flex items-center gap-2">
-            <input
-              type="checkbox"
-              checked={formData.anonymous}
-              onChange={(e) => setFormData(prev => ({ ...prev, anonymous: e.target.checked }))}
-              className="h-4 w-4 text-blue-600 rounded"
-            />
-            <span className="text-sm">Post anonymously</span>
-          </label>
         </div>
+        <p className="text-xs text-gray-500">
+          Your name will not be displayed on your review to protect your privacy.
+        </p>
       </div>
 
       {/* Mandatory Certification Checkbox */}

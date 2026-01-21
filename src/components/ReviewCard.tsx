@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { ThumbsUp, CheckCircle, User, Pencil, Trash2 } from 'lucide-react'
+import { ThumbsUp, CheckCircle, Home, Pencil, Trash2, Clock } from 'lucide-react'
 import StarRating from './StarRating'
 
 interface ReviewCardProps {
@@ -17,6 +17,9 @@ interface ReviewCardProps {
     // Unit info
     unitNumber?: string | null
     isUnitVerified?: boolean
+    // Lease dates for current tenant indicator
+    leaseStartDate?: Date | string | null
+    leaseEndDate?: Date | string | null
     // Meta
     wouldRecommend: boolean
     anonymous: boolean
@@ -50,8 +53,12 @@ export default function ReviewCard({
   const [hasVoted, setHasVoted] = useState(userHasVoted)
   const [isVoting, setIsVoting] = useState(false)
 
-  const displayName = review.anonymous ? 'Anonymous' : (review.user.name || 'User')
   const isOwner = !!(currentUserId && review.user.id === currentUserId)
+
+  // Determine if this is a current tenant based on lease end date
+  const isCurrentTenant = review.leaseEndDate
+    ? new Date(review.leaseEndDate) >= new Date()
+    : false
 
   // Opinion-based rating categories (subjective impressions)
   const categories = [
@@ -124,7 +131,7 @@ export default function ReviewCard({
       className="bg-white rounded-lg shadow p-6"
       itemScope
       itemType="https://schema.org/Review"
-      aria-label={`Review by ${displayName}: ${review.title}`}
+      aria-label={`Review of ${review.unitNumber ? `Unit ${review.unitNumber}` : 'apartment'}: ${review.title}`}
     >
       <meta itemProp="datePublished" content={new Date(review.createdAt).toISOString()} />
       <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
@@ -133,18 +140,35 @@ export default function ReviewCard({
         <meta itemProp="worstRating" content="1" />
       </div>
       <div itemProp="author" itemScope itemType="https://schema.org/Person">
-        <meta itemProp="name" content={displayName} />
+        <meta itemProp="name" content="Resident" />
       </div>
 
       <header className="flex items-start justify-between">
         <div className="flex items-center gap-3">
-          <div className="h-10 w-10 bg-gray-100 rounded-full flex items-center justify-center" aria-hidden="true">
-            <User className="h-5 w-5 text-gray-400" />
+          {/* Unit number prominently displayed */}
+          <div className="h-12 w-12 bg-blue-100 rounded-lg flex items-center justify-center" aria-hidden="true">
+            <Home className="h-6 w-6 text-blue-600" />
           </div>
           <div>
-            <div className="flex items-center gap-2">
-              <span className="font-medium text-gray-900">{displayName}</span>
-              {review.isVerified && (
+            <div className="flex items-center gap-2 flex-wrap">
+              {review.unitNumber ? (
+                <span className="font-semibold text-gray-900 text-lg">Unit {review.unitNumber}</span>
+              ) : (
+                <span className="font-medium text-gray-600">Unit not specified</span>
+              )}
+              {review.isUnitVerified && (
+                <span className="flex items-center gap-1 text-green-600 text-xs bg-green-50 px-2 py-0.5 rounded">
+                  <CheckCircle className="h-3 w-3" aria-hidden="true" />
+                  <span>Verified</span>
+                </span>
+              )}
+              {isCurrentTenant && (
+                <span className="flex items-center gap-1 text-purple-600 text-xs bg-purple-50 px-2 py-0.5 rounded">
+                  <Clock className="h-3 w-3" aria-hidden="true" />
+                  <span>Current Tenant</span>
+                </span>
+              )}
+              {review.isVerified && !isCurrentTenant && (
                 <span className="flex items-center gap-1 text-green-600 text-xs">
                   <CheckCircle className="h-3 w-3" aria-hidden="true" />
                   <span>Verified Tenant</span>
@@ -187,22 +211,6 @@ export default function ReviewCard({
       </header>
 
       <h4 className="font-semibold text-lg mt-4" itemProp="name">{review.title}</h4>
-
-      {/* Unit info with verification badge */}
-      {review.unitNumber && (
-        <div className="flex items-center gap-2 mt-2">
-          <span className="text-sm text-gray-500">Unit: {review.unitNumber}</span>
-          {review.isUnitVerified ? (
-            <span className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded">
-              Verified
-            </span>
-          ) : (
-            <span className="text-xs bg-gray-100 text-gray-500 px-2 py-0.5 rounded">
-              User-provided
-            </span>
-          )}
-        </div>
-      )}
 
       {/* Opinion disclaimer badge */}
       <div className="mt-3 mb-2">
