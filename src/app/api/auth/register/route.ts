@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import bcrypt from 'bcryptjs'
 import { prisma } from '@/lib/db'
+import { generateToken, sendVerificationEmail } from '@/lib/email'
 
 export async function POST(request: Request) {
   try {
@@ -13,8 +14,10 @@ export async function POST(request: Request) {
       )
     }
 
+    const normalizedEmail = email.toLowerCase()
+
     const existingUser = await prisma.user.findUnique({
-      where: { email }
+      where: { email: normalizedEmail }
     })
 
     if (existingUser) {
@@ -28,11 +31,26 @@ export async function POST(request: Request) {
 
     const user = await prisma.user.create({
       data: {
-        email,
+        email: normalizedEmail,
         password: hashedPassword,
         name
       }
     })
+
+    // Create email verification token
+    const token = generateToken()
+    const expires = new Date(Date.now() + 24 * 60 * 60 * 1000) // 24 hours
+
+    await prisma.verificationToken.create({
+      data: {
+        identifier: user.email,
+        token,
+        expires
+      }
+    })
+
+    // Send verification email
+    await sendVerificationEmail(user.email, token)
 
     return NextResponse.json({
       user: {

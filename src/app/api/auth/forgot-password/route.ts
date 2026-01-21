@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 import { prisma } from '@/lib/db'
-import crypto from 'crypto'
+import { generateToken, sendPasswordResetEmail } from '@/lib/email'
 
 export async function POST(request: Request) {
   try {
@@ -30,7 +30,7 @@ export async function POST(request: Request) {
     })
 
     // Create a new password reset token
-    const token = crypto.randomBytes(32).toString('hex')
+    const token = generateToken()
     const expires = new Date(Date.now() + 60 * 60 * 1000) // 1 hour
 
     await prisma.verificationToken.create({
@@ -41,14 +41,8 @@ export async function POST(request: Request) {
       }
     })
 
-    // In production, send email here
-    // For development, log the reset URL
-    const resetUrl = `${process.env.NEXTAUTH_URL}/auth/reset-password?token=${token}`
-    console.log('========================================')
-    console.log('PASSWORD RESET LINK (Development Only)')
-    console.log(`User: ${user.email}`)
-    console.log(`Reset URL: ${resetUrl}`)
-    console.log('========================================')
+    // Send password reset email
+    await sendPasswordResetEmail(user.email, token)
 
     return NextResponse.json({ message: 'If an account exists, a reset link has been sent' })
   } catch (error) {
