@@ -32,8 +32,8 @@ function VerifyEmailContent() {
 
       if (res.ok) {
         setStatus('success')
-        // Redirect to dashboard after 3 seconds
-        setTimeout(() => router.push('/dashboard'), 3000)
+        // Redirect to sign in after 3 seconds
+        setTimeout(() => router.push('/auth/signin'), 3000)
       } else {
         const data = await res.json()
         setStatus('error')
@@ -61,13 +61,13 @@ function VerifyEmailContent() {
             <CheckCircle className="h-16 w-16 text-green-500 mx-auto mb-6" />
             <h1 className="text-2xl font-bold mb-2">Email Verified!</h1>
             <p className="text-gray-500 mb-6">
-              Your email has been successfully verified. Redirecting to dashboard...
+              Your email has been successfully verified. You can now sign in to your account.
             </p>
             <Link
-              href="/dashboard"
+              href="/auth/signin"
               className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700"
             >
-              Go to Dashboard
+              Sign In
             </Link>
           </>
         )}
@@ -79,13 +79,13 @@ function VerifyEmailContent() {
             <p className="text-gray-500 mb-6">{error}</p>
             <div className="space-y-3">
               <Link
-                href="/dashboard"
+                href="/auth/signup"
                 className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700"
               >
-                Go to Dashboard
+                Try Again
               </Link>
               <p className="text-sm text-gray-400">
-                You can request a new verification email from your dashboard.
+                The verification link may have expired. Please sign up again to receive a new link.
               </p>
             </div>
           </>
