@@ -48,9 +48,9 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="py-20">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
             Why Use Apartment Rater?
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -58,7 +58,7 @@ export default function Home() {
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Star className="h-8 w-8 text-blue-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Detailed Ratings</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Detailed Ratings</h3>
               <p className="text-gray-600">
                 Rate apartments on 9 categories including noise, management,
                 maintenance, safety, and more.
@@ -68,7 +68,7 @@ export default function Home() {
               <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Shield className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Verified Reviews</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Verified Reviews</h3>
               <p className="text-gray-600">
                 Look for verified badges from tenants who have proven their
                 residency for trustworthy reviews.
@@ -78,7 +78,7 @@ export default function Home() {
               <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Users className="h-8 w-8 text-purple-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Anonymous Option</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Anonymous Option</h3>
               <p className="text-gray-600">
                 Share your honest experience without fear. Post anonymously to
                 protect yourself from retaliation.
@@ -91,7 +91,7 @@ export default function Home() {
       {/* Rating Categories Preview */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-4">
+          <h2 className="text-3xl font-bold text-center mb-4 text-gray-900">
             Comprehensive Rating System
           </h2>
           <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
