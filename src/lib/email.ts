@@ -1,9 +1,16 @@
 import crypto from 'crypto'
 import { Resend } from 'resend'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
-
 const FROM_EMAIL = 'Apartment Rater <contact@apartmentrater.io>'
+
+// Lazy-load Resend client to avoid build-time errors when API key isn't available
+let resendClient: Resend | null = null
+function getResendClient(): Resend {
+  if (!resendClient) {
+    resendClient = new Resend(process.env.RESEND_API_KEY)
+  }
+  return resendClient
+}
 
 export function generateToken(): string {
   return crypto.randomBytes(32).toString('hex')
@@ -23,7 +30,7 @@ export async function sendVerificationEmail(email: string, token: string): Promi
     return
   }
 
-  await resend.emails.send({
+  await getResendClient().emails.send({
     from: FROM_EMAIL,
     to: email,
     subject: 'Verify your email for Apartment Rater',
@@ -69,7 +76,7 @@ export async function sendPasswordResetEmail(email: string, token: string): Prom
     return
   }
 
-  await resend.emails.send({
+  await getResendClient().emails.send({
     from: FROM_EMAIL,
     to: email,
     subject: 'Reset your Apartment Rater password',
