@@ -138,6 +138,20 @@ export default function ReviewForm({ apartmentId, apartmentInfo, editReview }: R
       return
     }
 
+    // Validate lease dates are provided
+    if (!formData.leaseStartDate || !formData.leaseEndDate) {
+      setError('Please provide your lease start and end dates')
+      setLoading(false)
+      return
+    }
+
+    // Validate lease end is after lease start
+    if (new Date(formData.leaseEndDate) < new Date(formData.leaseStartDate)) {
+      setError('Lease end date must be after the start date')
+      setLoading(false)
+      return
+    }
+
     // Validate certification checkbox (required)
     if (!formData.certifiedPersonalExperience) {
       setError('You must certify that this review is based on your personal experience')
@@ -281,27 +295,35 @@ export default function ReviewForm({ apartmentId, apartmentInfo, editReview }: R
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
-              Lease Start (Optional)
+              Lease Start Date *
             </label>
             <input
               type="date"
               value={formData.leaseStartDate}
               onChange={(e) => setFormData(prev => ({ ...prev, leaseStartDate: e.target.value }))}
               className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              required
             />
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
-              Lease End (Optional)
+              Lease End Date *
             </label>
             <input
               type="date"
               value={formData.leaseEndDate}
               onChange={(e) => setFormData(prev => ({ ...prev, leaseEndDate: e.target.value }))}
               className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              required
             />
+            <p className="text-xs text-gray-500 mt-1">
+              Use expected end date if lease is ongoing
+            </p>
           </div>
         </div>
+        <p className="text-xs text-gray-500">
+          Lease dates help verify your tenancy and provide context for your review.
+        </p>
       </div>
 
       {/* Preferences */}

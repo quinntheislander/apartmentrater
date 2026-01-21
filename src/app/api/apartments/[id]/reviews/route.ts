@@ -71,6 +71,24 @@ export async function POST(
       )
     }
 
+    // Validate lease dates (required)
+    if (!data.leaseStartDate || !data.leaseEndDate) {
+      return NextResponse.json(
+        { error: 'Lease start and end dates are required' },
+        { status: 400 }
+      )
+    }
+
+    // Validate lease end is after lease start
+    const leaseStartCheck = new Date(data.leaseStartDate)
+    const leaseEndCheck = new Date(data.leaseEndDate)
+    if (leaseEndCheck < leaseStartCheck) {
+      return NextResponse.json(
+        { error: 'Lease end date must be after the start date' },
+        { status: 400 }
+      )
+    }
+
     // Validate certification (required for Legal Shield)
     if (!data.certifiedPersonalExperience) {
       return NextResponse.json(
