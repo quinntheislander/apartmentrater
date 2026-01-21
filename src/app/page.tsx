@@ -131,7 +131,7 @@ export default function Home() {
           style={{ backgroundImage: "url('/jax_02.jpeg')" }}
         />
         {/* Dark overlay for text readability */}
-        <div className="absolute inset-0 bg-gray-900/85" />
+        <div className="absolute inset-0 bg-gray-900/60" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">
             Help Others Find Their Perfect Home
