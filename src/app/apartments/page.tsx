@@ -132,35 +132,7 @@ export default async function ApartmentsPage({
   searchParams: Promise<SearchParams>
 }) {
   const params = await searchParams
-
-  let apartments: ApartmentWithRating[] = []
-  let total = 0
-  let page = 1
-  let totalPages = 1
-  let dbError: string | null = null
-
-  try {
-    const result = await getApartments(params)
-    apartments = result.apartments
-    total = result.total
-    page = result.page
-    totalPages = result.totalPages
-  } catch (error) {
-    dbError = error instanceof Error ? error.message : 'Unknown database error'
-    console.error('Database error:', error)
-  }
-
-  if (dbError) {
-    return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <h1 className="text-3xl font-bold mb-8 text-gray-900">Find Apartments</h1>
-        <div className="bg-red-50 border border-red-200 rounded-lg p-6">
-          <h2 className="text-red-800 font-semibold mb-2">Database Connection Error</h2>
-          <p className="text-red-700 text-sm font-mono break-all">{dbError}</p>
-        </div>
-      </div>
-    )
-  }
+  const { apartments, total, page, totalPages } = await getApartments(params)
 
   return (
     <>
