@@ -1,9 +1,9 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { useSession } from 'next-auth/react'
+import { useSession, signOut } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
-import { User, Mail, Calendar, Save, Loader2 } from 'lucide-react'
+import { Mail, Calendar, Save, Loader2, Trash2, AlertTriangle } from 'lucide-react'
 
 interface UserProfile {
   id: string
@@ -22,8 +22,12 @@ export default function ProfilePage() {
   const [image, setImage] = useState('')
   const [isLoading, setIsLoading] = useState(true)
   const [isSaving, setIsSaving] = useState(false)
+  const [isDeleting, setIsDeleting] = useState(false)
+  const [showDeleteConfirm, setShowDeleteConfirm] = useState(false)
+  const [deleteConfirmText, setDeleteConfirmText] = useState('')
   const [error, setError] = useState('')
   const [success, setSuccess] = useState('')
+  const [deleteError, setDeleteError] = useState('')
 
   useEffect(() => {
     if (status === 'unauthenticated') {
@@ -74,6 +78,35 @@ export default function ProfilePage() {
       setError(err instanceof Error ? err.message : 'Failed to update profile')
     } finally {
       setIsSaving(false)
+    }
+  }
+
+  const handleDeleteAccount = async () => {
+    if (deleteConfirmText !== 'DELETE') {
+      setDeleteError('Please type DELETE to confirm')
+      return
+    }
+
+    setIsDeleting(true)
+    setDeleteError('')
+
+    try {
+      const res = await fetch('/api/user/profile', {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ confirm: 'DELETE' })
+      })
+
+      if (!res.ok) {
+        const data = await res.json()
+        throw new Error(data.error || 'Failed to delete account')
+      }
+
+      // Sign out and redirect to home
+      await signOut({ callbackUrl: '/' })
+    } catch (err) {
+      setDeleteError(err instanceof Error ? err.message : 'Failed to delete account')
+      setIsDeleting(false)
     }
   }
 
@@ -197,6 +230,76 @@ export default function ProfilePage() {
             )}
           </button>
         </form>
+      </div>
+
+      {/* Danger Zone - Delete Account */}
+      <div className="bg-white rounded-xl shadow-sm p-8 mt-8 border-2 border-red-200">
+        <h2 className="text-xl font-bold text-red-600 mb-4 flex items-center gap-2">
+          <AlertTriangle className="h-5 w-5" />
+          Danger Zone
+        </h2>
+        <p className="text-gray-600 mb-4">
+          Once you delete your account, there is no going back. This will permanently delete your account and all associated data including your reviews, favorites, and profile information.
+        </p>
+
+        {!showDeleteConfirm ? (
+          <button
+            onClick={() => setShowDeleteConfirm(true)}
+            className="bg-red-600 text-white py-2 px-4 rounded-lg font-medium hover:bg-red-700 flex items-center gap-2"
+          >
+            <Trash2 className="h-5 w-5" />
+            Delete Account
+          </button>
+        ) : (
+          <div className="bg-red-50 p-4 rounded-lg">
+            <p className="text-red-800 font-medium mb-3">
+              Are you sure? This action cannot be undone.
+            </p>
+            <p className="text-red-700 text-sm mb-3">
+              Type <strong>DELETE</strong> to confirm:
+            </p>
+            <input
+              type="text"
+              value={deleteConfirmText}
+              onChange={(e) => setDeleteConfirmText(e.target.value)}
+              className="w-full border border-red-300 rounded-lg px-4 py-2 mb-3 focus:outline-none focus:ring-2 focus:ring-red-500"
+              placeholder="Type DELETE"
+            />
+            {deleteError && (
+              <p className="text-red-600 text-sm mb-3">{deleteError}</p>
+            )}
+            <div className="flex gap-3">
+              <button
+                onClick={handleDeleteAccount}
+                disabled={isDeleting || deleteConfirmText !== 'DELETE'}
+                className="bg-red-600 text-white py-2 px-4 rounded-lg font-medium hover:bg-red-700 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+              >
+                {isDeleting ? (
+                  <>
+                    <Loader2 className="h-5 w-5 animate-spin" />
+                    Deleting...
+                  </>
+                ) : (
+                  <>
+                    <Trash2 className="h-5 w-5" />
+                    Permanently Delete
+                  </>
+                )}
+              </button>
+              <button
+                onClick={() => {
+                  setShowDeleteConfirm(false)
+                  setDeleteConfirmText('')
+                  setDeleteError('')
+                }}
+                disabled={isDeleting}
+                className="bg-gray-200 text-gray-700 py-2 px-4 rounded-lg font-medium hover:bg-gray-300 disabled:opacity-50"
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )
