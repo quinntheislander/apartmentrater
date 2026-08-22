@@ -1,0 +1,2 @@
+# Prisma hashes migration files byte-for-byte; keep them LF on every checkout so checksums match _prisma_migrations
+prisma/migrations/**/*.sql text eol=lf
