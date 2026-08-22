@@ -70,7 +70,7 @@ const faqs: FAQItem[] = [
   {
     category: 'Reviews & Content',
     question: 'What makes a review "verified"?',
-    answer: 'Verified badges indicate tenants who have provided proof of residency (such as a lease document). This is an optional feature that helps build trust. Contact us if you\'d like to verify your tenancy.'
+    answer: 'When writing a review, you can optionally upload one document that shows your name, the address with your unit, and a date from your tenancy — a renter\'s insurance declarations page, a utility bill, a lease, or a move-out statement. We read it once to confirm those details match, then discard it; the file is never stored. Matching reviews show a "Verified Resident" badge (current tenancy) or "Verified Tenant" with the dates covered (tenancy ended within the last 3 years). Badges labeled "Confirmed Unit" or "Lease dates provided" are not residency verification — they mean the unit exists in USPS data or the reviewer self-reported lease dates.'
   },
   {
     category: 'Reviews & Content',

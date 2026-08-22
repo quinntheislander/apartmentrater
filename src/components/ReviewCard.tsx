@@ -1,8 +1,10 @@
 'use client'
 
 import { useState } from 'react'
-import { ThumbsUp, CheckCircle, Home, Pencil, Trash2, Clock } from 'lucide-react'
+import { ThumbsUp, CheckCircle, Home, Pencil, Trash2, Clock, Flag, ShieldCheck } from 'lucide-react'
 import StarRating from './StarRating'
+import ReportReviewDialog from './ReportReviewDialog'
+import { deriveBadge, type VerificationSummary } from '@/lib/residency'
 
 interface ReviewCardProps {
   review: {
@@ -27,6 +29,8 @@ interface ReviewCardProps {
     helpful: number
     certifiedPersonalExperience?: boolean
     createdAt: Date | string
+    // Residency verification outcome (server-linked)
+    verification?: VerificationSummary | null
     user: {
       id?: string
       name?: string | null
@@ -52,10 +56,14 @@ export default function ReviewCard({
   const [helpfulCount, setHelpfulCount] = useState(review.helpful)
   const [hasVoted, setHasVoted] = useState(userHasVoted)
   const [isVoting, setIsVoting] = useState(false)
+  const [showReportDialog, setShowReportDialog] = useState(false)
 
   const isOwner = !!(currentUserId && review.user.id === currentUserId)
 
-  // Determine if this is a current tenant based on lease end date
+  // Verified badge comes only from a server-linked residency verification
+  const badge = deriveBadge(review.verification)
+
+  // Self-reported fallback: current tenant based on lease end date
   const isCurrentTenant = review.leaseEndDate
     ? new Date(review.leaseEndDate) >= new Date()
     : false
@@ -157,21 +165,48 @@ export default function ReviewCard({
                 <span className="font-medium text-gray-600">Unit not specified</span>
               )}
               {review.isUnitVerified && (
-                <span className="flex items-center gap-1 text-green-600 text-xs bg-green-50 px-2 py-0.5 rounded">
+                <span
+                  className="flex items-center gap-1 text-green-600 text-xs bg-green-50 px-2 py-0.5 rounded"
+                  title="Unit number confirmed against address database"
+                >
                   <CheckCircle className="h-3 w-3" aria-hidden="true" />
-                  <span>Verified</span>
+                  <span>Confirmed Unit</span>
                 </span>
               )}
-              {isCurrentTenant && (
-                <span className="flex items-center gap-1 text-purple-600 text-xs bg-purple-50 px-2 py-0.5 rounded">
+              {badge?.kind === 'resident' && (
+                <span
+                  className="flex items-center gap-1 text-green-700 text-xs bg-green-50 px-2 py-0.5 rounded"
+                  title="Tenancy confirmed from a lease, insurance, or utility document the reviewer provided. The document was not kept."
+                >
+                  <ShieldCheck className="h-3 w-3" aria-hidden="true" />
+                  <span>Verified Resident</span>
+                </span>
+              )}
+              {badge?.kind === 'former' && (
+                <span
+                  className="flex items-center gap-1 text-blue-700 text-xs bg-blue-50 px-2 py-0.5 rounded"
+                  title="Tenancy confirmed from a document the reviewer provided. The document was not kept."
+                >
+                  <ShieldCheck className="h-3 w-3" aria-hidden="true" />
+                  <span>Verified Tenant{badge.label ? ` · ${badge.label}` : ''}</span>
+                </span>
+              )}
+              {!badge && isCurrentTenant && (
+                <span
+                  className="flex items-center gap-1 text-purple-600 text-xs bg-purple-50 px-2 py-0.5 rounded"
+                  title="Reviewer self-reported an ongoing lease"
+                >
                   <Clock className="h-3 w-3" aria-hidden="true" />
                   <span>Current Tenant</span>
                 </span>
               )}
-              {review.isVerified && !isCurrentTenant && (
-                <span className="flex items-center gap-1 text-green-600 text-xs">
-                  <CheckCircle className="h-3 w-3" aria-hidden="true" />
-                  <span>Verified Tenant</span>
+              {!badge && review.isVerified && !isCurrentTenant && (
+                <span
+                  className="flex items-center gap-1 text-gray-600 text-xs bg-gray-50 px-2 py-0.5 rounded"
+                  title="Reviewer self-reported a 30+ day lease period"
+                >
+                  <Clock className="h-3 w-3" aria-hidden="true" />
+                  <span>Lease dates provided</span>
                 </span>
               )}
             </div>
@@ -238,21 +273,40 @@ export default function ReviewCard({
           <span aria-hidden="true">{review.wouldRecommend ? '👍' : '👎'}</span>
           {' '}{review.wouldRecommend ? 'Would recommend' : 'Would not recommend'}
         </span>
-        <button
-          onClick={handleHelpful}
-          disabled={isVoting || isOwner}
-          className={`flex items-center gap-1 text-sm transition-colors disabled:cursor-not-allowed ${
-            hasVoted
-              ? 'text-blue-600 font-medium'
-              : 'text-gray-500 hover:text-gray-700'
-          } ${isOwner ? 'opacity-50' : ''}`}
-          aria-label={isOwner ? 'You cannot vote on your own review' : hasVoted ? 'Remove helpful vote' : 'Mark as helpful'}
-          aria-pressed={hasVoted}
-        >
-          <ThumbsUp className={`h-4 w-4 ${hasVoted ? 'fill-current' : ''}`} aria-hidden="true" />
-          Helpful {helpfulCount > 0 && `(${helpfulCount})`}
-        </button>
+        <div className="flex items-center gap-4">
+          {!isOwner && (
+            <button
+              onClick={() => setShowReportDialog(true)}
+              className="flex items-center gap-1 text-sm text-gray-400 hover:text-red-600 transition-colors"
+              aria-label="Report this review"
+            >
+              <Flag className="h-4 w-4" aria-hidden="true" />
+              Report
+            </button>
+          )}
+          <button
+            onClick={handleHelpful}
+            disabled={isVoting || isOwner}
+            className={`flex items-center gap-1 text-sm transition-colors disabled:cursor-not-allowed ${
+              hasVoted
+                ? 'text-blue-600 font-medium'
+                : 'text-gray-500 hover:text-gray-700'
+            } ${isOwner ? 'opacity-50' : ''}`}
+            aria-label={isOwner ? 'You cannot vote on your own review' : hasVoted ? 'Remove helpful vote' : 'Mark as helpful'}
+            aria-pressed={hasVoted}
+          >
+            <ThumbsUp className={`h-4 w-4 ${hasVoted ? 'fill-current' : ''}`} aria-hidden="true" />
+            Helpful {helpfulCount > 0 && `(${helpfulCount})`}
+          </button>
+        </div>
       </footer>
+
+      {showReportDialog && (
+        <ReportReviewDialog
+          reviewId={review.id}
+          onClose={() => setShowReportDialog(false)}
+        />
+      )}
     </article>
   )
 }

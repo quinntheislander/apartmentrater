@@ -18,11 +18,21 @@ model User {
   createdAt      DateTime  @default(now())
   updatedAt      DateTime  @updatedAt
 
-  reviews        Review[]
-  accounts       Account[]
-  sessions       Session[]
-  favorites      Favorite[]
-  helpfulVotes   HelpfulVote[]
+  // Legal acceptance tracking — records assent to the Terms, Privacy, and age attestation
+  // at signup so the arbitration/content-license clauses are actually enforceable.
+  tosAcceptedAt      DateTime?
+  tosVersion         String?
+  privacyAcceptedAt  DateTime?
+  privacyVersion     String?
+  ageAttestedAt      DateTime?
+
+  reviews         Review[]
+  accounts        Account[]
+  sessions        Session[]
+  favorites       Favorite[]
+  helpfulVotes    HelpfulVote[]
+  reviewReports   ReviewReport[]
+  residencyVerifications ResidencyVerification[]
 }
 
 model Account {
@@ -83,6 +93,7 @@ model Apartment {
 
   reviews         Review[]
   favorites       Favorite[]
+  residencyVerifications ResidencyVerification[]
 
   @@index([city, state])
   @@index([zipCode])
@@ -114,14 +125,26 @@ model Review {
   certifiedPersonalExperience  Boolean  @default(false)  // User certifies this is their personal experience
 
   // Verification
-  isVerified      Boolean  @default(false)
+  isVerified      Boolean  @default(false)  // legacy: self-reported 30+ day lease
   leaseStartDate  DateTime?
   leaseEndDate    DateTime?
+
+  // Residency verification — linked server-side from the reviewer's most recent
+  // successful check for this unit (src/lib/residency-store.ts). Never set from input.
+  verificationId  String?
+  verification    ResidencyVerification? @relation(fields: [verificationId], references: [id], onDelete: SetNull)
 
   // Metadata
   wouldRecommend  Boolean
   anonymous       Boolean  @default(false)
   helpful         Int      @default(0)
+
+  // Moderation — supports soft delete / legal hold so we can respond to subpoenas
+  // and takedown disputes without destroying evidence.
+  moderationStatus String   @default("active")  // active | flagged | removed
+  reportCount      Int      @default(0)
+  removedAt        DateTime?
+  removedReason    String?
 
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
@@ -129,9 +152,78 @@ model Review {
   apartment       Apartment @relation(fields: [apartmentId], references: [id], onDelete: Cascade)
   user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
   helpfulVotes    HelpfulVote[]
+  reports         ReviewReport[]
 
   @@index([apartmentId])
   @@index([userId])
+  @@index([moderationStatus])
+  @@index([verificationId])
+}
+
+// Residency verification outcomes — one row per attempt.
+// Deliberately stores NO names, addresses, or files: only whether the
+// reviewer's claim matched and the tenancy window the document covered.
+// The uploaded document and the name used for matching live only in the
+// memory of the request that processed them.
+model ResidencyVerification {
+  id                  String    @id @default(cuid())
+  userId              String
+  apartmentId         String
+  unitNumber          String    // normalized — see normalizeUnit() in src/lib/residency.ts
+  method              String    // document | trestle_reverse_address | twilio_identity_match
+  documentType        String?   // lease | renters_insurance | utility_bill | move_out_statement | rent_ledger | other
+  status              String    // verified | rejected
+  rejectionReason     String?   // RejectionReason code from src/lib/residency.ts
+  nameMatched         Boolean   @default(false)
+  unitMatched         Boolean   @default(false)
+  unitSmartyConfirmed Boolean   @default(false)  // unit existed in Smarty's USPS secondary data
+  coveredFrom         DateTime?
+  coveredTo           DateTime? // null = open-ended (active lease)
+  modelUsed           String?
+  createdAt           DateTime  @default(now())
+
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  apartment Apartment @relation(fields: [apartmentId], references: [id], onDelete: Cascade)
+  reviews   Review[]
+
+  @@index([userId, apartmentId, unitNumber])
+  @@index([apartmentId])
+}
+
+model ReviewReport {
+  id          String   @id @default(cuid())
+  reviewId    String
+  reporterId  String?  // null = anonymous / logged-out reporter
+  reporterIp  String?
+  reason      String   // spam | false | harassment | privacy | other
+  details     String?
+  status      String   @default("open")  // open | reviewed | actioned | dismissed
+  createdAt   DateTime @default(now())
+  reviewedAt  DateTime?
+
+  review      Review   @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+  reporter    User?    @relation(fields: [reporterId], references: [id], onDelete: SetNull)
+
+  @@index([reviewId])
+  @@index([status])
+}
+
+// Two-step data requests (GDPR Art. 12(6) / CCPA §1798.130 identity verification)
+// The POST /api/data-request endpoint creates a row and emails a signed token.
+// The user must click the link to actually access/export/delete their data.
+model DataRequest {
+  id          String    @id @default(cuid())
+  email       String
+  requestType String    // access | export | delete
+  token       String    @unique
+  reason      String?
+  expiresAt   DateTime
+  confirmedAt DateTime?
+  fulfilledAt DateTime?
+  createdAt   DateTime  @default(now())
+
+  @@index([email])
+  @@index([token])
 }
 
 model Favorite {

@@ -51,6 +51,7 @@ async function getApartment(id: string, userId?: string) {
     where: { id },
     include: {
       reviews: {
+        where: { moderationStatus: { in: ['active', 'flagged'] } },
         include: {
           user: {
             select: {
@@ -62,7 +63,10 @@ async function getApartment(id: string, userId?: string) {
           helpfulVotes: userId ? {
             where: { userId },
             select: { id: true }
-          } : false
+          } : false,
+          verification: {
+            select: { status: true, coveredFrom: true, coveredTo: true }
+          }
         },
         orderBy: { createdAt: 'desc' }
       }
@@ -267,6 +271,7 @@ export default async function ApartmentPage({
           certifiedPersonalExperience?: boolean
           createdAt: Date | string
           helpfulVotes: { id: string }[] | boolean
+          verification?: { status: string; coveredFrom: Date | null; coveredTo: Date | null } | null
           user: { id?: string; name?: string | null; image?: string | null }
         }>).map((review) => ({
           ...review,

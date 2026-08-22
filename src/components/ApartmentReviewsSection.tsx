@@ -29,6 +29,8 @@ interface Review {
   certifiedPersonalExperience?: boolean
   createdAt: Date | string
   userHasVoted: boolean
+  // Residency verification outcome (server-linked), drives the verified badges
+  verification?: { status: string; coveredFrom: Date | string | null; coveredTo: Date | string | null } | null
   user: {
     id?: string
     name?: string | null
@@ -94,7 +96,7 @@ export default function ApartmentReviewsSection({
                 placeholder="Search by unit #"
                 value={unitSearch}
                 onChange={(e) => setUnitSearch(e.target.value)}
-                className="pl-9 pr-8 py-2 border rounded-lg text-sm w-40 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="pl-9 pr-8 py-2 border rounded-lg text-sm w-32 sm:w-40 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
               />
               {unitSearch && (
                 <button

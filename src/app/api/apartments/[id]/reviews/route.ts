@@ -2,10 +2,13 @@ import { NextResponse } from 'next/server'
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
 import { prisma } from '@/lib/db'
+import { checkRateLimit, getClientIp, RATE_LIMITS, rateLimitResponse } from '@/lib/rate-limit'
+import { RECENT_TENANCY_WINDOW_YEARS, recentWindowStart } from '@/lib/residency'
+import { findVerifiedResidency } from '@/lib/residency-store'
 
 async function updateApartmentStats(apartmentId: string) {
   const reviews = await prisma.review.findMany({
-    where: { apartmentId },
+    where: { apartmentId, moderationStatus: { in: ['active', 'flagged'] } },
     select: { overallRating: true }
   })
 
@@ -34,6 +37,13 @@ export async function POST(
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
+    // Rate limit: 60 requests per minute
+    const ip = getClientIp(request)
+    const rateLimitResult = checkRateLimit(`reviews:${ip}`, RATE_LIMITS.general)
+    if (!rateLimitResult.allowed) {
+      return rateLimitResponse(rateLimitResult)
+    }
+
     const session = await getServerSession(authOptions)
 
     if (!session?.user?.id) {
@@ -45,6 +55,17 @@ export async function POST(
 
     const { id: apartmentId } = await params
     const data = await request.json()
+
+    // Validate rating values are integers between 1 and 5
+    for (const field of ['noiseLevel', 'naturalLight', 'generalVibe'] as const) {
+      const value = data[field]
+      if (typeof value !== 'number' || !Number.isInteger(value) || value < 1 || value > 5) {
+        return NextResponse.json(
+          { error: `${field} must be an integer between 1 and 5` },
+          { status: 400 }
+        )
+      }
+    }
 
     const apartment = await prisma.apartment.findUnique({
       where: { id: apartmentId }
@@ -89,6 +110,14 @@ export async function POST(
       )
     }
 
+    // Conditions change; only current tenancies or ones that ended recently are reviewable
+    if (leaseEndCheck < recentWindowStart()) {
+      return NextResponse.json(
+        { error: `Reviews must come from a current tenancy or one that ended within the last ${RECENT_TENANCY_WINDOW_YEARS} years` },
+        { status: 400 }
+      )
+    }
+
     // Validate certification (required for Legal Shield)
     if (!data.certifiedPersonalExperience) {
       return NextResponse.json(
@@ -115,6 +144,9 @@ export async function POST(
       isVerified = leaseStart < leaseEnd && daysDiff >= 30
     }
 
+    // Link the reviewer's residency verification for this unit, if they have one
+    const verification = await findVerifiedResidency(session.user.id, apartmentId, data.unitNumber)
+
     const review = await prisma.review.create({
       data: {
         apartmentId,
@@ -137,7 +169,8 @@ export async function POST(
         anonymous: data.anonymous || false,
         isVerified,
         leaseStartDate: leaseStart,
-        leaseEndDate: leaseEnd
+        leaseEndDate: leaseEnd,
+        verificationId: verification?.id ?? null
       },
       include: {
         user: {

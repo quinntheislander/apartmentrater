@@ -71,8 +71,9 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Verified Reviews</h3>
               <p className="text-gray-600">
-                Look for verified badges from tenants who have proven their
-                residency for trustworthy reviews.
+                Look for verified badges from tenants who confirmed their unit
+                with a lease, insurance, or utility document — checked once,
+                never stored.
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-sm text-center">

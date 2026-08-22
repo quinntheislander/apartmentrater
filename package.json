@@ -12,6 +12,7 @@
     "db:studio": "npx prisma studio"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.120.0",
     "@auth/prisma-adapter": "^2.11.1",
     "@prisma/client": "^6.19.1",
     "bcryptjs": "^3.0.3",
@@ -21,7 +22,8 @@
     "prisma": "^6.19.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "resend": "^6.8.0"
+    "resend": "^6.8.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

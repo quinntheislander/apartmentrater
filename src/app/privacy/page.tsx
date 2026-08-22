@@ -9,7 +9,7 @@ export default function PrivacyPolicyPage() {
       <h1 className="text-4xl font-bold text-gray-900 mb-8">Privacy Policy</h1>
       <p className="text-gray-500 mb-8">Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
 
-      <div className="prose prose-lg max-w-none text-gray-600">
+      <div className="prose prose-sm sm:prose-base md:prose-lg max-w-none text-gray-600">
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Introduction</h2>
           <p>
@@ -42,6 +42,12 @@ export default function PrivacyPolicyPage() {
             <li>Unit number (optional)</li>
             <li>Lease dates (optional)</li>
             <li>Whether you chose to post anonymously</li>
+            <li>
+              If you choose to verify your tenancy: the outcome of the check (matched or not),
+              the type of document used, and the dates it covered. The document itself and the
+              name you enter for the check are processed in memory to perform the match and are
+              <strong> not stored</strong>.
+            </li>
           </ul>
 
           <h3 className="text-xl font-semibold text-gray-800 mt-4 mb-2">Automatically Collected Information</h3>
@@ -108,6 +114,11 @@ export default function PrivacyPolicyPage() {
             <li><strong>Hosting:</strong> Vercel Inc. (San Francisco, CA)</li>
             <li><strong>Database:</strong> Supabase Inc.</li>
             <li><strong>Email:</strong> Resend Inc.</li>
+            <li>
+              <strong>Document reading for tenancy verification:</strong> Anthropic, PBC — receives
+              a residency document only when you choose to verify, solely to extract the name,
+              address, unit, and dates needed for the match. We do not retain the document.
+            </li>
           </ul>
         </section>
 
@@ -125,6 +136,8 @@ export default function PrivacyPolicyPage() {
           <ul className="list-disc pl-6 mt-2">
             <li><strong>Account data:</strong> Retained until account deletion</li>
             <li><strong>Reviews:</strong> Retained until you delete them or your account</li>
+            <li><strong>Tenancy verification documents:</strong> Not retained — discarded as soon as the check completes</li>
+            <li><strong>Tenancy verification outcomes:</strong> Retained with your account until deletion</li>
             <li><strong>Server logs:</strong> Retained for up to 90 days</li>
             <li><strong>Analytics data:</strong> Retained in anonymized form</li>
           </ul>

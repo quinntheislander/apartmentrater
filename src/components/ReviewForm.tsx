@@ -5,6 +5,8 @@ import { useRouter } from 'next/navigation'
 import { AlertTriangle, Shield, CheckCircle } from 'lucide-react'
 import StarRating from './StarRating'
 import UnitSelector from './UnitSelector'
+import ResidencyVerificationPanel from './ResidencyVerificationPanel'
+import { RECENT_TENANCY_WINDOW_YEARS, recentWindowStart } from '@/lib/residency'
 
 interface Review {
   id: string
@@ -148,6 +150,13 @@ export default function ReviewForm({ apartmentId, apartmentInfo, editReview }: R
     // Validate lease end is after lease start
     if (new Date(formData.leaseEndDate) < new Date(formData.leaseStartDate)) {
       setError('Lease end date must be after the start date')
+      setLoading(false)
+      return
+    }
+
+    // Tenancy must be current or have ended within the recent window
+    if (new Date(formData.leaseEndDate) < recentWindowStart()) {
+      setError(`Reviews must come from a current tenancy or one that ended within the last ${RECENT_TENANCY_WINDOW_YEARS} years`)
       setLoading(false)
       return
     }
@@ -322,8 +331,11 @@ export default function ReviewForm({ apartmentId, apartmentInfo, editReview }: R
           </div>
         </div>
         <p className="text-xs text-gray-500">
-          Lease dates help verify your tenancy and provide context for your review.
+          Lease dates provide context for your review. Reviews must come from a current tenancy
+          or one that ended within the last {RECENT_TENANCY_WINDOW_YEARS} years.
         </p>
+
+        <ResidencyVerificationPanel apartmentId={apartmentId} unitNumber={formData.unitNumber} />
       </div>
 
       {/* Preferences */}

@@ -2,10 +2,12 @@ import { NextResponse } from 'next/server'
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
 import { prisma } from '@/lib/db'
+import { RECENT_TENANCY_WINDOW_YEARS, recentWindowStart } from '@/lib/residency'
+import { findVerifiedResidency } from '@/lib/residency-store'
 
 async function updateApartmentStats(apartmentId: string) {
   const reviews = await prisma.review.findMany({
-    where: { apartmentId },
+    where: { apartmentId, moderationStatus: { in: ['active', 'flagged'] } },
     select: { overallRating: true }
   })
 
@@ -55,6 +57,17 @@ export async function PUT(
       )
     }
 
+    // Conditions change; only current tenancies or ones that ended recently are reviewable
+    if (data.leaseEndDate && new Date(data.leaseEndDate) < recentWindowStart()) {
+      return NextResponse.json(
+        { error: `Reviews must come from a current tenancy or one that ended within the last ${RECENT_TENANCY_WINDOW_YEARS} years` },
+        { status: 400 }
+      )
+    }
+
+    // Re-link residency verification — the unit may have changed
+    const verification = await findVerifiedResidency(session.user.id, review.apartmentId, data.unitNumber)
+
     // Opinion-First: 3 subjective categories
     const categoryRatings: number[] = [
       data.noiseLevel,
@@ -78,7 +91,8 @@ export async function PUT(
         leaseEndDate: data.leaseEndDate ? new Date(data.leaseEndDate) : null,
         unitNumber: data.unitNumber,
         isUnitVerified: data.isUnitVerified || false,
-        certifiedPersonalExperience: data.certifiedPersonalExperience || false
+        certifiedPersonalExperience: data.certifiedPersonalExperience || false,
+        verificationId: verification?.id ?? null
       },
       include: {
         user: {
