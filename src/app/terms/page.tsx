@@ -9,7 +9,7 @@ export default function TermsOfServicePage() {
       <h1 className="text-4xl font-bold text-gray-900 mb-8">Terms of Service</h1>
       <p className="text-gray-500 mb-8">Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
 
-      <div className="prose prose-lg max-w-none text-gray-600">
+      <div className="prose prose-sm sm:prose-base md:prose-lg max-w-none text-gray-600">
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Acceptance of Terms</h2>
           <p>
@@ -193,8 +193,34 @@ export default function TermsOfServicePage() {
             class-wide arbitration.
           </p>
           <p className="mt-4">
+            <strong>30-Day Opt-Out Right:</strong> You may opt out of the binding arbitration and
+            class-action waiver provisions of this Section by sending written notice to{' '}
+            <a href="mailto:legal@apartmentrater.com" className="text-blue-600 hover:underline">
+              legal@apartmentrater.com
+            </a>{' '}
+            within 30 days of first accepting these Terms. Your notice must include your name, the
+            email address associated with your account, and a clear statement that you wish to opt
+            out of arbitration. Opting out will not affect any other provisions of these Terms.
+          </p>
+          <p className="mt-4">
             <strong>Exceptions:</strong> You may bring claims in small claims court if eligible.
             Either party may seek injunctive relief in court for intellectual property infringement.
+          </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">11a. Protected Speech and Anti-SLAPP</h2>
+          <p>
+            The Service hosts user reviews that constitute speech on matters of public concern,
+            including consumer commentary about residential rental properties. You acknowledge
+            that any attempt to use legal process against Apartment Rater or its users to suppress
+            such speech may be subject to Florida&apos;s anti-SLAPP statute (Fla. Stat. §&nbsp;768.295)
+            and analogous laws, which can entitle the prevailing party to attorney&apos;s fees and costs.
+          </p>
+          <p className="mt-4">
+            Nothing in these Terms limits statutory or constitutional protections available to
+            users who post honest opinions and accurate factual statements about their rental
+            experiences.
           </p>
         </section>
 

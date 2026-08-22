@@ -67,7 +67,7 @@ export default function SearchBar() {
           />
         </div>
 
-        <div className="w-full md:w-48">
+        <div className="w-full md:flex-shrink-0 md:w-48">
           <select
             value={area}
             onChange={(e) => setArea(e.target.value)}
@@ -79,7 +79,7 @@ export default function SearchBar() {
           </select>
         </div>
 
-        <div className="w-full md:w-36">
+        <div className="w-full md:flex-shrink-0 md:w-36">
           <select
             value={zipCode}
             onChange={(e) => setZipCode(e.target.value)}
@@ -94,7 +94,7 @@ export default function SearchBar() {
 
         <button
           type="submit"
-          className="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700"
+          className="bg-blue-600 text-white px-6 sm:px-8 py-3 rounded-lg font-medium hover:bg-blue-700"
         >
           Search
         </button>

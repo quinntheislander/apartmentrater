@@ -163,19 +163,19 @@ export default function DashboardContent({ user, reviews, favorites }: Dashboard
               <div className="divide-y">
                 {reviews.map((review) => (
                   <div key={review.id} className="p-6">
-                    <div className="flex items-start justify-between">
-                      <div>
+                    <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
+                      <div className="min-w-0">
                         <Link
                           href={`/apartments/${review.apartment.id}`}
                           className="font-semibold text-lg hover:text-blue-600"
                         >
                           {review.apartment.name}
                         </Link>
-                        <p className="text-gray-500 text-sm">
+                        <p className="text-gray-500 text-sm truncate">
                           {review.apartment.address}, {review.apartment.city}, {review.apartment.state}
                         </p>
                       </div>
-                      <div className="flex items-center gap-4">
+                      <div className="flex items-center gap-4 flex-shrink-0">
                         <div className="flex items-center gap-2">
                           <StarRating rating={review.overallRating} size="sm" />
                           <span className="font-semibold">{review.overallRating.toFixed(1)}</span>
@@ -183,18 +183,18 @@ export default function DashboardContent({ user, reviews, favorites }: Dashboard
                         <div className="flex items-center gap-1">
                           <button
                             onClick={() => router.push(`/apartments/${review.apartment.id}/review?edit=${review.id}`)}
-                            className="p-1.5 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded transition-colors"
+                            className="p-2.5 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded transition-colors"
                             title="Edit review"
                           >
-                            <Pencil className="h-4 w-4" />
+                            <Pencil className="h-5 w-5" />
                           </button>
                           <button
                             onClick={() => handleDeleteReview(review.id)}
                             disabled={isDeleting === review.id}
-                            className="p-1.5 text-gray-400 hover:text-red-600 hover:bg-red-50 rounded transition-colors disabled:opacity-50"
+                            className="p-2.5 text-gray-400 hover:text-red-600 hover:bg-red-50 rounded transition-colors disabled:opacity-50"
                             title="Delete review"
                           >
-                            <Trash2 className="h-4 w-4" />
+                            <Trash2 className="h-5 w-5" />
                           </button>
                         </div>
                       </div>
@@ -240,7 +240,7 @@ export default function DashboardContent({ user, reviews, favorites }: Dashboard
           <>
             {favorites.length > 0 ? (
               <div className="p-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {favorites.map((apartment) => (
                     <ApartmentCard key={apartment.id} apartment={apartment} />
                   ))}

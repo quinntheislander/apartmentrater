@@ -110,7 +110,7 @@ export const staticMetadata = {
   about: createMetadata({
     title: "About Us",
     description:
-      "Learn about Apartment Rater's mission to help renters make informed decisions through honest, verified tenant reviews and comprehensive apartment ratings.",
+      "Learn about Apartment Rater's mission to help renters make informed decisions through honest tenant reviews and comprehensive apartment ratings.",
     path: "/about",
   }),
 
@@ -124,7 +124,7 @@ export const staticMetadata = {
   faq: createMetadata({
     title: "Frequently Asked Questions",
     description:
-      "Find answers to common questions about Apartment Rater, including how to write reviews, how ratings work, and how we verify tenant reviews.",
+      "Find answers to common questions about Apartment Rater, including how to write reviews, how ratings work, and how we moderate reviews.",
     path: "/faq",
   }),
 

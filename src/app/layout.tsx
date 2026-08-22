@@ -4,6 +4,7 @@ import "./globals.css";
 import Providers from "@/components/Providers";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import CookieBanner from "@/components/CookieBanner";
 import { OrganizationSchema } from "@/components/StructuredData";
 
 const geistSans = Geist({
@@ -110,7 +111,7 @@ export default function RootLayout({
         <OrganizationSchema />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50 min-h-screen flex flex-col`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
         <Providers>
           <a
@@ -120,10 +121,18 @@ export default function RootLayout({
             Skip to main content
           </a>
           <Navbar />
-          <main className="flex-1" id="main-content" role="main">
+          <main className="flex-1 relative" id="main-content" role="main">
+            {/* Background Image */}
+            <div
+              className="fixed inset-0 bg-cover bg-center bg-no-repeat -z-10"
+              style={{ backgroundImage: "url('/jax_01.jpeg')" }}
+            />
+            {/* Semi-transparent overlay for readability */}
+            <div className="fixed inset-0 bg-white/80 -z-10" />
             {children}
           </main>
           <Footer />
+          <CookieBanner />
         </Providers>
       </body>
     </html>

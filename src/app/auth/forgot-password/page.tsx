@@ -46,7 +46,7 @@ export default function ForgotPasswordPage() {
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/70 to-blue-800/60" />
 
-        <div className="relative bg-white rounded-xl shadow-lg p-8 w-full max-w-md text-center">
+        <div className="relative bg-white rounded-xl shadow-lg p-6 sm:p-8 w-full max-w-md text-center">
           <div className="flex justify-center mb-6">
             <div className="bg-green-100 p-4 rounded-full">
               <CheckCircle className="h-12 w-12 text-green-600" />
@@ -81,7 +81,7 @@ export default function ForgotPasswordPage() {
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-900/70 to-blue-800/60" />
 
-      <div className="relative bg-white rounded-xl shadow-lg p-8 w-full max-w-md">
+      <div className="relative bg-white rounded-xl shadow-lg p-6 sm:p-8 w-full max-w-md">
         <div className="text-center mb-8">
           <Building2 className="h-12 w-12 text-blue-600 mx-auto mb-4" />
           <h1 className="text-2xl font-bold">Forgot your password?</h1>

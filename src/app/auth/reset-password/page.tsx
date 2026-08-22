@@ -19,7 +19,7 @@ function ResetPasswordContent() {
   if (!token) {
     return (
       <div className="min-h-[calc(100vh-64px)] flex items-center justify-center px-4">
-        <div className="bg-white rounded-xl shadow-sm p-8 w-full max-w-md text-center">
+        <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 w-full max-w-md text-center">
           <div className="flex justify-center mb-6">
             <div className="bg-red-100 p-4 rounded-full">
               <XCircle className="h-12 w-12 text-red-600" />
@@ -80,7 +80,7 @@ function ResetPasswordContent() {
   if (success) {
     return (
       <div className="min-h-[calc(100vh-64px)] flex items-center justify-center px-4">
-        <div className="bg-white rounded-xl shadow-sm p-8 w-full max-w-md text-center">
+        <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 w-full max-w-md text-center">
           <div className="flex justify-center mb-6">
             <div className="bg-green-100 p-4 rounded-full">
               <CheckCircle className="h-12 w-12 text-green-600" />

@@ -1,11 +1,19 @@
-import { NextResponse } from 'next/server'
+import { NextRequest, NextResponse } from 'next/server'
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
 import { prisma } from '@/lib/db'
 import { generateToken, sendVerificationEmail } from '@/lib/email'
+import { checkRateLimit, getClientIp, RATE_LIMITS, rateLimitResponse } from '@/lib/rate-limit'
 
-export async function POST() {
+export async function POST(request: NextRequest) {
   try {
+    // Rate limit: 10 requests per 15 minutes
+    const ip = getClientIp(request)
+    const rateLimitResult = checkRateLimit(`auth-send-verify:${ip}`, RATE_LIMITS.auth)
+    if (!rateLimitResult.allowed) {
+      return rateLimitResponse(rateLimitResult)
+    }
+
     const session = await getServerSession(authOptions)
 
     if (!session?.user?.id) {

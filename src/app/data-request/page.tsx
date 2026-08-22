@@ -30,37 +30,48 @@ export default function DataRequestPage() {
 
     setLoading(true)
 
-    // PLACEHOLDER: In production, this would send to an API endpoint
-    // that verifies the user's identity and processes the request
-    await new Promise(resolve => setTimeout(resolve, 1500))
+    try {
+      const response = await fetch('/api/data-request', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ requestType, email, reason })
+      })
 
-    console.log('Data request submission:', { requestType, email, reason })
-    setSuccess(true)
-    setLoading(false)
+      if (!response.ok) {
+        const data = await response.json()
+        throw new Error(data.error || 'Failed to submit request')
+      }
+
+      setSuccess(true)
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to submit request. Please try again.')
+    } finally {
+      setLoading(false)
+    }
   }
 
   if (success) {
     return (
       <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-white rounded-xl shadow-sm p-12 text-center">
+        <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 md:p-12 text-center">
           <div className="flex justify-center mb-6">
             <div className="bg-green-100 p-4 rounded-full">
               <CheckCircle className="h-12 w-12 text-green-600" />
             </div>
           </div>
-          <h1 className="text-2xl font-bold text-gray-900">Request Submitted</h1>
+          <h1 className="text-2xl font-bold text-gray-900">Check Your Email</h1>
           <p className="text-gray-600 mt-4">
-            We have received your {requestType === 'access' ? 'data access' : requestType === 'export' ? 'data export' : 'data deletion'} request.
+            If an account exists for <strong>{email}</strong>, we&apos;ve sent a confirmation link for your {requestType === 'access' ? 'data access' : requestType === 'export' ? 'data export' : 'data deletion'} request.
           </p>
           <p className="text-gray-600 mt-2">
-            You will receive a confirmation email at <strong>{email}</strong> with further instructions.
+            Click the link in the email within 24 hours to verify your identity and complete the request.
           </p>
           <div className="bg-blue-50 rounded-lg p-4 mt-6 text-left">
             <h3 className="font-semibold text-gray-900 mb-2">What happens next?</h3>
             <ul className="text-sm text-gray-600 space-y-1">
-              <li>1. We will verify your identity via email</li>
-              <li>2. Your request will be processed within 30 days</li>
-              <li>3. You will receive a notification when complete</li>
+              <li>1. Open the email we just sent</li>
+              <li>2. Click the confirmation link to verify it&apos;s you</li>
+              <li>3. Your data will be shown (or deleted) immediately after confirmation</li>
             </ul>
           </div>
           <Link

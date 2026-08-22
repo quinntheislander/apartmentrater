@@ -26,7 +26,7 @@ export default function AccessibilityPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Conformance Status</h2>
           <p>
-            We aim to conform to the{' '}
+            We are working toward alignment with the{' '}
             <a
               href="https://www.w3.org/WAI/standards-guidelines/wcag/"
               target="_blank"
@@ -40,8 +40,9 @@ export default function AccessibilityPage() {
           </p>
           <div className="bg-blue-50 rounded-lg p-4 mt-4">
             <p className="text-sm">
-              <strong>Current Status:</strong> Apartment Rater strives to conform to WCAG 2.1 Level AA.
-              We regularly test with automated tools and manual reviews to maintain accessibility standards.
+              <strong>Current Status:</strong> This site has not yet completed a formal third-party
+              accessibility audit. We use automated tools and manual review as we develop, and we
+              actively welcome user feedback about barriers you encounter so we can address them.
             </p>
           </div>
         </section>
@@ -240,8 +241,11 @@ export default function AccessibilityPage() {
             {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}.
           </p>
           <p className="mt-4">
-            We are committed to compliance with applicable accessibility laws including the
-            Americans with Disabilities Act (ADA) and Section 508 of the Rehabilitation Act.
+            We aim to make our service usable by everyone and to improve accessibility over time.
+            This statement is not a representation or warranty of full conformance with any specific
+            accessibility standard or legal requirement, including the Americans with Disabilities
+            Act (ADA) or Section 508 of the Rehabilitation Act. If you encounter a barrier, please
+            let us know so we can work to address it.
           </p>
         </section>
       </div>

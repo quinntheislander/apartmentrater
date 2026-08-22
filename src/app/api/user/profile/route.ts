@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server'
 import { getServerSession } from 'next-auth'
+import bcrypt from 'bcryptjs'
 import { authOptions } from '@/lib/auth'
 import { prisma } from '@/lib/db'
 
@@ -105,7 +106,6 @@ export async function DELETE(request: Request) {
       )
     }
 
-    // Require confirmation in the request body
     const data = await request.json()
     if (data.confirm !== 'DELETE') {
       return NextResponse.json(
@@ -114,40 +114,50 @@ export async function DELETE(request: Request) {
       )
     }
 
+    // Re-authenticate: account deletion is irreversible, so a stolen/shared
+    // session shouldn't be enough. Ask for the password again.
+    if (!data.password || typeof data.password !== 'string') {
+      return NextResponse.json(
+        { error: 'Password is required to delete your account' },
+        { status: 400 }
+      )
+    }
+
     const userId = session.user.id
+    const currentUser = await prisma.user.findUnique({
+      where: { id: userId },
+      select: { email: true, password: true }
+    })
 
-    // Delete all user data in the correct order (respecting foreign key constraints)
-    // The Prisma schema has onDelete: Cascade for most relations, but we'll be explicit
+    if (!currentUser) {
+      return NextResponse.json({ error: 'User not found' }, { status: 404 })
+    }
+
+    const passwordValid = await bcrypt.compare(data.password, currentUser.password)
+    if (!passwordValid) {
+      return NextResponse.json(
+        { error: 'Incorrect password' },
+        { status: 401 }
+      )
+    }
+
     await prisma.$transaction(async (tx) => {
-      // Delete helpful votes by this user
       await tx.helpfulVote.deleteMany({ where: { userId } })
-
-      // Delete favorites
       await tx.favorite.deleteMany({ where: { userId } })
-
-      // Delete reviews by this user
+      await tx.reviewReport.deleteMany({ where: { reporterId: userId } })
       await tx.review.deleteMany({ where: { userId } })
-
-      // Delete sessions
       await tx.session.deleteMany({ where: { userId } })
-
-      // Delete accounts (OAuth connections)
       await tx.account.deleteMany({ where: { userId } })
-
-      // Delete verification tokens for this user's email
-      const user = await tx.user.findUnique({ where: { id: userId }, select: { email: true } })
-      if (user?.email) {
+      if (currentUser.email) {
         await tx.verificationToken.deleteMany({
           where: {
             OR: [
-              { identifier: user.email },
-              { identifier: `password-reset:${user.email}` }
+              { identifier: currentUser.email },
+              { identifier: `password-reset:${currentUser.email}` }
             ]
           }
         })
       }
-
-      // Finally, delete the user
       await tx.user.delete({ where: { id: userId } })
     })
 

@@ -145,7 +145,7 @@ export default async function ApartmentsPage({
         </Suspense>
 
         <div className="mt-8">
-          <div className="flex items-center justify-between mb-4">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-4">
             <p className="text-gray-600">
               {total} apartments found in Jacksonville, FL
               {params.zipCode && ` (${params.zipCode})`}
@@ -172,76 +172,78 @@ export default async function ApartmentsPage({
           )}
 
           {totalPages > 1 && (
-            <nav className="flex justify-center items-center gap-2 mt-8" aria-label="Pagination">
-              {/* Previous button */}
-              {page > 1 && (
-                <a
-                  href={`/apartments?page=${page - 1}${params.search ? `&search=${params.search}` : ''}${params.zipCode ? `&zipCode=${params.zipCode}` : ''}${params.area ? `&area=${params.area}` : ''}${params.sort ? `&sort=${params.sort}` : ''}`}
-                  className="px-3 py-2 rounded bg-white text-gray-700 hover:bg-gray-100"
-                  aria-label="Previous page"
-                >
-                  &laquo;
-                </a>
-              )}
-
-              {/* First page */}
-              {page > 2 && (
-                <>
+            <nav className="flex flex-col sm:flex-row items-center gap-4 mt-8" aria-label="Pagination">
+              <div className="flex flex-wrap justify-center items-center gap-2">
+                {/* Previous button */}
+                {page > 1 && (
                   <a
-                    href={`/apartments?page=1${params.search ? `&search=${params.search}` : ''}${params.zipCode ? `&zipCode=${params.zipCode}` : ''}${params.area ? `&area=${params.area}` : ''}${params.sort ? `&sort=${params.sort}` : ''}`}
-                    className="px-4 py-2 rounded bg-white text-gray-700 hover:bg-gray-100"
-                    aria-label="Page 1"
+                    href={`/apartments?page=${page - 1}${params.search ? `&search=${params.search}` : ''}${params.zipCode ? `&zipCode=${params.zipCode}` : ''}${params.area ? `&area=${params.area}` : ''}${params.sort ? `&sort=${params.sort}` : ''}`}
+                    className="px-3 py-2 rounded bg-white text-gray-700 hover:bg-gray-100"
+                    aria-label="Previous page"
                   >
-                    1
+                    &laquo;
                   </a>
-                  {page > 3 && <span className="text-gray-400">...</span>}
-                </>
-              )}
+                )}
 
-              {/* Pages around current */}
-              {[page - 1, page, page + 1].filter(p => p >= 1 && p <= totalPages).map((p) => (
-                <a
-                  key={p}
-                  href={`/apartments?page=${p}${params.search ? `&search=${params.search}` : ''}${params.zipCode ? `&zipCode=${params.zipCode}` : ''}${params.area ? `&area=${params.area}` : ''}${params.sort ? `&sort=${params.sort}` : ''}`}
-                  className={`px-4 py-2 rounded ${
-                    p === page
-                      ? 'bg-blue-600 text-white'
-                      : 'bg-white text-gray-700 hover:bg-gray-100'
-                  }`}
-                  aria-label={`Page ${p}`}
-                  aria-current={p === page ? 'page' : undefined}
-                >
-                  {p}
-                </a>
-              ))}
+                {/* First page */}
+                {page > 2 && (
+                  <>
+                    <a
+                      href={`/apartments?page=1${params.search ? `&search=${params.search}` : ''}${params.zipCode ? `&zipCode=${params.zipCode}` : ''}${params.area ? `&area=${params.area}` : ''}${params.sort ? `&sort=${params.sort}` : ''}`}
+                      className="px-4 py-2 rounded bg-white text-gray-700 hover:bg-gray-100"
+                      aria-label="Page 1"
+                    >
+                      1
+                    </a>
+                    {page > 3 && <span className="text-gray-400">...</span>}
+                  </>
+                )}
 
-              {/* Last page */}
-              {page < totalPages - 1 && (
-                <>
-                  {page < totalPages - 2 && <span className="text-gray-400">...</span>}
+                {/* Pages around current */}
+                {[page - 1, page, page + 1].filter(p => p >= 1 && p <= totalPages).map((p) => (
                   <a
-                    href={`/apartments?page=${totalPages}${params.search ? `&search=${params.search}` : ''}${params.zipCode ? `&zipCode=${params.zipCode}` : ''}${params.area ? `&area=${params.area}` : ''}${params.sort ? `&sort=${params.sort}` : ''}`}
-                    className="px-4 py-2 rounded bg-white text-gray-700 hover:bg-gray-100"
-                    aria-label={`Page ${totalPages}`}
+                    key={p}
+                    href={`/apartments?page=${p}${params.search ? `&search=${params.search}` : ''}${params.zipCode ? `&zipCode=${params.zipCode}` : ''}${params.area ? `&area=${params.area}` : ''}${params.sort ? `&sort=${params.sort}` : ''}`}
+                    className={`px-4 py-2 rounded ${
+                      p === page
+                        ? 'bg-blue-600 text-white'
+                        : 'bg-white text-gray-700 hover:bg-gray-100'
+                    }`}
+                    aria-label={`Page ${p}`}
+                    aria-current={p === page ? 'page' : undefined}
                   >
-                    {totalPages}
+                    {p}
                   </a>
-                </>
-              )}
+                ))}
 
-              {/* Next button */}
-              {page < totalPages && (
-                <a
-                  href={`/apartments?page=${page + 1}${params.search ? `&search=${params.search}` : ''}${params.zipCode ? `&zipCode=${params.zipCode}` : ''}${params.area ? `&area=${params.area}` : ''}${params.sort ? `&sort=${params.sort}` : ''}`}
-                  className="px-3 py-2 rounded bg-white text-gray-700 hover:bg-gray-100"
-                  aria-label="Next page"
-                >
-                  &raquo;
-                </a>
-              )}
+                {/* Last page */}
+                {page < totalPages - 1 && (
+                  <>
+                    {page < totalPages - 2 && <span className="text-gray-400">...</span>}
+                    <a
+                      href={`/apartments?page=${totalPages}${params.search ? `&search=${params.search}` : ''}${params.zipCode ? `&zipCode=${params.zipCode}` : ''}${params.area ? `&area=${params.area}` : ''}${params.sort ? `&sort=${params.sort}` : ''}`}
+                      className="px-4 py-2 rounded bg-white text-gray-700 hover:bg-gray-100"
+                      aria-label={`Page ${totalPages}`}
+                    >
+                      {totalPages}
+                    </a>
+                  </>
+                )}
+
+                {/* Next button */}
+                {page < totalPages && (
+                  <a
+                    href={`/apartments?page=${page + 1}${params.search ? `&search=${params.search}` : ''}${params.zipCode ? `&zipCode=${params.zipCode}` : ''}${params.area ? `&area=${params.area}` : ''}${params.sort ? `&sort=${params.sort}` : ''}`}
+                    className="px-3 py-2 rounded bg-white text-gray-700 hover:bg-gray-100"
+                    aria-label="Next page"
+                  >
+                    &raquo;
+                  </a>
+                )}
+              </div>
 
               {/* Page info */}
-              <span className="ml-4 text-sm text-gray-500">
+              <span className="text-sm text-gray-500">
                 Page {page} of {totalPages}
               </span>
             </nav>

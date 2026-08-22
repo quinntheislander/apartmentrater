@@ -25,6 +25,7 @@ export default function ProfilePage() {
   const [isDeleting, setIsDeleting] = useState(false)
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false)
   const [deleteConfirmText, setDeleteConfirmText] = useState('')
+  const [deletePassword, setDeletePassword] = useState('')
   const [error, setError] = useState('')
   const [success, setSuccess] = useState('')
   const [deleteError, setDeleteError] = useState('')
@@ -86,6 +87,10 @@ export default function ProfilePage() {
       setDeleteError('Please type DELETE to confirm')
       return
     }
+    if (!deletePassword) {
+      setDeleteError('Please enter your password')
+      return
+    }
 
     setIsDeleting(true)
     setDeleteError('')
@@ -94,7 +99,7 @@ export default function ProfilePage() {
       const res = await fetch('/api/user/profile', {
         method: 'DELETE',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ confirm: 'DELETE' })
+        body: JSON.stringify({ confirm: 'DELETE', password: deletePassword })
       })
 
       if (!res.ok) {
@@ -265,13 +270,24 @@ export default function ProfilePage() {
               className="w-full border border-red-300 rounded-lg px-4 py-2 mb-3 focus:outline-none focus:ring-2 focus:ring-red-500"
               placeholder="Type DELETE"
             />
+            <p className="text-red-700 text-sm mb-3">
+              Enter your password to confirm:
+            </p>
+            <input
+              type="password"
+              value={deletePassword}
+              onChange={(e) => setDeletePassword(e.target.value)}
+              className="w-full border border-red-300 rounded-lg px-4 py-2 mb-3 focus:outline-none focus:ring-2 focus:ring-red-500"
+              placeholder="Your password"
+              autoComplete="current-password"
+            />
             {deleteError && (
               <p className="text-red-600 text-sm mb-3">{deleteError}</p>
             )}
             <div className="flex gap-3">
               <button
                 onClick={handleDeleteAccount}
-                disabled={isDeleting || deleteConfirmText !== 'DELETE'}
+                disabled={isDeleting || deleteConfirmText !== 'DELETE' || !deletePassword}
                 className="bg-red-600 text-white py-2 px-4 rounded-lg font-medium hover:bg-red-700 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
               >
                 {isDeleting ? (
@@ -290,6 +306,7 @@ export default function ProfilePage() {
                 onClick={() => {
                   setShowDeleteConfirm(false)
                   setDeleteConfirmText('')
+                  setDeletePassword('')
                   setDeleteError('')
                 }}
                 disabled={isDeleting}
