@@ -159,3 +159,53 @@ export async function sendPasswordResetEmail(email: string, token: string): Prom
     `
   })
 }
+
+/** How long an invite link lasts; the email below says 7 days. */
+export const INVITE_TTL_MS = 7 * 24 * 60 * 60 * 1000
+
+/** Invitation for an account an admin created: the link sets the first password. */
+export async function sendInviteEmail(email: string, token: string): Promise<void> {
+  const inviteUrl = `${process.env.NEXTAUTH_URL}/auth/reset-password?token=${token}&invite=1`
+
+  // In development without RESEND_API_KEY, log to console
+  if (!process.env.RESEND_API_KEY) {
+    console.log('==================================================')
+    console.log('ACCOUNT INVITE (No RESEND_API_KEY configured)')
+    console.log('==================================================')
+    console.log(`To: ${email}`)
+    console.log(`Invite URL: ${inviteUrl}`)
+    console.log('==================================================')
+    return
+  }
+
+  await getResendClient().emails.send({
+    from: FROM_EMAIL,
+    to: email,
+    subject: `You're invited to ${BRAND_NAME}`,
+    html: `
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+        <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
+          <div style="background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); padding: 30px; text-align: center; border-radius: 10px 10px 0 0;">
+            <h1 style="color: white; margin: 0; font-size: 28px;">Apartment Rater</h1>
+          </div>
+          <div style="background: #ffffff; padding: 30px; border: 1px solid #e5e7eb; border-top: none; border-radius: 0 0 10px 10px;">
+            <h2 style="color: #1f2937; margin-top: 0;">You've been invited</h2>
+            <p>An ${BRAND_NAME} account has been created for this email address. Click the button below to choose your password and finish setting it up:</p>
+            <div style="text-align: center; margin: 30px 0;">
+              <a href="${inviteUrl}" style="background-color: #2563eb; color: white; padding: 14px 28px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">Set Your Password</a>
+            </div>
+            <p style="color: #6b7280; font-size: 14px;">Or copy and paste this link into your browser:</p>
+            <p style="color: #2563eb; word-break: break-all; font-size: 14px;">${inviteUrl}</p>
+            <hr style="border: none; border-top: 1px solid #e5e7eb; margin: 30px 0;">
+            <p style="color: #9ca3af; font-size: 12px; margin-bottom: 0;">This link will expire in 7 days. If you weren't expecting this, you can safely ignore this email.</p>
+          </div>
+        </body>
+      </html>
+    `
+  })
+}

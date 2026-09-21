@@ -4,12 +4,18 @@ import { useState, Suspense } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { Building2, Lock, CheckCircle, XCircle, Loader2 } from 'lucide-react'
+import TermsConsent from '@/components/TermsConsent'
 
 function ResetPasswordContent() {
   const searchParams = useSearchParams()
   const router = useRouter()
   const token = searchParams.get('token')
+  const isInvite = searchParams.get('invite') === '1'
 
+  // Accounts without recorded Terms assent must accept here. Invites always
+  // need it; for older accounts the API tells us (code TERMS_REQUIRED).
+  const [needsTerms, setNeedsTerms] = useState(isInvite)
+  const [consent, setConsent] = useState({ acceptTerms: false, confirmAge: false })
   const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
   const [loading, setLoading] = useState(false)
@@ -60,11 +66,12 @@ function ResetPasswordContent() {
       const response = await fetch('/api/auth/reset-password', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ token, password })
+        body: JSON.stringify({ token, password, ...consent })
       })
 
       if (!response.ok) {
         const data = await response.json()
+        if (data.code === 'TERMS_REQUIRED') setNeedsTerms(true)
         throw new Error(data.error || 'Failed to reset password')
       }
 
@@ -86,9 +93,11 @@ function ResetPasswordContent() {
               <CheckCircle className="h-12 w-12 text-green-600" />
             </div>
           </div>
-          <h1 className="text-2xl font-bold">Password Reset!</h1>
+          <h1 className="text-2xl font-bold">{isInvite ? "You're All Set!" : 'Password Reset!'}</h1>
           <p className="text-gray-600 mt-2">
-            Your password has been successfully reset. Redirecting to sign in...
+            {isInvite
+              ? 'Your account is ready. Redirecting to sign in...'
+              : 'Your password has been successfully reset. Redirecting to sign in...'}
           </p>
           <Link
             href="/auth/signin"
@@ -106,8 +115,10 @@ function ResetPasswordContent() {
       <div className="bg-white rounded-xl shadow-sm p-8 w-full max-w-md">
         <div className="text-center mb-8">
           <Building2 className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-          <h1 className="text-2xl font-bold">Reset Your Password</h1>
-          <p className="text-gray-600 mt-2">Enter your new password below</p>
+          <h1 className="text-2xl font-bold">{isInvite ? 'Welcome to Apartment Rater' : 'Reset Your Password'}</h1>
+          <p className="text-gray-600 mt-2">
+            {isInvite ? 'Choose a password to finish setting up your account' : 'Enter your new password below'}
+          </p>
         </div>
 
         {error && (
@@ -153,12 +164,20 @@ function ResetPasswordContent() {
             </div>
           </div>
 
+          {needsTerms && (
+            <TermsConsent
+              acceptTerms={consent.acceptTerms}
+              confirmAge={consent.confirmAge}
+              onChange={(field, value) => setConsent(prev => ({ ...prev, [field]: value }))}
+            />
+          )}
+
           <button
             type="submit"
-            disabled={loading}
+            disabled={loading || (needsTerms && !(consent.acceptTerms && consent.confirmAge))}
             className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-medium hover:bg-blue-700 disabled:bg-blue-400"
           >
-            {loading ? 'Resetting...' : 'Reset Password'}
+            {loading ? 'Saving...' : isInvite ? 'Set Password' : 'Reset Password'}
           </button>
         </form>
       </div>

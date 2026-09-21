@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { prisma } from '@/lib/db'
 import bcrypt from 'bcryptjs'
 import { checkRateLimit, getClientIp, RATE_LIMITS, rateLimitResponse } from '@/lib/rate-limit'
+import { TOS_VERSION, PRIVACY_VERSION } from '@/lib/legal'
 
 export async function POST(request: Request) {
   try {
@@ -12,7 +13,7 @@ export async function POST(request: Request) {
       return rateLimitResponse(rateLimitResult)
     }
 
-    const { token, password } = await request.json()
+    const { token, password, acceptTerms, confirmAge } = await request.json()
 
     if (!token || !password) {
       return NextResponse.json(
@@ -74,13 +75,38 @@ export async function POST(request: Request) {
       )
     }
 
+    // Accounts with no recorded assent (admin invites, pre-2026-04 signups)
+    // must accept the Terms here, same as at signup. The token stays valid
+    // so the page can re-submit with the checkboxes.
+    const needsTerms = !user.tosAcceptedAt
+    if (needsTerms && !(acceptTerms && confirmAge)) {
+      return NextResponse.json(
+        {
+          error: 'Please agree to the Terms of Service and confirm your age to continue',
+          code: 'TERMS_REQUIRED'
+        },
+        { status: 400 }
+      )
+    }
+
     // Hash the new password
     const hashedPassword = await bcrypt.hash(password, 12)
 
-    // Update user's password
+    const now = new Date()
     await prisma.user.update({
       where: { id: user.id },
-      data: { password: hashedPassword }
+      data: {
+        password: hashedPassword,
+        // The link arrived at this inbox, which proves ownership
+        emailVerified: user.emailVerified ?? now,
+        ...(needsTerms && {
+          tosAcceptedAt: now,
+          tosVersion: TOS_VERSION,
+          privacyAcceptedAt: now,
+          privacyVersion: PRIVACY_VERSION,
+          ageAttestedAt: now,
+        }),
+      }
     })
 
     // Delete the used token
