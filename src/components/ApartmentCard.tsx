@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { MapPin, Star, MessageSquare } from 'lucide-react'
 import StarRating from './StarRating'
+import ApartmentPhoto from './ApartmentPhoto'
 
 interface ApartmentCardProps {
   apartment: {
@@ -22,17 +23,7 @@ export default function ApartmentCard({ apartment }: ApartmentCardProps) {
     <Link href={`/apartments/${apartment.id}`}>
       <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden">
         <div className="h-48 bg-gray-200 relative">
-          {apartment.imageUrl ? (
-            <img
-              src={apartment.imageUrl}
-              alt={apartment.name}
-              className="w-full h-full object-cover"
-            />
-          ) : (
-            <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-100 to-blue-200">
-              <span className="text-4xl">🏢</span>
-            </div>
-          )}
+          <ApartmentPhoto apartmentId={apartment.id} imageUrl={apartment.imageUrl} />
           <span className="absolute top-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium capitalize">
             {apartment.propertyType}
           </span>

@@ -1,6 +1,5 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import Image from 'next/image'
 import { MapPin, Calendar, Home, Star, ThumbsUp, PenSquare } from 'lucide-react'
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
@@ -10,6 +9,7 @@ import ReviewCard from '@/components/ReviewCard'
 import AmenitiesList from '@/components/AmenitiesList'
 import ApartmentReviewsSection from '@/components/ApartmentReviewsSection'
 import FavoriteButton from '@/components/FavoriteButton'
+import ApartmentPhoto from '@/components/ApartmentPhoto'
 import { createApartmentMetadata } from '@/lib/metadata'
 import { ApartmentSchema, BreadcrumbSchema } from '@/components/StructuredData'
 import type { Metadata } from 'next'
@@ -138,17 +138,11 @@ export default async function ApartmentPage({
         <article className="bg-white rounded-xl shadow-sm overflow-hidden" itemScope itemType="https://schema.org/ApartmentComplex">
           <meta itemProp="url" content={`${siteUrl}/apartments/${apartment.id}`} />
           <div className="h-48 sm:h-56 md:h-64 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center relative">
-            {apartment.imageUrl ? (
-            <Image
-              src={apartment.imageUrl}
-              alt={apartment.name}
-              fill
-              className="object-cover"
-              unoptimized
+            <ApartmentPhoto
+              apartmentId={apartment.id}
+              imageUrl={apartment.imageUrl}
+              emojiClassName="text-8xl"
             />
-          ) : (
-            <span className="text-8xl" role="img" aria-label="Apartment building">🏢</span>
-          )}
         </div>
 
         <div className="p-8">
