@@ -63,3 +63,6 @@ tax_roll/*.txt
 # Audit / internal docs (repo is public)
 SITE_AUDIT.md
 LEGAL_HARDENING.md
+
+.vercel
+.env*
