@@ -5,6 +5,8 @@ import Providers from "@/components/Providers";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CookieBanner from "@/components/CookieBanner";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
+import { Analytics } from "@vercel/analytics/next";
 import { OrganizationSchema } from "@/components/StructuredData";
 
 const geistSans = Geist({
@@ -133,7 +135,10 @@ export default function RootLayout({
           </main>
           <Footer />
           <CookieBanner />
+          <GoogleAnalytics />
         </Providers>
+        {/* Cookieless, so it doesn't wait for consent */}
+        <Analytics />
       </body>
     </html>
   );

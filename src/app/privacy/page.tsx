@@ -115,6 +115,10 @@ export default function PrivacyPolicyPage() {
             <li><strong>Database:</strong> Supabase Inc.</li>
             <li><strong>Email:</strong> Resend Inc.</li>
             <li>
+              <strong>Analytics:</strong> Google LLC (Google Analytics, only if you accept analytics
+              cookies) and Vercel Inc. (Vercel Web Analytics, which uses no cookies)
+            </li>
+            <li>
               <strong>Document reading for tenancy verification:</strong> Anthropic, PBC — receives
               a residency document only when you choose to verify, solely to extract the name,
               address, unit, and dates needed for the match. We do not retain the document.
