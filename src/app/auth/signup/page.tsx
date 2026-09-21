@@ -3,8 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { Building2, Mail, CheckCircle } from 'lucide-react'
-
-const MIN_AGE_DISPLAY = 16
+import TermsConsent, { MIN_AGE_DISPLAY } from '@/components/TermsConsent'
 
 export default function SignUpPage() {
   const [loading, setLoading] = useState(false)
@@ -183,40 +182,11 @@ export default function SignUpPage() {
             />
           </div>
 
-          <div className="space-y-3 bg-gray-50 border border-gray-200 rounded-lg p-4">
-            <label className="flex items-start gap-3 cursor-pointer">
-              <input
-                type="checkbox"
-                checked={formData.acceptTerms}
-                onChange={(e) => setFormData(prev => ({ ...prev, acceptTerms: e.target.checked }))}
-                className="mt-1 h-4 w-4 text-blue-600 rounded"
-                required
-              />
-              <span className="text-sm text-gray-700">
-                I agree to the{' '}
-                <Link href="/terms" className="text-blue-600 hover:underline" target="_blank">
-                  Terms of Service
-                </Link>
-                {' '}(including binding arbitration and class-action waiver) and have read the{' '}
-                <Link href="/privacy" className="text-blue-600 hover:underline" target="_blank">
-                  Privacy Policy
-                </Link>.
-              </span>
-            </label>
-
-            <label className="flex items-start gap-3 cursor-pointer">
-              <input
-                type="checkbox"
-                checked={formData.confirmAge}
-                onChange={(e) => setFormData(prev => ({ ...prev, confirmAge: e.target.checked }))}
-                className="mt-1 h-4 w-4 text-blue-600 rounded"
-                required
-              />
-              <span className="text-sm text-gray-700">
-                I confirm I am at least {MIN_AGE_DISPLAY} years old.
-              </span>
-            </label>
-          </div>
+          <TermsConsent
+            acceptTerms={formData.acceptTerms}
+            confirmAge={formData.confirmAge}
+            onChange={(field, value) => setFormData(prev => ({ ...prev, [field]: value }))}
+          />
 
           <button
             type="submit"

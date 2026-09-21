@@ -3,6 +3,7 @@ import { getServerSession } from 'next-auth'
 import bcrypt from 'bcryptjs'
 import { authOptions } from '@/lib/auth'
 import { prisma } from '@/lib/db'
+import { deleteAccount } from '@/lib/account'
 
 export async function GET() {
   try {
@@ -141,25 +142,7 @@ export async function DELETE(request: Request) {
       )
     }
 
-    await prisma.$transaction(async (tx) => {
-      await tx.helpfulVote.deleteMany({ where: { userId } })
-      await tx.favorite.deleteMany({ where: { userId } })
-      await tx.reviewReport.deleteMany({ where: { reporterId: userId } })
-      await tx.review.deleteMany({ where: { userId } })
-      await tx.session.deleteMany({ where: { userId } })
-      await tx.account.deleteMany({ where: { userId } })
-      if (currentUser.email) {
-        await tx.verificationToken.deleteMany({
-          where: {
-            OR: [
-              { identifier: currentUser.email },
-              { identifier: `password-reset:${currentUser.email}` }
-            ]
-          }
-        })
-      }
-      await tx.user.delete({ where: { id: userId } })
-    })
+    await deleteAccount(userId, currentUser.email)
 
     return NextResponse.json({ message: 'Account deleted successfully' })
   } catch (error) {

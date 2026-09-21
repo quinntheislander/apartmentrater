@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { useSession, signOut } from 'next-auth/react'
-import { Building2, Search, User, LogOut, PlusCircle, Heart, Settings, Menu, X } from 'lucide-react'
+import { Building2, Search, User, LogOut, PlusCircle, Heart, Settings, Menu, X, Shield } from 'lucide-react'
 
 export default function Navbar() {
   const { data: session } = useSession()
@@ -56,6 +56,15 @@ export default function Navbar() {
                   <User className="h-4 w-4" aria-hidden="true" />
                   <span className="hidden lg:inline">Dashboard</span>
                 </Link>
+                {session.user.isAdmin && (
+                  <Link
+                    href="/admin"
+                    className="flex items-center gap-1 text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    <Shield className="h-4 w-4" aria-hidden="true" />
+                    <span className="hidden lg:inline">Admin</span>
+                  </Link>
+                )}
                 <Link
                   href="/profile"
                   className="flex items-center gap-1 text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
@@ -156,6 +165,17 @@ export default function Navbar() {
                 <User className="h-5 w-5" aria-hidden="true" />
                 Dashboard
               </Link>
+              {session.user.isAdmin && (
+                <Link
+                  href="/admin"
+                  onClick={closeMenu}
+                  className="flex items-center gap-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50 px-3 py-3 rounded-md text-base font-medium"
+                  role="menuitem"
+                >
+                  <Shield className="h-5 w-5" aria-hidden="true" />
+                  Admin
+                </Link>
+              )}
               <Link
                 href="/profile"
                 onClick={closeMenu}

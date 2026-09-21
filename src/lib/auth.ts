@@ -2,6 +2,7 @@ import { NextAuthOptions } from 'next-auth'
 import CredentialsProvider from 'next-auth/providers/credentials'
 import bcrypt from 'bcryptjs'
 import { prisma } from './db'
+import { isAdminEmail } from './admin-emails'
 
 export const authOptions: NextAuthOptions = {
   providers: [
@@ -76,6 +77,9 @@ export const authOptions: NextAuthOptions = {
       if (session.user) {
         session.user.id = token.id as string
         session.user.emailVerified = token.emailVerified as Date | null
+        // Only decides whether to show the Admin link; admin pages and APIs
+        // re-check against the database (lib/admin.ts)
+        session.user.isAdmin = isAdminEmail(session.user.email)
       }
       return session
     }
