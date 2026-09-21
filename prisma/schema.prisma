@@ -84,6 +84,7 @@ model Apartment {
   yearBuilt       Int?
   amenities       String?  // JSON string of amenities
   imageUrl        String?
+  googlePlaceId   String?  // Google Maps listing — the only Places value Google lets us store
   latitude        Float?
   longitude       Float?
   averageRating   Float?
@@ -251,4 +252,14 @@ model HelpfulVote {
 
   @@unique([userId, reviewId])
   @@index([reviewId])
+}
+
+// Daily request counters for metered third-party APIs (e.g. Google listing
+// photos), used to enforce spending caps.
+model ApiUsage {
+  metric String
+  day    DateTime @db.Date
+  count  Int      @default(0)
+
+  @@id([metric, day])
 }

@@ -119,6 +119,10 @@ export default function PrivacyPolicyPage() {
               cookies) and Vercel Inc. (Vercel Web Analytics, which uses no cookies)
             </li>
             <li>
+              <strong>Apartment photos:</strong> Google LLC (Google Maps Platform) — listing and
+              Street View photos load in your browser directly from Google&apos;s servers
+            </li>
+            <li>
               <strong>Document reading for tenancy verification:</strong> Anthropic, PBC — receives
               a residency document only when you choose to verify, solely to extract the name,
               address, unit, and dates needed for the match. We do not retain the document.

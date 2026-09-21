@@ -23,7 +23,7 @@ export default function ApartmentCard({ apartment }: ApartmentCardProps) {
     <Link href={`/apartments/${apartment.id}`}>
       <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden">
         <div className="h-48 bg-gray-200 relative">
-          <ApartmentPhoto apartmentId={apartment.id} imageUrl={apartment.imageUrl} />
+          <ApartmentPhoto apartmentId={apartment.id} imageUrl={apartment.imageUrl} insideLink />
           <span className="absolute top-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium capitalize">
             {apartment.propertyType}
           </span>
