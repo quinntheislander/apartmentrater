@@ -46,7 +46,7 @@ export const LEGAL_ENTITY_NAME = process.env.LEGAL_ENTITY_NAME || BRAND_NAME
 /** Policy versioning — bump when the content materially changes so the
  *  tosAcceptedAt / privacyAcceptedAt records are meaningful. */
 export const TOS_VERSION = '2026-04-18'
-export const PRIVACY_VERSION = '2026-08-22' // added tenancy-verification processing + Anthropic as processor
+export const PRIVACY_VERSION = '2026-09-21' // added Google Analytics (consent-gated) + Vercel Web Analytics as processors
 
 /** Minimum age to create an account (COPPA for US, GDPR uses 16 in some EU states). */
 export const MIN_AGE = 16

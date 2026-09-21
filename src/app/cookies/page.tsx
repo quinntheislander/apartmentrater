@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import CookiePreferences from '@/components/CookiePreferences'
 
 export default function CookiePolicyPage() {
   return (
@@ -52,8 +53,14 @@ export default function CookiePolicyPage() {
             <strong>Duration:</strong> Up to 2 years
           </p>
           <p className="mt-2">
-            We may use analytics tools to collect this data.
-            This information is anonymized and aggregated.
+            We use Google Analytics for this, and only if you choose &quot;Accept all&quot; (you can
+            change that in <a href="#managing-cookies" className="text-blue-600 hover:underline">Managing Cookies</a>).
+            Google Analytics identifies your browser with a random ID, not your name or email, and we
+            don&apos;t send it any account information.
+          </p>
+          <p className="mt-2">
+            We also use Vercel Web Analytics, which counts page views without cookies or any
+            identifier that follows you across sites, so it runs regardless of your choice.
           </p>
         </section>
 
@@ -66,6 +73,7 @@ export default function CookiePolicyPage() {
           <ul className="list-disc pl-6 mt-2">
             <li><strong>Vercel:</strong> For website hosting and performance optimization</li>
             <li><strong>Supabase:</strong> For authentication and database services</li>
+            <li><strong>Google Analytics (Google LLC):</strong> Traffic and usage measurement, only if you accept analytics cookies</li>
           </ul>
           <p className="mt-4">
             For more information about these cookies, please visit the respective privacy policies
@@ -112,14 +120,30 @@ export default function CookiePolicyPage() {
                   <td className="px-4 py-2 text-sm">1 year</td>
                   <td className="px-4 py-2 text-sm">Functional</td>
                 </tr>
+                <tr>
+                  <td className="px-4 py-2 text-sm">_ga</td>
+                  <td className="px-4 py-2 text-sm">Google Analytics: distinguishes visitors</td>
+                  <td className="px-4 py-2 text-sm">2 years</td>
+                  <td className="px-4 py-2 text-sm">Analytics (only with consent)</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-sm">_ga_2KNKJXV2M6</td>
+                  <td className="px-4 py-2 text-sm">Google Analytics: keeps session state</td>
+                  <td className="px-4 py-2 text-sm">2 years</td>
+                  <td className="px-4 py-2 text-sm">Analytics (only with consent)</td>
+                </tr>
               </tbody>
             </table>
           </div>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Managing Cookies</h2>
+          <h2 id="managing-cookies" className="text-2xl font-bold text-gray-900 mb-4">5. Managing Cookies</h2>
           <p>You have several options for managing cookies:</p>
+
+          <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-2">Your Choice on This Site</h3>
+          <p>Change the choice you made in our cookie banner at any time:</p>
+          <CookiePreferences />
 
           <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-2">Browser Settings</h3>
           <p>
@@ -146,8 +170,13 @@ export default function CookiePolicyPage() {
 
           <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-2">Opt-Out of Analytics</h3>
           <p>
-            To opt out of analytics tracking, you can install browser extensions like Privacy Badger
-            or uBlock Origin, or adjust your browser&apos;s cookie settings as described above.
+            Choose &quot;Essential only&quot; above to turn off Google Analytics. You can also install
+            Google&apos;s{' '}
+            <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+              Analytics opt-out add-on
+            </a>
+            , use browser extensions like Privacy Badger or uBlock Origin, or adjust your
+            browser&apos;s cookie settings as described above.
           </p>
         </section>
 
@@ -156,6 +185,8 @@ export default function CookiePolicyPage() {
           <p>
             Some browsers have a &quot;Do Not Track&quot; feature that signals to websites that you do not
             want to be tracked. Our website honors Do Not Track signals where technically feasible.
+            For example, we don&apos;t load Google Analytics when your browser sends Do Not Track or
+            Global Privacy Control, even if you accepted analytics cookies.
           </p>
         </section>
 
